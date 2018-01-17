@@ -32,8 +32,8 @@ CherryPick: Adaptively Unearthing the Best Cloud Configurations (*)
 
 #nsdi 2018 (未下载):
 SnailTrail: Generalizing Critical Paths for Online Analysis of Distributed Dataflows
-Vesper: Measuring Time-to-Interactivity for Modern Web Pages
-Prophecy: Accelerating Mobile Page Loads Using Final-state Write Logs
+Vesper: Measuring Time-to-Interactivity for Modern Web Pages (Shuai tracking)
+Prophecy: Accelerating Mobile Page Loads Using Final-state Write Logs (Shuai tracking)
 Iron: Isolating Network-based CPU in Container Environments
 Performance Analysis of Cloud Applications
 PLOVER: Fast, Multi-core Scalable Virtual Machine Fault-tolerance
@@ -89,13 +89,13 @@ A Berkeley View of Systems Challenges for AI
 A Framework of Fog Computing: Architecture, Challenges and Optimization
 
 #middleware 2017:
-Improving Spark Application Throughput Via Memory Aware Task Co-location: A Mixture of Experts Approach
-POLM2: Automatic Profiling for Object Lifetime-Aware Memory Management for HotSpot Big Data Applications
-Swayam: Distributed Autoscaling to Meet SLAs of Machine Learning Inference Services with Resource Efficiency
+Improving Spark Application Throughput Via Memory Aware Task Co-location: A Mixture of Experts Approach (to read)
+POLM2: Automatic Profiling for Object Lifetime-Aware Memory Management for HotSpot Big Data Applications (to read)
+Swayam: Distributed Autoscaling to Meet SLAs of Machine Learning Inference Services with Resource Efficiency (to read)
 Scheduler Activations for Interference-Resilient SMP Virtual Machine Scheduling
 Sieve: Actionable Insights from Monitored Metrics in Distributed Systems
 Ginja: One-dollar Cloud-based Disaster Recovery for Databases
-StreamApprox: Approximate Computing for Stream Analytics
+StreamApprox: Approximate Computing for Stream Analytics (to read)
 
 #icac 2017 (未下载):
 Addressing Memory Pressure in Data-intensive Parallel Programs via Container based Virtualization (*)
