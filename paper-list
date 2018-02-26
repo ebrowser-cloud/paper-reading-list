@@ -1,20 +1,34 @@
-#asplos 2018
+#asplos 2018 (未下载)
 WSMeter: A Performance Evaluation Methodology for Google’s Production Warehouse-Scale Computers
 DAC: Data-Aware Auto-Tuning High Dimensional Configurations of In-memory Cluster Computing
 SmoothOperator: Combating Power Fragmentation and Improving Power Utilization in Large-scale Datacenters
 Processing In-Memory for Google Consumer Workloads
 Understanding and Auto-Adjusting Performance-Sensitive Configurations
 CALOREE: Learning Control for Predictable Latency and Low Energy
-Exploiting Dynamical Thermal Energy Harvesting for Reusing in Smartphone with Mobile Applications (Shuai Track)
-Potluck: Cross-application Approximate Deduplication for Computation-Intensive Mobile Applications (Shuai Track)
+Exploiting Dynamical Thermal Energy Harvesting for Reusing in Smartphone with Mobile Applications (Shuai)
+Potluck: Cross-application Approximate Deduplication for Computation-Intensive Mobile Applications (Shuai)
 
 #nsdi 2018 (未下载):
 SnailTrail: Generalizing Critical Paths for Online Analysis of Distributed Dataflows
-Vesper: Measuring Time-to-Interactivity for Modern Web Pages (Shuai tracking)
-Prophecy: Accelerating Mobile Page Loads Using Final-state Write Logs (Shuai tracking)
+Vesper: Measuring Time-to-Interactivity for Modern Web Pages (Shuai)
+Prophecy: Accelerating Mobile Page Loads Using Final-state Write Logs (Shuai)
 Iron: Isolating Network-based CPU in Container Environments
 Performance Analysis of Cloud Applications
 PLOVER: Fast, Multi-core Scalable Virtual Machine Fault-tolerance
+
+#infocom 2018 (未下载):
+When Edge Meets Learning: Adaptive Control for Resource-Constrained Distributed Machine Learning (Haoyue & Yiling)
+DeepDecision: A Mobile Deep Learning Framework for Edge Video Analytics (Haoyue & Yiling)
+Energy-Efficient Computation Offloading for Multicore-based Mobile Devices (Shuai)
+Improving Utilization and Parallelism of Hadoop Cluster by Elastic Containers (Wujie)
+Online Job Scheduling in Distributed Machine Learning Clusters (Yiling)
+Application Provisioning in Fog Computing-enabled Internet-of-Things: A Network Perspective
+Performance-Aware Fair Scheduling: Exploiting Demand Elasticity of Data Analytics Jobs
+LAS: Logical-Block Affinity Scheduling in Big Data Analytics Systems
+COBRA: Toward Provably Efficient Semi-clairvoyant Scheduling in Data Analytics Systems
+The Cloud that Runs the Mobile Internet: A Measurement Study of Mobile Cloud Services
+Efficient Jobs Dispatching in Emerging Clouds
+Learning Cloud Dynamics to Optimize Spot Instance Bidding Strategies (Huan)
 
 #technical reports:
 A Berkeley View of Systems Challenges for AI
