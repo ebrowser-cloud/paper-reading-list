@@ -1,3 +1,13 @@
+#asplos 2018
+WSMeter: A Performance Evaluation Methodology for Google’s Production Warehouse-Scale Computers
+DAC: Data-Aware Auto-Tuning High Dimensional Configurations of In-memory Cluster Computing
+SmoothOperator: Combating Power Fragmentation and Improving Power Utilization in Large-scale Datacenters
+Processing In-Memory for Google Consumer Workloads
+Understanding and Auto-Adjusting Performance-Sensitive Configurations
+CALOREE: Learning Control for Predictable Latency and Low Energy
+Exploiting Dynamical Thermal Energy Harvesting for Reusing in Smartphone with Mobile Applications (Shuai Track)
+Potluck: Cross-application Approximate Deduplication for Computation-Intensive Mobile Applications (Shuai Track)
+
 #eurosys 2017:
 Exploiting Spot and Burstable Instances for Improving the Cost-efficacy of In-Memory Caches on the Public Cloud (*)
 Pado: A Data Processing Engine for Harnessing Transient Resources in Datacenters (*)
