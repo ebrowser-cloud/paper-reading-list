@@ -3,7 +3,7 @@ WSMeter: A Performance Evaluation Methodology for Google’s Production Warehous
 DAC: Data-Aware Auto-Tuning High Dimensional Configurations of In-memory Cluster Computing
 SmoothOperator: Combating Power Fragmentation and Improving Power Utilization in Large-scale Datacenters
 Processing In-Memory for Google Consumer Workloads
-Understanding and Auto-Adjusting Performance-Sensitive Configurations
+Understanding and Auto-Adjusting Performance-Sensitive Configurations (*)
 CALOREE: Learning Control for Predictable Latency and Low Energy
 Exploiting Dynamical Thermal Energy Harvesting for Reusing in Smartphone with Mobile Applications (Shuai)
 Potluck: Cross-application Approximate Deduplication for Computation-Intensive Mobile Applications (Shuai)
@@ -26,9 +26,8 @@ Application Provisioning in Fog Computing-enabled Internet-of-Things: A Network 
 Performance-Aware Fair Scheduling: Exploiting Demand Elasticity of Data Analytics Jobs
 LAS: Logical-Block Affinity Scheduling in Big Data Analytics Systems
 COBRA: Toward Provably Efficient Semi-clairvoyant Scheduling in Data Analytics Systems
-The Cloud that Runs the Mobile Internet: A Measurement Study of Mobile Cloud Services
 Efficient Jobs Dispatching in Emerging Clouds
-Learning Cloud Dynamics to Optimize Spot Instance Bidding Strategies (Huan)
+Learning Cloud Dynamics to Optimize Spot Instance Bidding Strategies (Huan*)
 
 #technical reports:
 A Berkeley View of Systems Challenges for AI
