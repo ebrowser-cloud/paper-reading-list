@@ -39,8 +39,8 @@ Open Issues in Scheduling Microservices in the Cloud
 Titus: Introducing Containers to the Netflix Cloud (container, netflix)
 A Model Predictive Controller for Managing QoS Enforcements and Microarchitecture-Level Interferences in a Lambda Platform (TPDS 2017)
 
-DNN performance modeling:
-Paleo: A Performance Model for Deep Neural Networks (ICLR 2017)
+Paleo: A Performance Model for Deep Neural Networks (ICLR 2017, DNN performance modeling)
+A Comparison of Distributed Machine Learning Platforms (ICCCN 2017, comparison of tensorflow, spark, mxnet)
 
 #eurosys 2017:
 Exploiting Spot and Burstable Instances for Improving the Cost-efficacy of In-Memory Caches on the Public Cloud (*)
