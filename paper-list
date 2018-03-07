@@ -37,7 +37,10 @@ Ray: A Distributed Framework for Emerging AI Applications (ML, data processing f
 A Taxonomy and Survey of Cloud Resource Orchestration Techniques
 Open Issues in Scheduling Microservices in the Cloud
 Titus: Introducing Containers to the Netflix Cloud (container, netflix)
-A Model Predictive Controller for Managing QoS Enforcements and Microarchitecture-Level Interferences in a Lambda Platform
+A Model Predictive Controller for Managing QoS Enforcements and Microarchitecture-Level Interferences in a Lambda Platform (TPDS 2017)
+
+DNN performance modeling:
+Paleo: A Performance Model for Deep Neural Networks (ICLR 2017)
 
 #eurosys 2017:
 Exploiting Spot and Burstable Instances for Improving the Cost-efficacy of In-Memory Caches on the Public Cloud (*)
