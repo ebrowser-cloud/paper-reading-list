@@ -32,22 +32,22 @@ Learning Cloud Dynamics to Optimize Spot Instance Bidding Strategies (Huan*)
 Eurosys 2018 (Apr. 23rd)
 
 #technical reports:
-A Berkeley View of Systems Challenges for AI
-A Framework of Fog Computing: Architecture, Challenges and Optimization
-A Manifesto for Future Generation Cloud Computing: Research Directions for the Next Decade
-Ray: A Distributed Framework for Emerging AI Applications (ML, data processing framework)
-A Taxonomy and Survey of Cloud Resource Orchestration Techniques
+A Berkeley View of Systems Challenges for AI (@All)
+A Framework of Fog Computing: Architecture, Challenges and Optimization (Shuai & Haoyue & Yiling)
+A Manifesto for Future Generation Cloud Computing: Research Directions for the Next Decade (@All)
+Ray: A Distributed Framework for Emerging AI Applications (ML, data processing framework, Haoyue & Yiling & Wujie)
+A Taxonomy and Survey of Cloud Resource Orchestration Techniques (@All)
 Open Issues in Scheduling Microservices in the Cloud
 Titus: Introducing Containers to the Netflix Cloud (container, netflix)
 A Model Predictive Controller for Managing QoS Enforcements and Microarchitecture-Level Interferences in a Lambda Platform (TPDS 2017)
 
-Paleo: A Performance Model for Deep Neural Networks (ICLR 2017, DNN performance modeling)
-A Comparison of Distributed Machine Learning Platforms (ICCCN 2017, comparison of tensorflow, spark, mxnet)
+Paleo: A Performance Model for Deep Neural Networks (ICLR 2017, DNN performance modeling, Haoyue & Yiling)
+A Comparison of Distributed Machine Learning Platforms (ICCCN 2017, comparison of tensorflow, spark, mxnet, Haoyue & Yiling & Wujie)
 
 #middleware 2017:
 Improving Spark Application Throughput Via Memory Aware Task Co-location: A Mixture of Experts Approach (Wujie)
 POLM2: Automatic Profiling for Object Lifetime-Aware Memory Management for HotSpot Big Data Applications (Wujie, GC)
-Swayam: Distributed Autoscaling to Meet SLAs of Machine Learning Inference Services with Resource Efficiency (Yiling, ML)
+Swayam: Distributed Autoscaling to Meet SLAs of Machine Learning Inference Services with Resource Efficiency (Yiling & Haoyue, ML)
 Sieve: Actionable Insights from Monitored Metrics in Distributed Systems (distributed system monitoring tool)
 Ginja: One-dollar Cloud-based Disaster Recovery for Databases (Huan)
 StreamApprox: Approximate Computing for Stream Analytics (straming processing, modified Spark, Flink)
