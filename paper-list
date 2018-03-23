@@ -29,7 +29,19 @@ LAS: Logical-Block Affinity Scheduling in Big Data Analytics Systems
 COBRA: Toward Provably Efficient Semi-clairvoyant Scheduling in Data Analytics Systems
 Learning Cloud Dynamics to Optimize Spot Instance Bidding Strategies (Huan & Haoyue*)
 
-Eurosys 2018 (Apr. 23rd)
+#Eurosys 2018 (Apr. 23rd)
+3Sigma: Distribution-Based Cluster Scheduling for Runtime Uncertainty
+Optimus: An Efficient Dynamic Resource Scheduler for Deep Learning Clusters
+MEDEA: Scheduling of Long Running Applications in Shared Production Clusters
+Wide-Area Analytics with Multiple Resources (Wujie)
+dCat: Dynamic Cache Management for Efficient, Performance-Sensitive Infrastructure-as-a-Service
+Rock You like a Hurricane: Taming Skew in Large Scale Analytics (Wujie)
+Dynamic Control Flow in Large-Scale Machine Learning
+RTVirt: Enabling Time-sensitive Computing on Virtualized Systems through Cross-layer CPU Scheduling
+Tableau: A High-Throughput and Predictable VM~Scheduler for High-Density Workloads
+Service Fabric: A Distributed Platform for Building Microservices in the Cloud
+Riffle: Optimized Shuffle Service for Large-Scale Data Analytics (Wujie)
+
 Improving Performance of Distributed TensorFlow using CNN Characteristics Exploiting Model Parallelism (Poster)
 Deep Reinforcement Learning in Computer Systems: Learning from Traces (Poster)
 
@@ -45,6 +57,10 @@ A Model Predictive Controller for Managing QoS Enforcements and Microarchitectur
 Latest Trend In Big Data Analytics: Immediate Real-time Streaming Insights:
 https://publications.computer.org/cloud-computing/2017/10/16/big-datasolutions-for-disease-outbreak-natural-disaster-traffic-problems/
 
+#miscellaneous
+In-situ AI: Towards Autonomous and Incremental Deep Learning for IoT Systems (hpcs 2018, Yiling & Haoyue)
+Ease.ml: Towards Multi-tenant Resource Sharing for Machine Learning Workloads (vldb 2018, Yiling & Haoyue)
+Heterogeneity-aware Distributed Parameter Servers (sigcomm 2017, Wujie & Yiling)
 Paleo: A Performance Model for Deep Neural Networks (ICLR 2017, DNN performance modeling, Haoyue & Yiling)
 A Comparison of Distributed Machine Learning Platforms (ICCCN 2017, comparison of tensorflow, spark, mxnet, Haoyue & Yiling & Wujie)
 
@@ -88,6 +104,8 @@ Preemptive, Low Latency Datacenter Scheduling via Lightweight Virtualization (co
 #nsdi 2017:
 Improving User Perceived Page Load Time Using Gaze (Shuai)
 CherryPick: Adaptively Unearthing the Best Cloud Configurations (*)
+Gaia: Geo-Distributed Machine Learning Approaching LAN Speeds (ML, geo-distributed, Wujie)
+Global Analytics in the Face of Bandwidth and Regulatory Constraints (nsdi 2015, Wujie)
 
 #infocom 2017:
 Cluster Fair Queueing: Speeding up Data-Parallel Jobs with Delay Guarantees
