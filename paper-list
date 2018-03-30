@@ -1,22 +1,22 @@
-#asplos 2018 (未下载, Mar. 24th)
+#asplos 2018 (Mar. 24th)
 WSMeter: A Performance Evaluation Methodology for Google’s Production Warehouse-Scale Computers (Datacenter, Performance)
 SmoothOperator: Combating Power Fragmentation and Improving Power Utilization in Large-scale Datacenters (Datacenter, Power)
-Processing In-Memory for Google Consumer Workloads
-DAC: Data-Aware Auto-Tuning High Dimensional Configurations of In-memory Cluster Computing
+Google Workloads for Consumer Devices: Mitigating Data Movement Bottlenecks (energy & performance of data movement for Google's workloads)
+DAC: Data-Aware Auto-Tuning High Dimensional Configurations of In-memory Cluster Computing (Spark configurations)
 Understanding and Auto-Adjusting Performance-Sensitive Configurations (Data processing frameworks, configurations)
 CALOREE: Learning Control for Predictable Latency and Low Energy
 Exploiting Dynamical Thermal Energy Harvesting for Reusing in Smartphone with Mobile Applications (Shuai)
 Potluck: Cross-application Approximate Deduplication for Computation-Intensive Mobile Applications (Shuai)
 
-#nsdi 2018 (未下载, Mar. 27th):
+#nsdi 2018 (Mar. 27th):
 SnailTrail: Generalizing Critical Paths for Online Analysis of Distributed Dataflows (Wujie & Yiling)
 Vesper: Measuring Time-to-Interactivity for Modern Web Pages (Shuai)
 Prophecy: Accelerating Mobile Page Loads Using Final-state Write Logs (Shuai)
-Iron: Isolating Network-based CPU in Container Environments
+Iron: Isolating Network-based CPU in Container Environments (Container)
 Performance Analysis of Cloud Applications
 PLOVER: Fast, Multi-core Scalable Virtual Machine Fault-tolerance
 
-#infocom 2018 (未下载, Apr. 19th):
+#infocom 2018 (Apr. 19th):
 When Edge Meets Learning: Adaptive Control for Resource-Constrained Distributed Machine Learning (Haoyue & Yiling)
 DeepDecision: A Mobile Deep Learning Framework for Edge Video Analytics (Haoyue & Yiling)
 Online Job Scheduling in Distributed Machine Learning Clusters (Yiling)
