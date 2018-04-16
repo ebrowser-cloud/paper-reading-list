@@ -110,7 +110,7 @@ Preemptive, Low Latency Datacenter Scheduling via Lightweight Virtualization (co
 Improving User Perceived Page Load Time Using Gaze (Shuai)
 CherryPick: Adaptively Unearthing the Best Cloud Configurations (*)
 Gaia: Geo-Distributed Machine Learning Approaching LAN Speeds (ML, geo-distributed, Wujie)
-Global Analytics in the Face of Bandwidth and Regulatory Constraints (nsdi 2015, Wujie)
+Global Analytics in the Face of Bandwidth and Regulatory Constraints (*nsdi 2015, Wujie)
 
 #infocom 2017:
 Cluster Fair Queueing: Speeding up Data-Parallel Jobs with Delay Guarantees (Wujie)
