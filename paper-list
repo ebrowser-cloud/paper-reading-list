@@ -62,8 +62,10 @@ https://publications.computer.org/cloud-computing/2017/10/16/big-datasolutions-f
 #miscellaneous
 In-situ AI: Towards Autonomous and Incremental Deep Learning for IoT Systems (hpcs 2018, Yiling & Haoyue)
 Ease.ml: Towards Multi-tenant Resource Sharing for Machine Learning Workloads (vldb 2018, Yiling & Haoyue)
-Heterogeneity-aware Distributed Parameter Servers (sigcomm 2017, Wujie & Yiling)
+Heterogeneity-aware Distributed Parameter Servers (sigmod 2017, Wujie & Yiling)
 Paleo: A Performance Model for Deep Neural Networks (*ICLR 2017, DNN performance modeling, Haoyue & Yiling)
+Dolphin: Runtime Optimization for Distributed Machine Learning (ICML 2016, Haoyue)
+Performance Modeling and Scalability Optimization of Distributed Deep Learning Systems (KDD 2015, Haoyue)
 A Comparison of Distributed Machine Learning Platforms (*ICCCN 2017, comparison of tensorflow, spark, mxnet, Haoyue & Yiling & Wujie)
 Performance Modeling and Evaluation of Distributed Deep Learning Frameworks on GPUs (arxiv, Haoyue)
 
