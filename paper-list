@@ -68,6 +68,7 @@ Dolphin: Runtime Optimization for Distributed Machine Learning (ICML 2016, Haoyu
 Performance Modeling and Scalability Optimization of Distributed Deep Learning Systems (KDD 2015, Haoyue)
 A Comparison of Distributed Machine Learning Platforms (*ICCCN 2017, comparison of tensorflow, spark, mxnet, Haoyue & Yiling & Wujie)
 Performance Modeling and Evaluation of Distributed Deep Learning Frameworks on GPUs (arxiv, Haoyue)
+Demystifying Parallel and Distributed Deep Learning: An In-Depth Concurrency Analysis (a survey on distributed DNNs, Haoyue & Yiling)
 
 
 #middleware 2017:
