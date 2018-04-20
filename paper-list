@@ -19,7 +19,7 @@ PLOVER: Fast, Multi-core Scalable Virtual Machine Fault-tolerance
 #infocom 2018 (Apr. 19th):
 When Edge Meets Learning: Adaptive Control for Resource-Constrained Distributed Machine Learning (Haoyue & Yiling)
 Learning Cloud Dynamics to Optimize Spot Instance Bidding Strategies (Huan & Haoyue*)
-Online Job Scheduling in Distributed Machine Learning Clusters (Yiling)
+Online Job Scheduling in Distributed Machine Learning Clusters (Haoyue & Yiling*)
 Performance-Aware Fair Scheduling: Exploiting Demand Elasticity of Data Analytics Jobs (Wujie)
 
 DeepDecision: A Mobile Deep Learning Framework for Edge Video Analytics (Haoyue & Yiling)
@@ -34,7 +34,7 @@ Performance Isolation of Data-Intensive Scale-out Applications in a Multi-tenant
 #Eurosys 2018 (Apr. 23rd)
 MEDEA: Scheduling of Long Running Applications in Shared Production Clusters (Wujie)
 Rock You like a Hurricane: Taming Skew in Large Scale Analytics (Wujie)
-Wide-Area Analytics with Multiple Resources (Wujie)
+Wide-Area Analytics with Multiple Resources (Wujie*)
 Tableau: A High-Throughput and Predictable VM Scheduler for High-Density Workloads
 
 3Sigma: Distribution-Based Cluster Scheduling for Runtime Uncertainty
