@@ -10,18 +10,18 @@ Edge Computing Resource Management System: a Critical Building Block!
 Track: Potpourri
 
 #atc 2018
-Tributary: spot-dancing for elastic services with latency SLOs
+Tributary: spot-dancing for elastic services with latency SLOs (Huan)
 FastTrack: Foreground App-Aware I/O Management for Improving User Experience of Android Smartphones
-SOCK: Rapid Task Provisioning with Serverless-Optimized Containers
-Placement of Virtual Containers on NUMA systems: A Practical and Comprehensive Model
+SOCK: Rapid Task Provisioning with Serverless-Optimized Containers (Qiang)
+Placement of Virtual Containers on NUMA systems: A Practical and Comprehensive Model (Qiang)
 Model Governance: Reducing the Anarchy of Production ML
 Siphon: Expediting Inter-Datacenter Coflows in Wide-Area Data Analytics (Wujie)
-Performance Isolation for Large Commercial Latency-Sensitive Services
-SLAOrchestrator: Reducing the Cost of Performance SLAs in the Cloud
-Litz: Elastic Framework for High-Performance Distributed Machine Learning
-DeepCPU: Serving RNN-based Deep Learning Models 10x faster
-SAND: Towards High-Performance Serverless Computing
-Cavs: An Efficient Runtime System for Dynamic Neural Networks
+Performance Isolation for Large Commercial Latency-Sensitive Services (Fei)
+SLAOrchestrator: Reducing the Cost of Performance SLAs in the Cloud (Huan)
+Litz: Elastic Framework for High-Performance Distributed Machine Learning (Haoyue & Yiling)
+DeepCPU: Serving RNN-based Deep Learning Models 10x faster (Haoyue & Yiling)
+SAND: Towards High-Performance Serverless Computing (Qiang)
+Cavs: An Efficient Runtime System for Dynamic Neural Networks (Haoyue & Yiling)
 
 #asplos 2018:
 WSMeter: A Performance Evaluation Methodology for Google’s Production Warehouse-Scale Computers (Datacenter, Performance)
@@ -61,13 +61,13 @@ Rock You like a Hurricane: Taming Skew in Large Scale Analytics (Wujie)
 Wide-Area Analytics with Multiple Resources (Wujie*)
 Tableau: A High-Throughput and Predictable VM Scheduler for High-Density Workloads
 Optimus: An Efficient Dynamic Resource Scheduler for Deep Learning Clusters (Haoyue)
+Dynamic Control Flow in Large-Scale Machine Learning
+Riffle: Optimized Shuffle Service for Large-Scale Data Analytics (Wujie)
 
 3Sigma: Distribution-Based Cluster Scheduling for Runtime Uncertainty
 dCat: Dynamic Cache Management for Efficient, Performance-Sensitive Infrastructure-as-a-Service
-Dynamic Control Flow in Large-Scale Machine Learning
 RTVirt: Enabling Time-sensitive Computing on Virtualized Systems through Cross-layer CPU Scheduling
 Service Fabric: A Distributed Platform for Building Microservices in the Cloud
-Riffle: Optimized Shuffle Service for Large-Scale Data Analytics (Wujie)
 Improving Performance of Distributed TensorFlow using CNN Characteristics Exploiting Model Parallelism (Poster)
 Deep Reinforcement Learning in Computer Systems: Learning from Traces (Poster)
 
@@ -86,10 +86,10 @@ https://publications.computer.org/cloud-computing/2017/10/16/big-datasolutions-f
 #miscellaneous
 In-situ AI: Towards Autonomous and Incremental Deep Learning for IoT Systems (hpcs 2018, Yiling & Haoyue)
 Ease.ml: Towards Multi-tenant Resource Sharing for Machine Learning Workloads (vldb 2018, Yiling & Haoyue)
-Heterogeneity-aware Distributed Parameter Servers (sigmod 2017, Wujie & Yiling)
+Heterogeneity-aware Distributed Parameter Servers (sigmod 2017, Haoyue & Yiling)
 Paleo: A Performance Model for Deep Neural Networks (*ICLR 2017, DNN performance modeling, Haoyue & Yiling)
-Dolphin: Runtime Optimization for Distributed Machine Learning (ICML 2016, Haoyue)
-Performance Modeling and Scalability Optimization of Distributed Deep Learning Systems (KDD 2015, Haoyue)
+Dolphin: Runtime Optimization for Distributed Machine Learning (*ICML 2016, Haoyue)
+Performance Modeling and Scalability Optimization of Distributed Deep Learning Systems (*KDD 2015, Haoyue)
 A Comparison of Distributed Machine Learning Platforms (*ICCCN 2017, comparison of tensorflow, spark, mxnet, Haoyue & Yiling & Wujie)
 Performance Modeling and Evaluation of Distributed Deep Learning Frameworks on GPUs (arxiv, Haoyue)
 Demystifying Parallel and Distributed Deep Learning: An In-Depth Concurrency Analysis (a survey on distributed DNNs, Haoyue & Yiling)
