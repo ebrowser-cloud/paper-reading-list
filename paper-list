@@ -23,6 +23,11 @@ DeepCPU: Serving RNN-based Deep Learning Models 10x faster (Haoyue & Yiling)
 SAND: Towards High-Performance Serverless Computing (Qiang)
 Cavs: An Efficient Runtime System for Dynamic Neural Networks (Haoyue & Yiling)
 
+#sigcomm 2018:
+RADWAN: Rate Adaptive Wide Area Network (Wujie)
+AWStream: Adaptive Wide-Area Streaming Analytics (Wujie)
+AuTO: Scaling Deep Reinforcement Learning to Enable Datacenter-Scale Automatic Traffic Optimization (Deep Reinforce Learning)
+
 #asplos 2018:
 WSMeter: A Performance Evaluation Methodology for Google’s Production Warehouse-Scale Computers (Datacenter, Performance)
 Google Workloads for Consumer Devices: Mitigating Data Movement Bottlenecks (energy & performance of data movement for Google's workloads)
@@ -93,6 +98,7 @@ Performance Modeling and Scalability Optimization of Distributed Deep Learning S
 A Comparison of Distributed Machine Learning Platforms (*ICCCN 2017, comparison of tensorflow, spark, mxnet, Haoyue & Yiling & Wujie)
 Performance Modeling and Evaluation of Distributed Deep Learning Frameworks on GPUs (arxiv, Haoyue)
 Demystifying Parallel and Distributed Deep Learning: An In-Depth Concurrency Analysis (a survey on distributed DNNs, Haoyue & Yiling)
+Container-Based Performance Evaluation: A Survey and Challenges (IC2E 2018)
 
 
 #middleware 2017:
