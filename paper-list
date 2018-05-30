@@ -23,6 +23,26 @@ DeepCPU: Serving RNN-based Deep Learning Models 10x faster (Haoyue & Yiling)
 SAND: Towards High-Performance Serverless Computing (Qiang)
 Cavs: An Efficient Runtime System for Dynamic Neural Networks (Haoyue & Yiling)
 
+#icdcs 2018:
+Benchmarking Deep Learning Software Frameworks: Design Considerations, Metrics and Beyond (Haoyue & Yiling)
+Stay Fresh: Speculative Synchronization for Fast Distributed Machine Learning (Haoyue & Yiling)
+Deep Learning Towards Mobile Applications (Yiling)
+ShmCaffe: A Distributed Deep Learning Platform with Shared Memory Buffer for HPC Architecture
+
+OpuS: Fair and Efficient Cache Sharing for In-Memory Data Analytics
+Towards Personalized Learning in Mobile Sensing Systems
+SURF: Supervisory Control of User-Perceived Performance for Mobile Device Energy Savings
+Mobile-Friendly HTTP Middleware with Screen Scrolling
+Rethinking Client-Driven Resource Management for Mobile Web: Measurement, Deployment, and Runtime (Shuai)
+
+FlowTime: Dynamic Scheduling of Deadline-Aware Workflows and Ad-hoc Jobs (Wujie)
+To Sell or Not To Sell: Trading Your Reserved Instances in Amazon EC2 Marketplace (Huan)
+SQLoop: High Performance Iterative Processing in Data Management
+PageRankVM: A PageRank Based Algorithm with Anti-Collocation Constraints for Virtual Machine Placement in Cloud Datacenters
+HaaS: Cloud-based Real-time Data Analytics with Heterogeneity-aware Scheduling
+Low-Level Augmented Bayesian Optimization for Finding the Best Cloud VM (Huan)
+Chronos: A Unifying Optimization Framework for Speculative Execution of Deadline-critical MapReduce Jobs
+
 #sigcomm 2018:
 RADWAN: Rate Adaptive Wide Area Network (Wujie)
 AWStream: Adaptive Wide-Area Streaming Analytics (Wujie)
@@ -30,7 +50,7 @@ AuTO: Scaling Deep Reinforcement Learning to Enable Datacenter-Scale Automatic T
 
 #asplos 2018:
 WSMeter: A Performance Evaluation Methodology for Google’s Production Warehouse-Scale Computers (Datacenter, Performance)
-Google Workloads for Consumer Devices: Mitigating Data Movement Bottlenecks (energy & performance of data movement for Google's workloads)
+Google Workloads for Consumer Devices: Mitigating Data Movement Bottlenecks (energy & performance of data movement for Google's workloads, Page scrolling)
 SmoothOperator: Combating Power Fragmentation and Improving Power Utilization in Large-scale Datacenters (Datacenter, Power, Facebook)
 DAC: Data-Aware Auto-Tuning High Dimensional Configurations of In-memory Cluster Computing (Wujie, Spark configurations)
 Understanding and Auto-Adjusting Performance-Sensitive Configurations (Wujie, Data processing frameworks, configurations)
