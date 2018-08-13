@@ -1,26 +1,21 @@
-#hotcloud 2018:
-Monarch: Gaining Command on Geo-Distributed Graph Analytics
-Rethinking Adaptability in Wide-Area Stream Processing Systems
-NodeFinder: Scalable Search over Highly Dynamic Geo-distributed State
+#socc 2018:
 
-#hotedge 2018:
-https://www.usenix.org/conference/hotedge18/workshop-program
-Track: Learning @ the Edge
-Edge Computing Resource Management System: a Critical Building Block!
-Track: Potpourri
+
+#hotcloud 2018:
+Monarch: Gaining Command on Geo-Distributed Graph Analytics (Wujie*)
+Rethinking Adaptability in Wide-Area Stream Processing Systems (Wujie)
 
 infocom 2015: (VM migration)
-Virtual machine migration planning in software-defined networks (Yiling & Qiang)
+Virtual machine migration planning in software-defined networks (Yiling)
 
 #atc 2018
-Tributary: spot-dancing for elastic services with latency SLOs (Huan)
+Tributary: spot-dancing for elastic services with latency SLOs (Huan*)
 FastTrack: Foreground App-Aware I/O Management for Improving User Experience of Android Smartphones
 SOCK: Rapid Task Provisioning with Serverless-Optimized Containers (Qiang)
 Placement of Virtual Containers on NUMA systems: A Practical and Comprehensive Model (Qiang)
-Model Governance: Reducing the Anarchy of Production ML
 Siphon: Expediting Inter-Datacenter Coflows in Wide-Area Data Analytics (Wujie)
 Performance Isolation for Large Commercial Latency-Sensitive Services (Fei)
-SLAOrchestrator: Reducing the Cost of Performance SLAs in the Cloud (Huan)
+SLAOrchestrator: Reducing the Cost of Performance SLAs in the Cloud (Huan*)
 Litz: Elastic Framework for High-Performance Distributed Machine Learning (Haoyue & Yiling)
 DeepCPU: Serving RNN-based Deep Learning Models 10x faster (Haoyue & Yiling)
 SAND: Towards High-Performance Serverless Computing (Qiang)
@@ -47,22 +42,20 @@ Low-Level Augmented Bayesian Optimization for Finding the Best Cloud VM (Huan)
 Chronos: A Unifying Optimization Framework for Speculative Execution of Deadline-critical MapReduce Jobs
 
 #sigcomm 2018:
-RADWAN: Rate Adaptive Wide Area Network (Wujie)
 AWStream: Adaptive Wide-Area Streaming Analytics (Wujie)
 AuTO: Scaling Deep Reinforcement Learning to Enable Datacenter-Scale Automatic Traffic Optimization (Deep Reinforce Learning)
 
 #asplos 2018:
-WSMeter: A Performance Evaluation Methodology for Google’s Production Warehouse-Scale Computers (Datacenter, Performance)
-Google Workloads for Consumer Devices: Mitigating Data Movement Bottlenecks (energy & performance of data movement for Google's workloads, Page scrolling)
-SmoothOperator: Combating Power Fragmentation and Improving Power Utilization in Large-scale Datacenters (Datacenter, Power, Facebook)
+WSMeter: A Performance Evaluation Methodology for Google’s Production Warehouse-Scale Computers (*Datacenter, Performance)
+Google Workloads for Consumer Devices: Mitigating Data Movement Bottlenecks (*energy & performance of data movement for Google's workloads, Page scrolling)
+SmoothOperator: Combating Power Fragmentation and Improving Power Utilization in Large-scale Datacenters (*Datacenter, Power, Facebook)
 DAC: Data-Aware Auto-Tuning High Dimensional Configurations of In-memory Cluster Computing (Wujie, Spark configurations)
 Understanding and Auto-Adjusting Performance-Sensitive Configurations (Wujie, Data processing frameworks, configurations)
-CALOREE: Learning Control for Predictable Latency and Low Energy
 Exploiting Dynamical Thermal Energy Harvesting for Reusing in Smartphone with Mobile Applications (Shuai)
 Potluck: Cross-application Approximate Deduplication for Computation-Intensive Mobile Applications (Shuai)
 
 #nsdi 2018:
-SnailTrail: Generalizing Critical Paths for Online Analysis of Distributed Dataflows (Wujie & Yiling)
+SnailTrail: Generalizing Critical Paths for Online Analysis of Distributed Dataflows (Wujie*)
 Vesper: Measuring Time-to-Interactivity for Modern Web Pages (Shuai*)
 Prophecy: Accelerating Mobile Page Loads Using Final-state Write Logs (Shuai*)
 Iron: Isolating Network-based CPU in Container Environments (Container)
@@ -85,17 +78,12 @@ Performance Isolation of Data-Intensive Scale-out Applications in a Multi-tenant
 
 #Eurosys 2018:
 MEDEA: Scheduling of Long Running Applications in Shared Production Clusters (Wujie)
-Rock You like a Hurricane: Taming Skew in Large Scale Analytics (Wujie)
+Rock You like a Hurricane: Taming Skew in Large Scale Analytics (Wujie*)
 Wide-Area Analytics with Multiple Resources (Wujie*)
 Tableau: A High-Throughput and Predictable VM Scheduler for High-Density Workloads
-Optimus: An Efficient Dynamic Resource Scheduler for Deep Learning Clusters (Haoyue)
+Optimus: An Efficient Dynamic Resource Scheduler for Deep Learning Clusters (Haoyue*)
 Dynamic Control Flow in Large-Scale Machine Learning
-Riffle: Optimized Shuffle Service for Large-Scale Data Analytics (Wujie)
-
-3Sigma: Distribution-Based Cluster Scheduling for Runtime Uncertainty
-dCat: Dynamic Cache Management for Efficient, Performance-Sensitive Infrastructure-as-a-Service
-RTVirt: Enabling Time-sensitive Computing on Virtualized Systems through Cross-layer CPU Scheduling
-Service Fabric: A Distributed Platform for Building Microservices in the Cloud
+Riffle: Optimized Shuffle Service for Large-Scale Data Analytics (Wujie*)
 Improving Performance of Distributed TensorFlow using CNN Characteristics Exploiting Model Parallelism (Poster)
 Deep Reinforcement Learning in Computer Systems: Learning from Traces (Poster)
 
