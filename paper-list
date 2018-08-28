@@ -1,4 +1,18 @@
 #socc 2018:
+Orpheus: Efficient Distributed Machine Learning via System and Algorithm Co-design
+Dynamic and Decentralized Global Analytics via Machine Learning
+Continuum: A Platform for Cost-Aware, Low-Latency Continual Learning
+Parameter Hub: a Rack-Scale Parameter Server for Distributed Deep Neural Network Training
+
+Elasecutor: Elastic Executor Scheduling in Data Analytics Systems
+Stratus: cost-aware container scheduling in the public cloud
+Kairos: Preemptive Data Center Scheduling Without Runtime Estimates
+Scalable Overload Control for Large-scale Microservice Architecture
+
+RIOS: Runtime Integrated Optimizer for Spark (Wujie)
+IONN: Incremental Offloading of Neural Network Computations from Mobile Devices to Edge Servers
+Pay One, Get Hundreds for Free: Reducing Cloud Costs through Shared Query Execution
+Cloud Index Tracking: Enabling Predictable Costs in Cloud Spot Markets
 
 
 #hotcloud 2018:
