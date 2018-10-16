@@ -1,3 +1,11 @@
+#osdi 2018
+Flare: Optimizing Apache Spark with Native Compilation for Scale-Up Architectures and Medium-Size Data
+Gandiva: Introspective Cluster Scheduling for Deep Learning
+PRETZEL: Opening the Black Box of Machine Learning Prediction Serving Systems
+Ray: A Distributed Framework for Emerging AI Applications
+TVM: An Automated End-to-End Optimizing Compiler for Deep Learning
+Taming Performance Variability
+
 #socc 2018:
 Orpheus: Efficient Distributed Machine Learning via System and Algorithm Co-design (Haoyue)
 Dynamic and Decentralized Global Analytics via Machine Learning (Fei)
