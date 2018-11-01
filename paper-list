@@ -1,5 +1,7 @@
+Cloud bursting for the world's largest consumer market (@all)
+
 #osdi 2018
-Flare: Optimizing Apache Spark with Native Compilation for Scale-Up Architectures and Medium-Size Data
+Flare: Optimizing Apache Spark with Native Compilation for Scale-Up Architectures and Medium-Size Data (Wujie)
 Gandiva: Introspective Cluster Scheduling for Deep Learning (Haoyue)
 PRETZEL: Opening the Black Box of Machine Learning Prediction Serving Systems
 Ray: A Distributed Framework for Emerging AI Applications
@@ -22,20 +24,15 @@ IONN: Incremental Offloading of Neural Network Computations from Mobile Devices 
 Pay One, Get Hundreds for Free: Reducing Cloud Costs through Shared Query Execution (Fei)
 Cloud Index Tracking: Enabling Predictable Costs in Cloud Spot Markets (Fei)
 
-
 #hotcloud 2018:
 Monarch: Gaining Command on Geo-Distributed Graph Analytics (Wujie*)
 Rethinking Adaptability in Wide-Area Stream Processing Systems (Wujie)
 
-infocom 2015: (VM migration)
-Virtual machine migration planning in software-defined networks (Yiling)
-
 #atc 2018
 Tributary: spot-dancing for elastic services with latency SLOs (Huan*)
 FastTrack: Foreground App-Aware I/O Management for Improving User Experience of Android Smartphones
-SOCK: Rapid Task Provisioning with Serverless-Optimized Containers (Qiang)
-Placement of Virtual Containers on NUMA systems: A Practical and Comprehensive Model (Qiang)
-Siphon: Expediting Inter-Datacenter Coflows in Wide-Area Data Analytics (Wujie)
+SOCK: Rapid Task Provisioning with Serverless-Optimized Containers (Qiang*)
+Placement of Virtual Containers on NUMA systems: A Practical and Comprehensive Model (Qiang*)
 Performance Isolation for Large Commercial Latency-Sensitive Services (Fei)
 SLAOrchestrator: Reducing the Cost of Performance SLAs in the Cloud (Huan*)
 Litz: Elastic Framework for High-Performance Distributed Machine Learning (Haoyue & Yiling)
