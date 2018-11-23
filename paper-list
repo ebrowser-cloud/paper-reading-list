@@ -4,7 +4,7 @@ Cloud bursting for the world's largest consumer market (@all)
 Flare: Optimizing Apache Spark with Native Compilation for Scale-Up Architectures and Medium-Size Data (Wujie)
 Gandiva: Introspective Cluster Scheduling for Deep Learning (Haoyue)
 PRETZEL: Opening the Black Box of Machine Learning Prediction Serving Systems
-Ray: A Distributed Framework for Emerging AI Applications
+Ray: A Distributed Framework for Emerging AI Applications (Haoyue)
 TVM: An Automated End-to-End Optimizing Compiler for Deep Learning
 Taming Performance Variability (Fei)
 
@@ -20,7 +20,7 @@ Kairos: Preemptive Data Center Scheduling Without Runtime Estimates (Fei)
 Scalable Overload Control for Large-scale Microservice Architecture (Qiang)
 
 RIOS: Runtime Integrated Optimizer for Spark (Wujie)
-IONN: Incremental Offloading of Neural Network Computations from Mobile Devices to Edge Servers (Yiling)
+IONN: Incremental Offloading of Neural Network Computations from Mobile Devices to Edge Servers (Yiling*)
 Pay One, Get Hundreds for Free: Reducing Cloud Costs through Shared Query Execution (Fei)
 Cloud Index Tracking: Enabling Predictable Costs in Cloud Spot Markets (Fei)
 
@@ -109,10 +109,9 @@ Deep Reinforcement Learning in Computer Systems: Learning from Traces (Poster)
 A Berkeley View of Systems Challenges for AI (@All)
 A Framework of Fog Computing: Architecture, Challenges and Optimization (Shuai & Haoyue & Yiling)
 A Manifesto for Future Generation Cloud Computing: Research Directions for the Next Decade (@All)
-Ray: A Distributed Framework for Emerging AI Applications (ML, data processing framework, Haoyue & Yiling & Wujie)
 A Taxonomy and Survey of Cloud Resource Orchestration Techniques (@All)
-Open Issues in Scheduling Microservices in the Cloud (microservice, container)
-Titus: Introducing Containers to the Netflix Cloud (container, netflix)
+Open Issues in Scheduling Microservices in the Cloud (microservice, container*)
+Titus: Introducing Containers to the Netflix Cloud (container, netflix*)
 A Model Predictive Controller for Managing QoS Enforcements and Microarchitecture-Level Interferences in a Lambda Platform (TPDS 2017)
 Latest Trend In Big Data Analytics: Immediate Real-time Streaming Insights:
 https://publications.computer.org/cloud-computing/2017/10/16/big-datasolutions-for-disease-outbreak-natural-disaster-traffic-problems/
