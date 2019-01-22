@@ -16,6 +16,15 @@ Dynamic Adaptive DNN Surgery for Inference Acceleration on the Edge (Yiling)
 Federated Learning over Wireless Networks: Optimization Model Design and Analysis (Yiling)
 The Role of Network Topology for Distributed Machine Learning (Yiling)
 
+#middleware 2018
+Parallelized training of deep NN – comparison of current concepts and frameworks (Haoyue)
+All-Spark: Using Simulation Tests Directly in Production Environments to Detect System Bottlenecks in Large-Scale Systems
+Size Matters: Improving the Performance of Small Files in Hadoop (Fei)
+Adaptive Execution of Continuous and Data-intensive Workflows with Machine Learning
+Olympian: Scheduling GPU Usage in a Deep Neural Network Model Serving System (Qiang)
+Pythia: Improving Datacenter Utilization via Precise Contention Prediction for Multiple Co-located Workloads (Wujie)
+A High Performance, Scalable DNS Service for Very Large Scale Container Cloud Platforms (Qiang)
+Aggressive Synchronization with Partial Processing for Iterative ML Jobs on Clusters (Haoyue)
 
 #osdi 2018
 Flare: Optimizing Apache Spark with Native Compilation for Scale-Up Architectures and Medium-Size Data (Wujie)
