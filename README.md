@@ -1,5 +1,5 @@
 # paper-reading-list
-Reading paper list for iCloud group
+Reading paper list for ECNU-iCloud Group
 
 # research directions: 
 1. cloud resource provisioning, predictable performance (Huan & Haoyue)
