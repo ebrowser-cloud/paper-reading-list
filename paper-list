@@ -1,5 +1,14 @@
 Cloud bursting for the world's largest consumer market (@all)
 
+#eurosys 2019
+Automating Dependence-Aware Parallelization of Machine Learning Training on Distributed Shared Memory (Haoyue)
+Halo: Sparsity-aware Data Parallel Training of Deep Neural Networks (Haoyue)
+GrandSLAm: Guaranteeing SLAs for Jobs at Microservices Execution Framework (Qiang)
+
+Resource Deflation: A New Approach For Transient Resource Reclamation
+Hourglass: Leveraging Transient Resources for Time-Constrained Graph Processing in the Cloud
+CoPart: Coordinated Partitioning of Last-Level Cache and Memory Bandwidth for Fairness-Aware Workload Consolidation on Commodity Servers
+
 ##infocom 2019
 Deep Learning-based Job Placement in Distributed Machine Learning Clusters (Haoyue)
 Round-Robin Synchronization: Mitigating Communication Bottlenecks in Parameter Servers (Haoyue)
