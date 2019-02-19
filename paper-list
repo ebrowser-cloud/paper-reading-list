@@ -1,6 +1,16 @@
 Cloud bursting for the world's largest consumer market (@all)
-
 A Berkeley View on Serverless Computing (Qiang)
+
+#asplos 2019
+HOP: Heterogeneity-Aware Decentralized Training (Haoyue)
+Astra: Exploiting Predictability to Optimize Deep Learning (Haoyue)
+Intelligence Beyond the Edge: Inference on Intermittent Embedded Systems (Yiling)
+X-Containers: Breaking Down Barriers to Improve Performance and Isolation of Cloud-Native Containers (Qiang)
+PARTIES: QoS-Aware Resource Partitioning for Multiple Interactive Services (Qiang)
+An Open-Source Benchmark Suite for Microservices and Their Hardware-Software Implications for Cloud and Edge Systems (Qiang)
+Seer: Leveraging Big Data to Navigate the Complexity of Performance Debugging in Cloud Microservices (Qiang)
+Fast and Scalable VMM Live Upgrade in Large Cloud Infrastructure
+HiWayLib: A Software Framework for Enabling High Performance Communications for Heterogeneous Pipeline Computations
 
 #eurosys 2019
 Automating Dependence-Aware Parallelization of Machine Learning Training on Distributed Shared Memory (Haoyue)
