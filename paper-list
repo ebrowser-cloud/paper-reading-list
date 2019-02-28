@@ -2,6 +2,13 @@ Cloud bursting for the world's largest consumer market (@all)
 A Berkeley View on Serverless Computing (Qiang)
 Sustainable Offloading in Mobile Cloud Computing：Algorithmic Design and Implementation（Yiling）
 
+#nsdi 2019
+Hydra: a federated resource manager for data-center scale analytics
+Shuffling, Fast and Slow: Scalable Analytics on Serverless Infrastructure
+JANUS: Fast and Flexible Deep Learning via Symbolic Graph Execution of Imperative Programs
+BLAS-on-flash: An Efficient Alternative for Large Scale ML Training and Inference?
+Tiresias: A GPU Cluster Manager for Distributed Deep Learning
+
 #asplos 2019
 HOP: Heterogeneity-Aware Decentralized Training (Haoyue)
 Astra: Exploiting Predictability to Optimize Deep Learning (Haoyue)
