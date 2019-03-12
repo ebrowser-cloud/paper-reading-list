@@ -5,7 +5,7 @@ Speeding up Deep Learning with Transient Servers
 
 #nsdi 2019
 Hydra: a federated resource manager for data-center scale analytics
-Shuffling, Fast and Slow: Scalable Analytics on Serverless Infrastructure
+Shuffling, Fast and Slow: Scalable Analytics on Serverless Infrastructure (Qiang)
 JANUS: Fast and Flexible Deep Learning via Symbolic Graph Execution of Imperative Programs
 BLAS-on-flash: An Efficient Alternative for Large Scale ML Training and Inference?
 Tiresias: A GPU Cluster Manager for Distributed Deep Learning
