@@ -1,7 +1,7 @@
 Cloud bursting for the world's largest consumer market (@all)
 A Berkeley View on Serverless Computing (Qiang)
 Sustainable Offloading in Mobile Cloud Computing：Algorithmic Design and Implementation（Yiling）
-Speeding up Deep Learning with Transient Servers
+Speeding up Deep Learning with Transient Servers (Haoyue)
 
 #nsdi 2019
 Hydra: a federated resource manager for data-center scale analytics
@@ -26,7 +26,7 @@ Automating Dependence-Aware Parallelization of Machine Learning Training on Dist
 Halo: Sparsity-aware Data Parallel Training of Deep Neural Networks (Haoyue)
 GrandSLAm: Guaranteeing SLAs for Jobs at Microservices Execution Framework (Qiang)
 
-Resource Deflation: A New Approach For Transient Resource Reclamation
+Resource Deflation: A New Approach For Transient Resource Reclamation (Qiang)
 Hourglass: Leveraging Transient Resources for Time-Constrained Graph Processing in the Cloud
 CoPart: Coordinated Partitioning of Last-Level Cache and Memory Bandwidth for Fairness-Aware Workload Consolidation on Commodity Servers
 
