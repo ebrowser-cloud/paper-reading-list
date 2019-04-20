@@ -2,6 +2,8 @@ Cloud bursting for the world's largest consumer market (@all)
 A Berkeley View on Serverless Computing (Qiang)
 Sustainable Offloading in Mobile Cloud Computing：Algorithmic Design and Implementation（Yiling）
 Speeding up Deep Learning with Transient Servers (Haoyue)
+FC2：cloud-based cluster provisioning for distributed machine learning
+Machine Learning on the Cheap：An Optimized Strategy to Exploit Spot Instances
 
 #sysml 2019
 Towards Federated Learning at Scale：System Design
@@ -265,4 +267,3 @@ Occupy the Cloud: Distributed Computing for the 99% (stateless function, AWS lam
 
 #asplos 2017:
 Neurosurgeon: Collaborative Intelligence Between the Cloud and Mobile Edge (Haoyue & Yiling*)
-
