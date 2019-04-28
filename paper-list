@@ -1,20 +1,20 @@
 #recent miscellaneous
 Cloud bursting for the world's largest consumer market (@all*)
 A Berkeley View on Serverless Computing (Qiang*)
-Sustainable Offloading in Mobile Cloud Computing：Algorithmic Design and Implementation（Yiling）
+Sustainable Offloading in Mobile Cloud Computing: Algorithmic Design and Implementation（Yiling）
 
-Scalable Deep Learning on Distributed Infrastructures：Challenges, Techniques and Tools (Survey)
+Scalable Deep Learning on Distributed Infrastructures: Challenges, Techniques and Tools (Survey)
 Scaling for edge inference of deep neural networks (Yiling)
 
-FC2：cloud-based cluster provisioning for distributed machine learning (Haoyue*)
+FC2: cloud-based cluster provisioning for distributed machine learning (Haoyue*)
 Machine Learning on the Cheap：An Optimized Strategy to Exploit Spot Instances (Haoyue*)
 Speeding up Deep Learning with Transient Servers (Haoyue*)
 
 #sysml 2019
-Towards Federated Learning at Scale：System Design
-TicTac：Accelerating Distributed Deep Learning with Communication Scheduling
+Towards Federated Learning at Scale: System Design
+TicTac: Accelerating Distributed Deep Learning with Communication Scheduling
 Priority-based Parameter Propagation for Distributed DNN Training
-3LC：Lightweight and Effective Traffic Compression for Distributed Machine Learning
+3LC: Lightweight and Effective Traffic Compression for Distributed Machine Learning
 
 #nsdi 2019
 Hydra: a federated resource manager for data-center scale analytics (*)
