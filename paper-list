@@ -1,13 +1,14 @@
-Cloud bursting for the world's largest consumer market (@all)
-A Berkeley View on Serverless Computing (Qiang)
+#recent miscellaneous
+Cloud bursting for the world's largest consumer market (@all*)
+A Berkeley View on Serverless Computing (Qiang*)
 Sustainable Offloading in Mobile Cloud Computing：Algorithmic Design and Implementation（Yiling）
-Speeding up Deep Learning with Transient Servers (Haoyue)
 
 Scalable Deep Learning on Distributed Infrastructures：Challenges, Techniques and Tools (Survey)
 Scaling for edge inference of deep neural networks (Yiling)
 
-FC2：cloud-based cluster provisioning for distributed machine learning
-Machine Learning on the Cheap：An Optimized Strategy to Exploit Spot Instances
+FC2：cloud-based cluster provisioning for distributed machine learning (Haoyue*)
+Machine Learning on the Cheap：An Optimized Strategy to Exploit Spot Instances (Haoyue*)
+Speeding up Deep Learning with Transient Servers (Haoyue*)
 
 #sysml 2019
 Towards Federated Learning at Scale：System Design
@@ -16,33 +17,32 @@ Priority-based Parameter Propagation for Distributed DNN Training
 3LC：Lightweight and Effective Traffic Compression for Distributed Machine Learning
 
 #nsdi 2019
-Hydra: a federated resource manager for data-center scale analytics
-Shuffling, Fast and Slow: Scalable Analytics on Serverless Infrastructure (Qiang)
-JANUS: Fast and Flexible Deep Learning via Symbolic Graph Execution of Imperative Programs
+Hydra: a federated resource manager for data-center scale analytics (*)
+Shuffling, Fast and Slow: Scalable Analytics on Serverless Infrastructure (Qiang*)
+JANUS: Fast and Flexible Deep Learning via Symbolic Graph Execution of Imperative Programs ()
 BLAS-on-flash: An Efficient Alternative for Large Scale ML Training and Inference?
-Tiresias: A GPU Cluster Manager for Distributed Deep Learning
+Tiresias: A GPU Cluster Manager for Distributed Deep Learning (*)
 
 #asplos 2019
-HOP: Heterogeneity-Aware Decentralized Training (Haoyue)
+HOP: Heterogeneity-Aware Decentralized Training (Haoyue*)
 Astra: Exploiting Predictability to Optimize Deep Learning (Haoyue)
-Intelligence Beyond the Edge: Inference on Intermittent Embedded Systems (Yiling)
+Intelligence Beyond the Edge: Inference on Intermittent Embedded Systems (Yiling*)
 PARTIES: QoS-Aware Resource Partitioning for Multiple Interactive Services (Qiang)
 An Open-Source Benchmark Suite for Microservices and Their Hardware-Software Implications for Cloud and Edge Systems (Qiang)
-Seer: Leveraging Big Data to Navigate the Complexity of Performance Debugging in Cloud Microservices (Qiang)
-Fast and Scalable VMM Live Upgrade in Large Cloud Infrastructure
+Seer: Leveraging Big Data to Navigate the Complexity of Performance Debugging in Cloud Microservices (Qiang*)
+Fast and Scalable VMM Live Upgrade in Large Cloud Infrastructure (Fei*)
 
 #eurosys 2019
 Automating Dependence-Aware Parallelization of Machine Learning Training on Distributed Shared Memory (Haoyue)
 Halo: Sparsity-aware Data Parallel Training of Deep Neural Networks (Haoyue)
 GrandSLAm: Guaranteeing SLAs for Jobs at Microservices Execution Framework (Qiang)
-
 Resource Deflation: A New Approach For Transient Resource Reclamation (Qiang)
-Hourglass: Leveraging Transient Resources for Time-Constrained Graph Processing in the Cloud
+Hourglass: Leveraging Transient Resources for Time-Constrained Graph Processing in the Cloud (Fei*)
 CoPart: Coordinated Partitioning of Last-Level Cache and Memory Bandwidth for Fairness-Aware Workload Consolidation on Commodity Servers
 
 ##infocom 2019
-Deep Learning-based Job Placement in Distributed Machine Learning Clusters (Haoyue)
-Round-Robin Synchronization: Mitigating Communication Bottlenecks in Parameter Servers (Haoyue)
+Deep Learning-based Job Placement in Distributed Machine Learning Clusters (Haoyue*)
+Round-Robin Synchronization: Mitigating Communication Bottlenecks in Parameter Servers (Haoyue*)
 Addressing Skewness in Iterative ML Jobs with Parameter Partition (Haoyue)
 Burstable Instances for Clouds: Performance Modeling, Equilibrium Analysis, and Revenue Maximization (Fei)
 Efficient Online Resource Allocation in Heterogeneous Clusters with Machine Variability
@@ -57,20 +57,18 @@ Federated Learning over Wireless Networks: Optimization Model Design and Analysi
 The Role of Network Topology for Distributed Machine Learning (Yiling)
 
 #middleware 2018
-Parallelized training of deep NN – comparison of current concepts and frameworks (Haoyue)
-All-Spark: Using Simulation Tests Directly in Production Environments to Detect System Bottlenecks in Large-Scale Systems
+Parallelized training of deep NN – comparison of current concepts and frameworks (Haoyue*)
+All-Spark: Using Simulation Tests Directly in Production Environments to Detect System Bottlenecks in Large-Scale Systems (Fei)
 Size Matters: Improving the Performance of Small Files in Hadoop (Fei)
-Adaptive Execution of Continuous and Data-intensive Workflows with Machine Learning
 Olympian: Scheduling GPU Usage in a Deep Neural Network Model Serving System (Qiang)
 Pythia: Improving Datacenter Utilization via Precise Contention Prediction for Multiple Co-located Workloads (Wujie)
-A High Performance, Scalable DNS Service for Very Large Scale Container Cloud Platforms (Qiang)
-Aggressive Synchronization with Partial Processing for Iterative ML Jobs on Clusters (Haoyue)
+Aggressive Synchronization with Partial Processing for Iterative ML Jobs on Clusters (Haoyue*)
 
 #osdi 2018
 Flare: Optimizing Apache Spark with Native Compilation for Scale-Up Architectures and Medium-Size Data (Wujie)
-Gandiva: Introspective Cluster Scheduling for Deep Learning (Haoyue)
+Gandiva: Introspective Cluster Scheduling for Deep Learning (Haoyue*)
 PRETZEL: Opening the Black Box of Machine Learning Prediction Serving Systems
-Ray: A Distributed Framework for Emerging AI Applications (Haoyue)
+Ray: A Distributed Framework for Emerging AI Applications (Haoyue*)
 TVM: An Automated End-to-End Optimizing Compiler for Deep Learning
 Taming Performance Variability (Fei)
 
@@ -78,7 +76,7 @@ Taming Performance Variability (Fei)
 Orpheus: Efficient Distributed Machine Learning via System and Algorithm Co-design (Haoyue)
 Dynamic and Decentralized Global Analytics via Machine Learning (Fei)
 Continuum: A Platform for Cost-Aware, Low-Latency Continual Learning (Haoyue)
-Parameter Hub: a Rack-Scale Parameter Server for Distributed Deep Neural Network Training (Haoyue)
+Parameter Hub: a Rack-Scale Parameter Server for Distributed Deep Neural Network Training (Haoyue*)
 
 Elasecutor: Elastic Executor Scheduling in Data Analytics Systems (Wujie)
 Stratus: cost-aware container scheduling in the public cloud (Qiang)
