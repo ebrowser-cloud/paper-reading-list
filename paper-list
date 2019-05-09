@@ -1,3 +1,22 @@
+#atc 2019
+Titan: Simplifying Distributed Machine Learning Programming Without Introducing A New Programming Model
+Tangram: Bridging Immutable and Mutable Abstractions for Distributed Data Analytics
+EUNOMIA: Online Reconfiguration of Clustered NoSQL Databases for Time-Varying Workload
+EdgeWise: A Better Stream Processing Engine for the Edge
+MArk: Exploiting Cloud Services for Cost-Effective, SLO-Aware Machine Learning Inference Serving
+Analysis of Large-Scale Multi-Tenant GPU Clusters for DNN Training Workloads (*)
+Optimizing CNN Model Inference on CPUs (*)
+
+#hotcloud 2019
+DLion: Decentralized Distributed Deep Learning in Micro-Clouds
+The Case for Unifying Data Loading in Machine Learning Clusters
+Accelerating Deep Learning Inference via Freezing
+Characterization and Prediction of Performance Interference on Mediated Passthrough GPUs for Interference-aware Scheduler
+Happiness index: Right-sizing the cloud’s tenant-provider interface
+Static Call Graph Construction in AWS Lambda Serverless Applications
+Agile Cold Starts for Scalable Serverless
+
+
 #recent miscellaneous
 Cloud bursting for the world's largest consumer market (@all*)
 A Berkeley View on Serverless Computing (Qiang*)
@@ -15,6 +34,7 @@ Towards Federated Learning at Scale: System Design
 TicTac: Accelerating Distributed Deep Learning with Communication Scheduling
 Priority-based Parameter Propagation for Distributed DNN Training
 3LC: Lightweight and Effective Traffic Compression for Distributed Machine Learning
+Beyond Data and Model Parallelism for Deep Neural Networks (Qiang*)
 
 #nsdi 2019
 Hydra: a federated resource manager for data-center scale analytics (-)
@@ -51,7 +71,7 @@ Online Job Scheduling with Resource Packing on a Cluster of Heterogeneous Server
 A Distributed Orchestration Algorithm for Edge Computing Resources with Guarantees (Qiang)
 Adaptive User-managed Service Placement for Mobile Edge Computing: An Online Learning Approach (Qiang)
 Service Placement and Request Scheduling for Data-intensive Applications in Edge Clouds (Qiang)
-Distributed Machine Learning with a Serverless Architecture (Yiling)
+Distributed Machine Learning with a Serverless Architecture (Yiling*)
 Dynamic Adaptive DNN Surgery for Inference Acceleration on the Edge (Yiling)
 Federated Learning over Wireless Networks: Optimization Model Design and Analysis (Yiling)
 The Role of Network Topology for Distributed Machine Learning (Yiling)
