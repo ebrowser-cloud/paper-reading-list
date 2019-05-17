@@ -64,7 +64,7 @@ CoPart: Coordinated Partitioning of Last-Level Cache and Memory Bandwidth for Fa
 Deep Learning-based Job Placement in Distributed Machine Learning Clusters (Haoyue*)
 Round-Robin Synchronization: Mitigating Communication Bottlenecks in Parameter Servers (Haoyue*)
 Addressing Skewness in Iterative ML Jobs with Parameter Partition (Haoyue)
-Burstable Instances for Clouds: Performance Modeling, Equilibrium Analysis, and Revenue Maximization (Fei)
+Burstable Instances for Clouds: Performance Modeling, Equilibrium Analysis, and Revenue Maximization (Fei*)
 Efficient Online Resource Allocation in Heterogeneous Clusters with Machine Variability
 Live Migration Ate My VM: Recovering a Virtual Machine After Failure of Post-Copy Live Migration (Fei)
 Online Job Scheduling with Resource Packing on a Cluster of Heterogeneous Servers
@@ -74,7 +74,7 @@ Service Placement and Request Scheduling for Data-intensive Applications in Edge
 Distributed Machine Learning with a Serverless Architecture (Yiling*)
 Dynamic Adaptive DNN Surgery for Inference Acceleration on the Edge (Yiling)
 Federated Learning over Wireless Networks: Optimization Model Design and Analysis (Yiling)
-The Role of Network Topology for Distributed Machine Learning (Yiling)
+The Role of Network Topology for Distributed Machine Learning (Yiling*)
 
 #middleware 2018
 Parallelized training of deep NN – comparison of current concepts and frameworks (Haoyue*)
