@@ -28,6 +28,9 @@ Scaling for edge inference of deep neural networks (Yiling)
 FC2: cloud-based cluster provisioning for distributed machine learning (Haoyue*)
 Machine Learning on the Cheap：An Optimized Strategy to Exploit Spot Instances (Haoyue*)
 Speeding up Deep Learning with Transient Servers (Haoyue*)
+
+#spot instance related (recent work)
+SpotWeb: Running Latency-sensitive Distributed Web Services on Transient Cloud Servers
 Understanding the Synchronization Costs of Distributed ML on Transient Cloud Resources
 Optimizing the Cost of Executing Mixed Interactive and Batch Workloads on Transient VMs
 The Price is (Not) Right: Market-based versus Fixed Pricing for Transient Cloud Servers
