@@ -25,6 +25,7 @@ Sustainable Offloading in Mobile Cloud Computing: Algorithmic Design and Impleme
 Scalable Deep Learning on Distributed Infrastructures: Challenges, Techniques and Tools (Survey)
 Scaling for edge inference of deep neural networks (Yiling)
 
+AlloX: Allocation across Computing Resources for Hybrid CPU/GPU clusters
 FC2: cloud-based cluster provisioning for distributed machine learning (Haoyue*)
 Machine Learning on the Cheap：An Optimized Strategy to Exploit Spot Instances (Haoyue*)
 Speeding up Deep Learning with Transient Servers (Haoyue*)
