@@ -1,3 +1,5 @@
+Solving System Problems with Machine Learning (Ion Stoica)
+
 #atc 2019
 Titan: Simplifying Distributed Machine Learning Programming Without Introducing A New Programming Model
 Tangram: Bridging Immutable and Mutable Abstractions for Distributed Data Analytics
@@ -72,7 +74,6 @@ Deep Learning-based Job Placement in Distributed Machine Learning Clusters (Haoy
 Round-Robin Synchronization: Mitigating Communication Bottlenecks in Parameter Servers (Haoyue*)
 Addressing Skewness in Iterative ML Jobs with Parameter Partition (Haoyue)
 Burstable Instances for Clouds: Performance Modeling, Equilibrium Analysis, and Revenue Maximization (Fei*)
-Efficient Online Resource Allocation in Heterogeneous Clusters with Machine Variability
 Live Migration Ate My VM: Recovering a Virtual Machine After Failure of Post-Copy Live Migration (Fei)
 Online Job Scheduling with Resource Packing on a Cluster of Heterogeneous Servers
 A Distributed Orchestration Algorithm for Edge Computing Resources with Guarantees (Qiang)
