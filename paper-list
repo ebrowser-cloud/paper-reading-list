@@ -18,16 +18,12 @@ Happiness index: Right-sizing the cloud’s tenant-provider interface
 Static Call Graph Construction in AWS Lambda Serverless Applications
 Agile Cold Starts for Scalable Serverless
 
-
 #recent miscellaneous
 Cloud bursting for the world's largest consumer market (@all*)
 A Berkeley View on Serverless Computing (Qiang*)
 Sustainable Offloading in Mobile Cloud Computing: Algorithmic Design and Implementation（Yiling）
-
 Scalable Deep Learning on Distributed Infrastructures: Challenges, Techniques and Tools (Survey)
 Scaling for edge inference of deep neural networks (Yiling)
-
-AlloX: Allocation across Computing Resources for Hybrid CPU/GPU clusters
 FC2: cloud-based cluster provisioning for distributed machine learning (Haoyue*)
 Machine Learning on the Cheap：An Optimized Strategy to Exploit Spot Instances (Haoyue*)
 Speeding up Deep Learning with Transient Servers (Haoyue*)
