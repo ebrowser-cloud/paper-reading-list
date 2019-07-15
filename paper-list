@@ -1,10 +1,8 @@
 Solving System Problems with Machine Learning (Ion Stoica)
 
 #atc 2019
-Titan: Simplifying Distributed Machine Learning Programming Without Introducing A New Programming Model
 Tangram: Bridging Immutable and Mutable Abstractions for Distributed Data Analytics
 EUNOMIA: Online Reconfiguration of Clustered NoSQL Databases for Time-Varying Workload
-EdgeWise: A Better Stream Processing Engine for the Edge
 MArk: Exploiting Cloud Services for Cost-Effective, SLO-Aware Machine Learning Inference Serving
 Analysis of Large-Scale Multi-Tenant GPU Clusters for DNN Training Workloads (*)
 Optimizing CNN Model Inference on CPUs (*)
@@ -15,7 +13,6 @@ The Case for Unifying Data Loading in Machine Learning Clusters
 Accelerating Deep Learning Inference via Freezing
 Characterization and Prediction of Performance Interference on Mediated Passthrough GPUs for Interference-aware Scheduler
 Happiness index: Right-sizing the cloud’s tenant-provider interface
-Static Call Graph Construction in AWS Lambda Serverless Applications
 Agile Cold Starts for Scalable Serverless
 
 #recent miscellaneous
@@ -29,7 +26,8 @@ Machine Learning on the Cheap：An Optimized Strategy to Exploit Spot Instances 
 Speeding up Deep Learning with Transient Servers (Haoyue*)
 
 #spot instance related (recent work)
-SpotWeb: Running Latency-sensitive Distributed Web Services on Transient Cloud Servers
+SpotWeb: Running Latency-sensitive Distributed Web Services on Transient Cloud Servers (HPDC 2019)
+DeepSZ: A Novel Framework to Compress Deep Neural Networks by Using Error-Bounded Lossy Compression (HPDC 2019)
 Understanding the Synchronization Costs of Distributed ML on Transient Cloud Resources
 Optimizing the Cost of Executing Mixed Interactive and Batch Workloads on Transient VMs
 The Price is (Not) Right: Market-based versus Fixed Pricing for Transient Cloud Servers
