@@ -1,8 +1,39 @@
 Solving System Problems with Machine Learning (Ion Stoica)
 
 #icdcs 2019
-Falcon: Towards Computation-Parallel Deep Learning in Heterogeneous Parameter Server
+## dnn
+Falcon: Towards Computation-Parallel Deep Learning in Heterogeneous Parameter Server (Qiang)
+Heterogeneity-aware Gradient Coding for Straggler Tolerance (Qiang)
+CMFL: Mitigating Communication Overhead for Federated Learning (Qiang)
+Dynamic Stale Synchronous Parallel Distributed Training for Deep Learning (Qiang)
+A Distributed Synchronous SGD Algorithm with Global Top-k Sparsification for Low Bandwidth Networks
+Automating System Configuration of Distributed Machine Learning
+Eugene: Towards Deep Intelligence as a Service
+HPDL: Towards a General Framework for High-performance Distributed Deep Learning
+Towards Seamless Configuration Tuning of Big Data Analytics
+
+## drl
+DeepEE: Joint Optimization of Job Scheduling and Cooling Control for Data Center Energy Efficiency Using Deep Reinforcement Learning (Yiling)
+oward Efficient Compute-Intensive Job Allocation for Green Data Centers: A Deep Reinforcement Learning Approach (Yiling)
+Deep Reinforcement Learning based VNF Management in Geo-distributed Edge Computing (Yiling)
+Spear: Optimized Dependency-Aware Task Scheduling with Deep Reinforcement Learning
+MIRAS: Model-based Reinforcement Learning for Microservice Resource Allocation over Scientific Workflows
+
+## resource allocation
+Goldilocks: Adaptive Resource Provisioning in Containerized Data Centers
+Workflow Scheduling for Malleable Jobs with Precedence Constraints and Lifetime Resource Demands
+An Online Mechanism for Purchasing IaaS Instances and Scheduling Pleasingly Parallel Jobs in Cloud Computing Environments
+Efficient Data Placement and Retrieval Services in Edge Computing
+Online Collection and Forecasting of Resource Utilization in Large-Scale Distributed Systems
+
+## edge + machine learning
+A Cyclic Game for Joint Cooperation and Competition of Edge Resource Allocation
+Incentivizing Microservices for Online Resource Sharing in Edge Clouds
+Computation Offloading for Mobile-Edge Computing with Multi-user (Yiling)
 OpenEI: An Open Framework for Edge Intelligence
+Machine Learning + Distributed IoT = Edge Intelligence
+TeamNet: A Collaborative Inference Framework on the Edge
+
 
 #atc 2019
 Tangram: Bridging Immutable and Mutable Abstractions for Distributed Data Analytics
