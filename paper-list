@@ -1,5 +1,14 @@
 Solving System Problems with Machine Learning (Ion Stoica)
 
+#sosp 2019
+PipeDream: Generalized Pipeline Parallelism for DNN Training
+A Generic Communication Scheduler for Distributed DNN Training Acceleration
+TASO: Optimizing Deep Learning Computation with Automated Generation of Graph Substitutions
+Niijima: Sound and Automated Computation Consolidation for Efficient Multilingual Data-Parallel Pipelines
+Optimizing Data-Intensive Computations in Existing Libraries with Split Annotations
+Taiji: Managing Global User Traffic for Large-Scale Internet Services at the Edge
+An Analysis of Performance Evolution of Linux's Core Operations
+
 #icdcs 2019
 ## dnn
 Falcon: Towards Computation-Parallel Deep Learning in Heterogeneous Parameter Server (Qiang)
