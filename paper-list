@@ -4,7 +4,7 @@ Narrowing the Gap Between Serverless and its State with Storage Functions
 Cirrus: a Serverless Framework for End-to-end ML Workflows
 Cartel: A System for Collaborative Transfer Learning at the Edge
 Seamless Offloading of Web App Computations From Mobile Device to Edge Clouds via HTML5 Web Worker Migration
-BigDL: A Distributed Deep Learning Framework for Big Data
+BigDL: A Distributed Deep Learning Framework for Big Data (based on Spark)
 HyperSched: Dynamic Resource Reallocation for Model Development on a Deadline
 
 （scheduling & performance）
@@ -14,16 +14,16 @@ Pufferfish: Container-driven Elastic Memory Management for Data-intensive Applic
 Pigeon: an Effective Distributed, Hierarchical Datacenter Job Scheduler
 NEPTUNE: Scheduling Suspendable Tasks for Unified Stream/Batch Applications
 BurScale: Using Burstable Instances for Cost-Effective Autoscaling in the Public Cloud
-Characterizing and Synthesizing Task Dependencies of Data-Parallel Jobs in Alibaba Cloud
+Characterizing and Synthesizing Task Dependencies of Data-Parallel Jobs in Alibaba Cloud (*)
 
 （vision）
 Centralized Core-granular Scheduling for Serverless Functions
 Practical Cloud Workloads for Serverless FaaS
-SplitServe: Efficiently Splitting Complex Workloads Across FaaS and IaaS
+SplitServe: Efficiently Splitting Complex Workloads Across FaaS and IaaS (split Spark across EC2 & Lambda)
 Big Data Processing at Microsoft: Hyper Scale, Massive Complexity, and Minimal Cost
 Accordia: Adaptive Cloud Configuration Optimization for Recurring Data-Intensive Applications
 
-
+###
 Characterizing the Deep Neural Networks Inference Performance of Mobile Applications
 Resource Management in Fog/Edge Computing：A Survey on Architectures, Infrastructure, and Algorithms
 Solving System Problems with Machine Learning (Ion Stoica)
@@ -31,10 +31,10 @@ Cracking open the DNN black-box: Video Analytics with DNNs across the Camera-Clo
 
 #sosp 2019
 PipeDream: Generalized Pipeline Parallelism for DNN Training
-A Generic Communication Scheduler for Distributed DNN Training Acceleration
+A Generic Communication Scheduler for Distributed DNN Training Acceleration (Qiang)
 TASO: Optimizing Deep Learning Computation with Automated Generation of Graph Substitutions
-Niijima: Sound and Automated Computation Consolidation for Efficient Multilingual Data-Parallel Pipelines
-Optimizing Data-Intensive Computations in Existing Libraries with Split Annotations
+Niijima: Sound and Automated Computation Consolidation for Efficient Multilingual Data-Parallel Pipelines (*)
+Optimizing Data-Intensive Computations in Existing Libraries with Split Annotations (Qiang)
 Taiji: Managing Global User Traffic for Large-Scale Internet Services at the Edge
 An Analysis of Performance Evolution of Linux's Core Operations
 
