@@ -1,3 +1,29 @@
+#socc 2019
+（serverless computing & sysml）
+Narrowing the Gap Between Serverless and its State with Storage Functions
+Cirrus: a Serverless Framework for End-to-end ML Workflows
+Cartel: A System for Collaborative Transfer Learning at the Edge
+Seamless Offloading of Web App Computations From Mobile Device to Edge Clouds via HTML5 Web Worker Migration
+BigDL: A Distributed Deep Learning Framework for Big Data
+HyperSched: Dynamic Resource Reallocation for Model Development on a Deadline
+
+（scheduling & performance）
+Libra and the Art of Task Sizing in Big-Data Analytic Systems
+Scavenger: A Black-Box Batch Workload Resource Manager for Improving Utilization in Cloud Environments
+Pufferfish: Container-driven Elastic Memory Management for Data-intensive Applications
+Pigeon: an Effective Distributed, Hierarchical Datacenter Job Scheduler
+NEPTUNE: Scheduling Suspendable Tasks for Unified Stream/Batch Applications
+BurScale: Using Burstable Instances for Cost-Effective Autoscaling in the Public Cloud
+Characterizing and Synthesizing Task Dependencies of Data-Parallel Jobs in Alibaba Cloud
+
+（vision）
+Centralized Core-granular Scheduling for Serverless Functions
+Practical Cloud Workloads for Serverless FaaS
+SplitServe: Efficiently Splitting Complex Workloads Across FaaS and IaaS
+Big Data Processing at Microsoft: Hyper Scale, Massive Complexity, and Minimal Cost
+Accordia: Adaptive Cloud Configuration Optimization for Recurring Data-Intensive Applications
+
+
 Characterizing the Deep Neural Networks Inference Performance of Mobile Applications
 Resource Management in Fog/Edge Computing：A Survey on Architectures, Infrastructure, and Algorithms
 Solving System Problems with Machine Learning (Ion Stoica)
