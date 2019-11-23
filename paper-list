@@ -14,10 +14,10 @@ Understanding Quality of Experiences on Different Mobile Browsers: Measurements,
 
 #socc 2019
 （serverless computing & sysml）
-Narrowing the Gap Between Serverless and its State with Storage Functions
-Cirrus: a Serverless Framework for End-to-end ML Workflows
-Cartel: A System for Collaborative Transfer Learning at the Edge
-Seamless Offloading of Web App Computations From Mobile Device to Edge Clouds via HTML5 Web Worker Migration
+Narrowing the Gap Between Serverless and its State with Storage Functions (Yiling)
+Cirrus: a Serverless Framework for End-to-end ML Workflows (Yiling)
+Cartel: A System for Collaborative Transfer Learning at the Edge (*)
+Seamless Offloading of Web App Computations From Mobile Device to Edge Clouds via HTML5 Web Worker Migration (Jianian)
 BigDL: A Distributed Deep Learning Framework for Big Data (*based on Spark)
 HyperSched: Dynamic Resource Reallocation for Model Development on a Deadline
 
