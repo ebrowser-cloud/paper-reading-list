@@ -5,6 +5,8 @@ Is Big Data Performance Reproducible in Modern Cloud Networks?
 Themis: Fair and Efficient GPU Cluster Scheduling
 Firecracker: Lightweight Virtualization for Serverless Applications
 Pipelined Data-Parallel CPU/GPU Scheduling for Multi-DNN Real-Time Inference (RTSS 2019)
+INFINICACHE：Exploiting Ephemeral Serverless Functions to Build a Cost-Effective Memory Cache (FAST 2020, Yiling)
+Machine Learning on Volatile Instances (Haoyue)
 
 
 #middleware 2019
