@@ -1,6 +1,12 @@
 #ASPLOS 2020
 Prague: High-Performance Heterogeneity-Aware Asynchronous Decentralized Training
-
+Accelerometer: Understanding Acceleration Opportunities for Data Center Overheads at Hyperscale
+Catalyzer: Sub-millisecond Startup for Serverless Computing with Initialization-less Booting (Yiling)
+DeepSniffer: A DNN Model Extraction Framework Based on Learning Architectural Hints
+FlexTensor: An Automatic Schedule Exploration and Optimization Framework for Tensor Computation on Heterogeneous System
+High-density Multi-tenant Bare-metal Cloud
+PatDNN: Achieving Real-Time DNN Execution on Mobile Devices with Pattern-basedWeight Pruning
+SwapAdvisor: Pushing Deep Learning Beyond the GPU Memory Limit via Smart Swapping
 
 Deep Learning With Edge Computing: A Review (survey)
 
