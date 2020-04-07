@@ -1,5 +1,12 @@
 # MLSys 2020 & Eurosys 2020
-
+Fine-Grained GPU Sharing Primitives for Deep Learning Applications
+A Systematic Methodology for Analysis of Deep Learning Hardware and Software Platforms
+Blink: Fast and Generic Collectives for Distributed ML
+Distributed Hierarchical GPU Parameter Server for Massive Scale Deep Learning Ads Systems
+FLEET: Flexible Efficient Ensemble Training for Heterogeneous Deep Neural Networks
+Resource Elasticity in Distributed Deep Learning
+PLink: Discovering and Exploiting Locality for Accelerated Distributed Training on the public Cloud
+---------------------------------------
 
 
 #ASPLOS 2020
@@ -22,14 +29,12 @@ Pipelined Data-Parallel CPU/GPU Scheduling for Multi-DNN Real-Time Inference (RT
 INFINICACHE：Exploiting Ephemeral Serverless Functions to Build a Cost-Effective Memory Cache (FAST 2020, Yiling)
 Machine Learning on Volatile Instances (Haoyue)
 
-
 #middleware 2019
 On the FaaS Track: Building Stateful Distributed Applications with Serverless Architectures (Yiling)
 Pando: Personal Volunteer Computing in Browsers 
 FfDL: A Flexible Multi-tenant Deep Learning Platform (Qiang)
 Self-adaptive Executors for Big Data Processing
 It's not a Sprint, it's a Marathon: Stretching Multi-resource Burstable Performance in Public Clouds 
-
 
 Characterizing Deep Learning Training Workloads on Alibaba-PAI (Qiang)
 InferLine：Prediction Pipeline Provisioning and Management for Tight Latency Objectives
@@ -383,22 +388,4 @@ On Human Mobility Predictability Via WLAN Logs (Just read: interesting work)
 Spatiotemporal Modeling and Prediction in Cellular Networks: A Big Data Enabled Deep Learning Approach (Just read: LSTM benefits, learn)
 
 #icdcs 2017:
-Optimizing Shuffle in Wide-Area Data Analytics (Wujie*)
-Job Scheduling without Prior Information in Big Data Processing Systems (Wujie*)
-Speculative Slot Reservation: Enforcing Service Isolation for Dependent Data-Parallel Computations (Wujie)
-Distributed Deep Neural Networks over the Cloud, the Edge and End Devices (Haoyue & Yiling*)
-A Hierarchical Framework of Cloud Resource Allocation and Power Management Using Deep Reinforcement Learning (use RL as a tool)
-
-#socc 2017:
-BestConfig: Tapping the Performance Potential of Systems via Configuration Adjustment (Cassandra, configurations)
-Towards Automatic Parameter Tuning of Stream Processing Systems (Storm, configurations)
-SLO-aware Colocation of Data Center Tasks Based on Instantaneous Resource Requirements (Google Trace)
-A Machine Learning Approach to Live Migration Modeling (Typical ML-based writing)
-SLAQ: Quality-Driven Scheduling for Distributed Machine Learning (Yiling*)
-Selecting the Best VM across Multiple Public Clouds: A Data-Driven Performance Modeling Approach (Huan*)
-Automated Debugging in Data-Intensive Scalable Computing (Ms. Lihua Xu)
-HotSpot: Automated Server Hopping in Cloud Spot Markets (Huan*)
-Occupy the Cloud: Distributed Computing for the 99% (stateless function, AWS lamda)
-
-#asplos 2017:
-Neurosurgeon: Collaborative Intelligence Between the Cloud and Mobile Edge (Haoyue & Yiling*)
+Optimizing Shuffle in Wide-Area 
