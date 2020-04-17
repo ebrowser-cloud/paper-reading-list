@@ -7,7 +7,15 @@ FLEET: Flexible Efficient Ensemble Training for Heterogeneous Deep Neural Networ
 Resource Elasticity in Distributed Deep Learning
 PLink: Discovering and Exploiting Locality for Accelerated Distributed Training on the public Cloud
 ---------------------------------------
-
+Balancing Efficiency and Fairness in Heterogeneous GPU Clusters for Deep Learning
+Experiences of Landing Machine Learning onto Market-Scale Mobile Malware Detection
+A Fault-Tolerance Shim for Serverless Computing
+SEUSS: Skip Redundant Paths to Make Serverless Fast
+Autopilot: workload autoscaling at Google
+Improving Resource Utilization by Timely Fine-Grained Scheduling
+Rhythm: Component-distinguishable Workload Deployment in Datacenters
+Borg: the Next Generation
+AlloX: Compute Allocation in Hybrid Clusters
 
 #ASPLOS 2020
 Prague: High-Performance Heterogeneity-Aware Asynchronous Decentralized Training
