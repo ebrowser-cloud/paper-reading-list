@@ -1,7 +1,33 @@
+# Infocom 2020
+Camel: Smart, Adaptive Energy Optimization for Mobile Web Interactions
+COSE: Configuring Serverless Functions using Statistical Learning
+Machine Learning on Volatile Instances
+Communication-Efficient Distributed Deep Learning with Merged Gradient Sparsification on GPUs
+Preemptive All-reduce Scheduling for Expediting Distributed DNN Training
+Distributed Inference Acceleration with Adaptive DNN Partitioning and Offloading
+ReLoca: Optimize Resource Allocation for Data-parallel Jobs using Deep Learning
+Automating Cloud Deployment for Deep Learning Inference of Real-time Online Services
+Geryon: Accelerating Distributed CNN Training by Network-Level Flow Scheduling
+SDN-based Order-aware Live Migration of Virtual Machines
+TINA: A Fair Inter-datacenter Transmission Mechanism with Deadline Guarantee
+Network-Aware Optimization of Distributed Learning for Fog Computing
+Enabling Live Migration of Containerized Applications Across Clouds
+PAM & PAL: Policy-Aware Virtual Machine Migration and Placement in Dynamic Cloud Data Centers
+Online Placement of Virtual Machines with Prior Data
+
+# HPDC 2020
+Modeling The Temporally Constrained Preemptions of Transient Cloud VMs
+DCDB Wintermute: Enabling Online and Holistic Operational Data Analytics on HPC Systems (Best paper)
+Towards HPC I/O Performance Prediction through Large-scale Log Analysis
+FFT-based Gradient Sparsification for the Distributed Training of Deep Neural Networks
+Orchestrating Fault Prediction with Live Migration and Checkpointing
+KubeShare: A Framework to Manage GPUs as First-Class and Shared Resources in Container Cloud
+An Efficient Technique for Large Mini-batch Challenge of DNNs Training on Large Scale Cluster
+
+Cloud-scale VM Deflation for Running Interactive Applications On Transient Servers
 The Fast and The Frugal: Tail Latency Aware Provisioning for Coping with Load Variations （WWW'20）
 Chip Placement with Deep Reinforcement Learning (Jeff Dean)
 How to Train your DNN: The Network Operator Edition (Scott Shenker)
-Cloud-scale VM Deflation for Running Interactive Applications On Transient Servers (HPDC'20)
 Hedge Your Bets: Optimizing Long-term Cloud Costs by Mixing VM Purchasing Options
 
 # MLSys 2020 & Eurosys 2020
