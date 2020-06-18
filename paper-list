@@ -1,3 +1,28 @@
+# ATC 2020
+Adaptive Placement for In-memory Storage Functions
+OPTIMUSCLOUD: Heterogeneous Configuration Optimization for Distributed Databases in the Cloud (Tencent project related)
+Serverless in the Wild: Characterizing and Optimizing the Serverless Workload at a Large Cloud Provider
+Lessons Learned from the Chameleon Testbed
+HetPipe: Enabling Large DNN Training on (Whimpy) Heterogeneous GPU Clusters through Integration of Pipelined Model Parallelism and Data Parallelism
+Daydream: Accurately Estimating the Efficacy of Performance Optimizations for DNN Training
+ALERT: Accurate Learning for Energy and Timeliness
+Faasm: Lightweight Isolation for Efficient Stateful Serverless Computing
+Lightweight Preemptible Functions
+Peregreen — modular database for efficient storage of historical time series in cloud environments (Tencent project related)
+Fine-Grained Isolation for Scalable, Dynamic, Multi-tenant Edge Clouds
+
+# Hotcloud 2020
+Towards Supporting Millions of Users in Modifiable Virtual Environments by Redesigning Minecraft-Like Games as Serverless Systems
+AI4DL: Mining Behaviors of Deep Learning Workloads for Resource Management
+Spotnik: Designing Distributed Machine Learning for Transient Cloud Resources
+Towards GPU Utilization Prediction for Cloud Deep Learning
+Serverless Boom or Bust? An Analysis of Economic Incentives
+No Reservations: A First Look at Amazon's Reserved Instance Marketplace
+Towards Plan-aware Resource Allocation in Serverless Query Processing
+Rethinking Isolation Mechanisms for Datacenter Multitenancy (Tencent project related)
+Auto-sizing for Stream Processing Applications at LinkedIn (Tencent project related)
+More IOPS for Less: Exploiting Burstable Storage in Public Clouds (Tencent project related)
+
 # Infocom 2020
 Camel: Smart, Adaptive Energy Optimization for Mobile Web Interactions
 COSE: Configuring Serverless Functions using Statistical Learning
