@@ -7,7 +7,6 @@ HetPipe: Enabling Large DNN Training on (Whimpy) Heterogeneous GPU Clusters thro
 Daydream: Accurately Estimating the Efficacy of Performance Optimizations for DNN Training
 ALERT: Accurate Learning for Energy and Timeliness
 Faasm: Lightweight Isolation for Efficient Stateful Serverless Computing
-Lightweight Preemptible Functions
 Peregreen — modular database for efficient storage of historical time series in cloud environments (Tencent project related)
 Fine-Grained Isolation for Scalable, Dynamic, Multi-tenant Edge Clouds
 
