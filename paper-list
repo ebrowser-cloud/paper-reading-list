@@ -1,20 +1,20 @@
 # ATC 2020
 OPTIMUSCLOUD: Heterogeneous Configuration Optimization for Distributed Databases in the Cloud (Tencent project related)
-Serverless in the Wild: Characterizing and Optimizing the Serverless Workload at a Large Cloud Provider
+Serverless in the Wild: Characterizing and Optimizing the Serverless Workload at a Large Cloud Provider (Yiling)
 Lessons Learned from the Chameleon Testbed
-HetPipe: Enabling Large DNN Training on (Whimpy) Heterogeneous GPU Clusters through Integration of Pipelined Model Parallelism and Data Parallelism
+HetPipe: Enabling Large DNN Training on (Whimpy) Heterogeneous GPU Clusters through Integration of Pipelined Model Parallelism and Data Parallelism (Qiang)
 Daydream: Accurately Estimating the Efficacy of Performance Optimizations for DNN Training
 ALERT: Accurate Learning for Energy and Timeliness
-Faasm: Lightweight Isolation for Efficient Stateful Serverless Computing
+Faasm: Lightweight Isolation for Efficient Stateful Serverless Computing (Yiling)
 Peregreen — modular database for efficient storage of historical time series in cloud environments (Tencent project related)
-Fine-Grained Isolation for Scalable, Dynamic, Multi-tenant Edge Clouds
+Fine-Grained Isolation for Scalable, Dynamic, Multi-tenant Edge Clouds (Jianian)
 
 # Hotcloud 2020
-Towards Supporting Millions of Users in Modifiable Virtual Environments by Redesigning Minecraft-Like Games as Serverless Systems
-AI4DL: Mining Behaviors of Deep Learning Workloads for Resource Management
-Spotnik: Designing Distributed Machine Learning for Transient Cloud Resources
-Towards GPU Utilization Prediction for Cloud Deep Learning
-Serverless Boom or Bust? An Analysis of Economic Incentives
+Towards Supporting Millions of Users in Modifiable Virtual Environments by Redesigning Minecraft-Like Games as Serverless Systems (Yiling)
+AI4DL: Mining Behaviors of Deep Learning Workloads for Resource Management (Qiang)
+Spotnik: Designing Distributed Machine Learning for Transient Cloud Resources (Rita)
+Towards GPU Utilization Prediction for Cloud Deep Learning (Qiang)
+Serverless Boom or Bust? An Analysis of Economic Incentives (Yiling)
 No Reservations: A First Look at Amazon's Reserved Instance Marketplace
 Towards Plan-aware Resource Allocation in Serverless Query Processing
 Rethinking Isolation Mechanisms for Datacenter Multitenancy (Tencent project related)
@@ -87,7 +87,7 @@ Deep Learning With Edge Computing: A Review (survey)
 #nsdi 2020
 Is Big Data Performance Reproducible in Modern Cloud Networks?
 Themis: Fair and Efficient GPU Cluster Scheduling
-Firecracker: Lightweight Virtualization for Serverless Applications
+Firecracker: Lightweight Virtualization for Serverless Applications (Yiling)
 Pipelined Data-Parallel CPU/GPU Scheduling for Multi-DNN Real-Time Inference (RTSS 2019)
 INFINICACHE：Exploiting Ephemeral Serverless Functions to Build a Cost-Effective Memory Cache (FAST 2020, Yiling)
 Machine Learning on Volatile Instances (Haoyue)
