@@ -1,4 +1,16 @@
 # SOCC 2020
+Particle: Ephemeral Endpoints for Serverless Networking (Yiling)
+MetalMind: A Programming Framework for Serverless Computing (Yiling)
+Characterizing Serverless Platforms with ServerlessBench (Yiling)
+LADS: A High-Performance Framework for Serverless Parallel Computing (Yiling)
+Serverless Linear Algebra (Yiling)
+SNF: Serverless Network Functions (Yiling)
+Sequoia: Enabling Quality-of-Service in Serverless Computing
+Photons: Lambdas on a diet
+Semi-Dynamic Load Balancing: Efficient Distributed Learning in Non-Dedicated Environments
+Elastic Parameter Server Load Distribution in Deep Learning Clusters
+Network-accelerated Distributed Machine Learning for Multi-Tenant Settings
+Finding the Right Cloud Configuration for Analytics Clusters
 
 
 DBOS: A Proposal for a Data-Centric Operating System (@all)
