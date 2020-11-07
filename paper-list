@@ -1,3 +1,18 @@
+# OSDI 2020
+Caladan: Mitigating Interference at Microsecond Timescales
+Serving DNNs like Clockwork: Performance Predictability from the Bottom Up
+AntMan: Dynamic Scaling on GPU Clusters for Deep Learning
+PipeSwitch: Fast Pipelined Context Switching for Deep Learning Applications
+A Unified Architecture for Accelerating Distributed DNN Training in Heterogeneous GPU/CPU Clusters (BytePS)
+KungFu: Making Training in Distributed Machine Learning Adaptive
+
+Providing SLOs for Resource-Harvesting VMs in Cloud Platforms
+Twine: A Unified Cluster Management System for Shared Infrastructure
+FIRM: An Intelligent Fine-grained Resource Management Framework for SLO-Oriented Microservices
+RackSched: A Microsecond-Scale Scheduler for Rack-Scale Computers
+Fault-tolerant and transactional stateful serverless workflows (Yiling)
+
+
 # SOCC 2020
 Particle: Ephemeral Endpoints for Serverless Networking (Yiling)
 MetalMind: A Programming Framework for Serverless Computing (Yiling)
