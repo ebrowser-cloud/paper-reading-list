@@ -12,6 +12,9 @@ FIRM: An Intelligent Fine-grained Resource Management Framework for SLO-Oriented
 RackSched: A Microsecond-Scale Scheduler for Rack-Scale Computers
 Fault-tolerant and transactional stateful serverless workflows (Yiling)
 
+Job Scheduling for Large-Scale Machine Learning Clusters (CoNext 20)
+Optimizing Distributed Training Deployment in Heterogeneous GPU Clusters (CoNext 20)
+
 
 # SOCC 2020
 Particle: Ephemeral Endpoints for Serverless Networking (Yiling)
