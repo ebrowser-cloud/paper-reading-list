@@ -122,6 +122,8 @@ High-density Multi-tenant Bare-metal Cloud
 PatDNN: Achieving Real-Time DNN Execution on Mobile Devices with Pattern-basedWeight Pruning
 SwapAdvisor: Pushing Deep Learning Beyond the GPU Memory Limit via Smart Swapping
 
+FairWrite Attribution and Allocation for Consolidated Flash Cache (Ruitao)
+
 Deep Learning With Edge Computing: A Review (survey)
 
 #nsdi 2020
