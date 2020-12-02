@@ -1,8 +1,18 @@
 # paper-reading-list
 Reading paper list for iCloud-ECNU Group
 
-# research directions: 
-1. Cloud resource (VMs & serverless functions) provisioning and management for predictable performance (Huan & Haoyue & Yiling)
-2. Communication scheduling optmization for distributed machine learning (Qiang)
-3. Energe saving and resource scheduling for mobile/edge computing (Shuai & Jianian)
-4. Tasks/stage scheduling for performance optimization of DAG-style data analytics jobs (Wujie)
+# research directions:
+Predictable cloud computing
+-- Partition scheduling for predictable performance of NoSQL database (Xiyue)
+-- Fair NoSQL database pricing (Ruitao)
+-- LambdaDNN: Serverless function provisioning for predictable distributed DNN training (Yiling-2020)
+-- Cynthia: VM instance provisioning for predictable distributed DNN training (Haoyue-2019)
+-- iSpot: Spot instance provisioning for predictable big data analytics (Huan & Haoyue-2018)
+
+Distributed machine learning systems
+-- Nebula & Prophet: Communication scheduling optmization for distributed machine learning (Qiang-2020)
+-- DelayStage: Tasks scheduling for performance optimization of DAG-style data analytics (Wujie-2019)
+
+Collaborative cloud-edge computing
+-- Interference-aware container migration in cloud-edge systems (Jianian) 
+-- eBrowser: Energy-efficient mobile Web browser (Shuai-2018)
