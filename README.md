@@ -3,7 +3,7 @@ Reading paper list for iCloud-ECNU Group
 
 # research directions:
 ## Predictable cloud computing
-Partition scheduling and fair pricing for NoSQL database (Ruitao & Xiyue)  
+Partition scheduling and fair pricing for NoSQL databases (Ruitao & Xiyue)  
 LambdaDNN: Serverless function provisioning for predictable distributed DNN training (Yiling-2020)  
 Cynthia: VM instance provisioning for predictable distributed DNN training (Haoyue-2019)  
 iSpot: Spot instance provisioning for predictable big data analytics (Huan & Haoyue-2018)  
