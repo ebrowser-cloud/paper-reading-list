@@ -1,19 +1,21 @@
 # OSDI 2020
-Caladan: Mitigating Interference at Microsecond Timescales
-Serving DNNs like Clockwork: Performance Predictability from the Bottom Up
-AntMan: Dynamic Scaling on GPU Clusters for Deep Learning
-PipeSwitch: Fast Pipelined Context Switching for Deep Learning Applications
+Serving DNNs like Clockwork: Performance Predictability from the Bottom Up (predictable DNN inference)
+FIRM: An Intelligent Fine-grained Resource Management Framework for SLO-Oriented Microservices (ML-based resource management)
+Providing SLOs for Resource-Harvesting VMs in Cloud Platforms (another type of VMs like spot instances)
+KungFu: Making Training in Distributed Machine Learning Adaptive (hyper-parameters and system parameters)
+PipeSwitch: Fast Pipelined Context Switching for Deep Learning Applications (DNN layer grouping)
+AntMan: Dynamic Scaling on GPU Clusters for Deep Learning (GPU sharing)
+HiveD: Sharing a GPU Cluster for Deep Learning with Guarantees (GPU-affinity scheduling)
+
 A Unified Architecture for Accelerating Distributed DNN Training in Heterogeneous GPU/CPU Clusters (BytePS)
-KungFu: Making Training in Distributed Machine Learning Adaptive
+Heterogeneity-Aware Cluster Scheduling Policies for Deep Learning Workloads (generalize multiple scheduling policies)
+Optimizing Distributed Training Deployment in Heterogeneous GPU Clusters (CoNext 20, heterogeneous resources)
+Job Scheduling for Large-Scale Machine Learning Clusters (CoNext 20, ML job scheduluing)
 
-Providing SLOs for Resource-Harvesting VMs in Cloud Platforms
-Twine: A Unified Cluster Management System for Shared Infrastructure
-FIRM: An Intelligent Fine-grained Resource Management Framework for SLO-Oriented Microservices
-RackSched: A Microsecond-Scale Scheduler for Rack-Scale Computers
+RackSched: A Microsecond-Scale Scheduler for Rack-Scale Computers (rack-layer & server-layer)
+Twine: A Unified Cluster Management System for Shared Infrastructure (cluster scheduling)
+Caladan: Mitigating Interference at Microsecond Timescales (CPU scheduling)
 Fault-tolerant and transactional stateful serverless workflows (Yiling)
-
-Job Scheduling for Large-Scale Machine Learning Clusters (CoNext 20)
-Optimizing Distributed Training Deployment in Heterogeneous GPU Clusters (CoNext 20)
 
 
 # SOCC 2020
