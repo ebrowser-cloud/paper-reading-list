@@ -1,3 +1,45 @@
+# OSDI 2020
+Serving DNNs like Clockwork: Performance Predictability from the Bottom Up (predictable DNN inference)
+FIRM: An Intelligent Fine-grained Resource Management Framework for SLO-Oriented Microservices (ML-based resource management)
+Providing SLOs for Resource-Harvesting VMs in Cloud Platforms (another type of VMs like spot instances)
+KungFu: Making Training in Distributed Machine Learning Adaptive (hyper-parameters and system parameters)
+PipeSwitch: Fast Pipelined Context Switching for Deep Learning Applications (DNN layer grouping)
+AntMan: Dynamic Scaling on GPU Clusters for Deep Learning (GPU sharing)
+HiveD: Sharing a GPU Cluster for Deep Learning with Guarantees (GPU-affinity scheduling)
+
+A Unified Architecture for Accelerating Distributed DNN Training in Heterogeneous GPU/CPU Clusters (BytePS)
+Heterogeneity-Aware Cluster Scheduling Policies for Deep Learning Workloads (generalize multiple scheduling policies)
+Optimizing Distributed Training Deployment in Heterogeneous GPU Clusters (CoNext 20, heterogeneous resources)
+Job Scheduling for Large-Scale Machine Learning Clusters (CoNext 20, ML job scheduluing)
+
+RackSched: A Microsecond-Scale Scheduler for Rack-Scale Computers (rack-layer & server-layer)
+Twine: A Unified Cluster Management System for Shared Infrastructure (cluster scheduling)
+Caladan: Mitigating Interference at Microsecond Timescales (CPU scheduling)
+Fault-tolerant and transactional stateful serverless workflows (Yiling)
+
+
+# SOCC 2020
+Particle: Ephemeral Endpoints for Serverless Networking (Yiling)
+MetalMind: A Programming Framework for Serverless Computing (Yiling)
+Characterizing Serverless Platforms with ServerlessBench (Yiling)
+LADS: A High-Performance Framework for Serverless Parallel Computing (Yiling)
+Serverless Linear Algebra (Yiling)
+SNF: Serverless Network Functions (Yiling)
+Sequoia: Enabling Quality-of-Service in Serverless Computing
+Photons: Lambdas on a diet
+Semi-Dynamic Load Balancing: Efficient Distributed Learning in Non-Dedicated Environments
+Elastic Parameter Server Load Distribution in Deep Learning Clusters
+Network-accelerated Distributed Machine Learning for Multi-Tenant Settings
+Finding the Right Cloud Configuration for Analytics Clusters
+
+
+DBOS: A Proposal for a Data-Centric Operating System (@all)
+Do the Best Cloud Configurations Grow on Trees? An Experimental Evaluation of Black Box Algorithms for Optimizing Cloud Workloads (VLDB 2020)
+Analysis and Exploitation of Dynamic Pricing in the Public Cloud for ML Training (Matei DISPA 2020)
+Masha: Sampling-Based Performance Prediction of Big Data Applications in Resource-Constrained Clusters
+Towards Low-Latency Automated Machine Learning
+
+
 # ATC 2020
 OPTIMUSCLOUD: Heterogeneous Configuration Optimization for Distributed Databases in the Cloud (Tencent project related)
 Serverless in the Wild: Characterizing and Optimizing the Serverless Workload at a Large Cloud Provider (Yiling)
@@ -81,6 +123,8 @@ FlexTensor: An Automatic Schedule Exploration and Optimization Framework for Ten
 High-density Multi-tenant Bare-metal Cloud
 PatDNN: Achieving Real-Time DNN Execution on Mobile Devices with Pattern-basedWeight Pruning
 SwapAdvisor: Pushing Deep Learning Beyond the GPU Memory Limit via Smart Swapping
+
+FairWrite Attribution and Allocation for Consolidated Flash Cache (Ruitao)
 
 Deep Learning With Edge Computing: A Review (survey)
 
