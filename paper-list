@@ -1,3 +1,15 @@
+# NSDI 2021
+Move Fast and Meet Deadlines: Fine-grained Real-time Stream Processing with Cameo
+MilliSort and MilliQuery: Large-Scale Data-Intensive Computing in Milliseconds
+Ship Compute or Ship Data? Why Not Both?
+Caerus: TIMELY Task Scheduling for Serverless Analytics (Serverless data analytics)
+Mistify: Automating DNN Model Porting for On-Device Inference at the Edge
+Scaling Distributed Machine Learning with In-Network Aggregation
+Elastic Resource Sharing for Distributed Deep Learning
+On the Use of ML for Blackbox System Performance Prediction
+ATP: In-network Aggregation for Multi-tenant Learning
+
+
 # OSDI 2020
 Serving DNNs like Clockwork: Performance Predictability from the Bottom Up (predictable DNN inference)
 FIRM: An Intelligent Fine-grained Resource Management Framework for SLO-Oriented Microservices (ML-based resource management)
