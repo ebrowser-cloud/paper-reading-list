@@ -1,3 +1,10 @@
+# ASPLOS 2021
+Sinan: ML-Based & QoS-Aware Resource Management for Cloud Microservices
+Nightcore: Efficient and Scalable Serverless Computing for Latency-Sensitive, Interactive Microservices
+Benchmarking, Analysis, and Optimization of Serverless Function Snapshots
+Analytical characterization and design space exploration for optimization of CNNs
+
+
 # NSDI 2021
 Move Fast and Meet Deadlines: Fine-grained Real-time Stream Processing with Cameo
 MilliSort and MilliQuery: Large-Scale Data-Intensive Computing in Milliseconds
