@@ -1,5 +1,6 @@
 # MLSys 2021 & Eurosys 2021
 Fluid: Resource-Aware Hyperparameter Tuning Engine
+Efficient Large-Scale Language Model Training on GPU Clusters (Matei)
 
 Virtual Machine Preserving Host Updates for Zero Day Patching in Public Cloud
 Rubberband: Cloud-based Hyperparameter Tuning
@@ -16,6 +17,7 @@ Partial Computation Offloading in NOMA-Assisted Mobile Edge Computing Systems Us
 Joint Service Caching, Computation Offloading and Resource Allocation in Mobile Edge Computing Systems (Jianian)
 
 Serverless Predictions: 2021-2030 (@all)
+LIBRA: An Economical Hybrid Approach for Cloud Applications with Strict SLAs (Combine FaaS and IaaS)
 
 # Infocom 2021
 DC2: Delay-aware Compression Control for Distributed Machine Learning
