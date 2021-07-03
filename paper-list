@@ -1,3 +1,13 @@
+# ATC 2021 / OSDI 2021
+Prediction-Based Power Oversubscription in Cloud Platforms
+Proactive Energy-Aware Adaptive Video Streaming on Mobile Devices
+Fine-tuning giant neural networks on commodity hardware with automatic pipeline model parallelism
+INFaaS: Automated Model-less Inference Serving
+FaaSNet: Scalable and Fast Provisioning of Custom Serverless Container Runtimes at Alibaba Cloud Function Compute
+Zico: Efficient GPU Memory Sharing for Concurrent DNN Training
+ZeRO-Offload: Democratizing Billion-Scale Model Training
+SONIC: Application-aware Data Passing for Chained Serverless Applications
+
 What serverless computing is and should become: the next phase of cloud computing (serverless @all)
 Horus: Interference-Aware and Prediction-Based Scheduling in Deep Learning Systems
 
