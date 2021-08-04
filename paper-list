@@ -1,3 +1,59 @@
+# ATC 2021 / OSDI 2021
+Prediction-Based Power Oversubscription in Cloud Platforms
+Proactive Energy-Aware Adaptive Video Streaming on Mobile Devices
+Fine-tuning giant neural networks on commodity hardware with automatic pipeline model parallelism
+INFaaS: Automated Model-less Inference Serving
+FaaSNet: Scalable and Fast Provisioning of Custom Serverless Container Runtimes at Alibaba Cloud Function Compute
+Zico: Efficient GPU Memory Sharing for Concurrent DNN Training
+ZeRO-Offload: Democratizing Billion-Scale Model Training
+SONIC: Application-aware Data Passing for Chained Serverless Applications
+
+What serverless computing is and should become: the next phase of cloud computing (serverless @all)
+Horus: Interference-Aware and Prediction-Based Scheduling in Deep Learning Systems
+
+# MLSys 2021 & Eurosys 2021
+Fluid: Resource-Aware Hyperparameter Tuning Engine
+Efficient Large-Scale Language Model Training on GPU Clusters (Matei)
+
+Virtual Machine Preserving Host Updates for Zero Day Patching in Public Cloud
+Rubberband: Cloud-based Hyperparameter Tuning
+Take it to the Limit: Peak Prediction-driven Resource Overcommitment in Datacenters
+SmartHarvest: Harvesting Idle CPUs Safely and Efficiently in the Cloud
+FaaSCache: an opportunistic free caching system for FaaS platforms
+
+Adaptive Performance Modeling of Data-intensive Workloads for Resource Provisioning in Virtualized Environment (Xiyue)
+Allocation of Fungible Resources via a Fast, Scalable Price Discovery Method (Rita)
+Scheduling of Time-Varying Workloads Using Reinforcement Learning (Xiyue)
+
+Delay-aware and Energy-Efficient Computation Offloading in Mobile Edge Computing Using Deep Reinforcement Learning (Jianian)
+Partial Computation Offloading in NOMA-Assisted Mobile Edge Computing Systems Using Deep Reinforcement Learning (Jianian)
+Joint Service Caching, Computation Offloading and Resource Allocation in Mobile Edge Computing Systems (Jianian)
+
+Serverless Predictions: 2021-2030 (@all)
+LIBRA: An Economical Hybrid Approach for Cloud Applications with Strict SLAs (Combine FaaS and IaaS)
+
+# Infocom 2021
+DC2: Delay-aware Compression Control for Distributed Machine Learning
+
+# ASPLOS 2021
+Sinan: ML-Based & QoS-Aware Resource Management for Cloud Microservices
+Nightcore: Efficient and Scalable Serverless Computing for Latency-Sensitive, Interactive Microservices
+Benchmarking, Analysis, and Optimization of Serverless Function Snapshots
+Analytical characterization and design space exploration for optimization of CNNs
+
+
+# NSDI 2021
+Move Fast and Meet Deadlines: Fine-grained Real-time Stream Processing with Cameo
+MilliSort and MilliQuery: Large-Scale Data-Intensive Computing in Milliseconds
+Ship Compute or Ship Data? Why Not Both?
+Caerus: TIMELY Task Scheduling for Serverless Analytics (Serverless data analytics)
+Mistify: Automating DNN Model Porting for On-Device Inference at the Edge
+Scaling Distributed Machine Learning with In-Network Aggregation
+Elastic Resource Sharing for Distributed Deep Learning
+On the Use of ML for Blackbox System Performance Prediction
+ATP: In-network Aggregation for Multi-tenant Learning
+
+
 # OSDI 2020
 Serving DNNs like Clockwork: Performance Predictability from the Bottom Up (predictable DNN inference)
 FIRM: An Intelligent Fine-grained Resource Management Framework for SLO-Oriented Microservices (ML-based resource management)
