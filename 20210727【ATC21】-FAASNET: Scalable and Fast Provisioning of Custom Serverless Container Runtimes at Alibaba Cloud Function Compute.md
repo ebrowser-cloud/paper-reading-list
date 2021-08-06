@@ -120,7 +120,9 @@ By Jiabin Chen
 * 现在的平台，租户间不能共享 VM，所以 FaaSNet 的 FTs 是租户隔离的
 * FaaSNet 不适合亚秒级的短生命周期函数和请求稀疏的场景，可用 Function environment caching 和 pre-provisioning 来处理这些场景
 
-组会上思考记录：
-* 在按需拉取块过程中，p2p传输块，实现更细粒度传输，是否可行
+组会上思考和问题记录：
+* 在按需拉取块过程中，p2p传输块，实现更细粒度传输，是否可行？block块的大小设置可否优化？
+* FaaSNet与DADI+P2P（也是树形结构）的本质区别，具体在哪里？仅仅只是AVL树的设计？
+* 阿里巴巴实现function的方式是什么，仅仅用容器Docker技术么，是否开源？function启动是容器镜像，技术部分为什么用VM image来解释说明？
 
 
