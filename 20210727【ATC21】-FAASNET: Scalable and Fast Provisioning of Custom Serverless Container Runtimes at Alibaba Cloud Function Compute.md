@@ -36,7 +36,7 @@ By Jiabin Chen
 2. [Kraken](https://github.com/uber/kraken)
 * 以 layer 为粒度进行组网
 * origin、tracker 节点作为中央节点管理整个网络，agent 存在于每个 peer 节点上
-* tracker 节点仅负责管理组织集群中 peer 的连接，Kraken 会让 peer 节点间自行沟通数据传输，所以 Kraken 比 Dragonfly 能更好得处理大 blobs
+* tracker 节点仅负责管理组织集群中 peer 的连接，Kraken 会让 peer 节点间自行沟通数据传输，所以 Kraken 比 Dragonfly 能更好地处理大 blobs
 			
 ![76FFDA16-83FA-4998-8633-8B500295D5B1](https://cdn.jsdelivr.net/gh/JBinin/Image-hosting@master/20210805/76FFDA16-83FA-4998-8633-8B500295D5B1.u0k5rzkn9gg.png)
 
