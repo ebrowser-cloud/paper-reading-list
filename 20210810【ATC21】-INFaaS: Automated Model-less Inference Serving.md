@@ -33,7 +33,7 @@ Christos Kozyrakis：斯坦福大学电气工程和计算机科学教授。研�
 - 利用论文新提出的模型变体状态机合理地在模型间共享硬件资源
 
 ### 模型变体状态机
-![](2021-08-11-22-25-07.png)
+![](https://raw.githubusercontent.com/CAD2115/image-hosting/main/used_by_paper_review/2021-08-11-22-25-07.6ge7gdmfnd40.png)
 所有已注册和生成的模型变体的初始状态均为Inactive:即尚未加载到任何worker上。  
 一旦一个模型变量实例被加载，它就转换到Active状态，该状态下这些变量实例的服务量少于它们的峰值吞吐量，并由worker的监视守护进程记录其状态。	当变量实例的吞吐量达到峰值时，它们将进入Overloaded状态。  
 当在worker上加载的模型变量开始争夺共享资源(例如，缓存、内存带宽或硬件线程)时，就会转为Interfered状态。处于Interfered状态的变量实例服务量仍小于峰值负载，但是延时比正常状态下低。
