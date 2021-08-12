@@ -33,7 +33,8 @@ Christos Kozyrakis：斯坦福大学电气工程和计算机科学教授。研�
 - 利用论文新提出的模型变体状态机合理地在模型间共享硬件资源
 
 ### 模型变体状态机
-![](https://raw.githubusercontent.com/CAD2115/image-hosting/main/used_by_paper_review/2021-08-11-22-25-07.6ge7gdmfnd40.png)
+![](https://cdn.jsdelivr.net/gh/CAD2115/image-hosting@main/used_by_paper_review/2021-08-11-22-25-07.6ge7gdmfnd40.png)
+
 所有已注册和生成的模型变体的初始状态均为Inactive:即尚未加载到任何worker上。  
 一旦一个模型变量实例被加载，它就转换到Active状态，该状态下这些变量实例的服务量少于它们的峰值吞吐量，并由worker的监视守护进程记录其状态。	当变量实例的吞吐量达到峰值时，它们将进入Overloaded状态。  
 当在worker上加载的模型变量开始争夺共享资源(例如，缓存、内存带宽或硬件线程)时，就会转为Interfered状态。处于Interfered状态的变量实例服务量仍小于峰值负载，但是延时比正常状态下低。
@@ -60,10 +61,10 @@ Christos Kozyrakis：斯坦福大学电气工程和计算机科学教授。研�
    - 模型垂直放缩：即对模型进行升级或降级  
 
 考虑成本因素，在不同情况下应选择不同的放缩方式。为了在负载和需求发生变化时得出所需模型变体的类型和数量，同时最小化成本，论文提出了一个**目标函数**：
-![](2021-08-11-22-42-41.png)
+![](https://cdn.jsdelivr.net/gh/CAD2115/image-hosting@main/used_by_paper_review/2021-08-11-22-42-41.2qie6q174ag0.png)
 
 **约束条件**为：
-![](2021-08-11-23-02-23.png)
+![](https://cdn.jsdelivr.net/gh/CAD2115/image-hosting@main/used_by_paper_review/2021-08-11-23-02-23.dc83kxkuwow.png)
 
 由于求解该目标函数的最值所耗费时间巨大，改为使用贪心启发式算法来求得尽可能合理的放缩方案，该算法分为扩展与缩减两部分：
 - **扩展算法**：  
@@ -91,7 +92,7 @@ baselines配备有5个CPU和7个GPU worker。
 #### 负载情况：
 挑选自推特2018某月某天的真实访问记录。
 #### 结论：
-![](2021-08-12-10-15-05.png)
+![](https://cdn.jsdelivr.net/gh/CAD2115/image-hosting@main/used_by_paper_review/2021-08-12-10-15-05.45qq1g428gs0.png)
 与baselines相比，INFaaS实现了更高的性能(1.3倍吞吐量)和资源利用率(5.6倍的 GPU利用率)，以及更低的SLO违规数(降低了50%)和成本(降为1/1.23)
 ### 实验二 模型选择策略与自动缩放器的比较
 #### 实验设置：
@@ -99,7 +100,7 @@ baselines配备有5个CPU和7个GPU worker。
 #### 负载情况：
 论文使用了三种在现实世界中经常观察到的查询负载情况:(a)平稳的低负载(4个QPS)， (b)稳定的高负载(从650个QPS慢慢增加到700个QPS)，和(c)波动负载(在4到80个QPS之间)。模式(a)和(b)对参照物而言是理想情况，因为它们静态地选择了一个变体;作者为每个参照物使用了最具成本效益的CPU/GPU变体。
 #### 结论：
-![](2021-08-12-10-16-24.png)
+![](https://cdn.jsdelivr.net/gh/CAD2115/image-hosting@main/used_by_paper_review/2021-08-12-10-16-24.2eguur9s13pc.png)
 - 低负载情况下5个系统都能满足负载要求，但使用GPU的baselines成本-最高，INFaaS与使用CPU的baselines成本相当。  
 - 高负载情况下使用CPU的baselines无法满足负载要求，INFaaS的成本最低。  
 - 负载波动的情况下，使用CPU的baselines无法满足负载要求，INFaaS的成本最低。
@@ -110,7 +111,7 @@ baselines配备有5个CPU和7个GPU worker。
 #### 负载情况：
 为了显示模型的访问频率对资源共享的影响，我们设置了一个场景，其中一个访问频率高的模型提供80%的QPS，另一个提供20%的QPS。这是一个比较常见的频率分布场景。总共75000个batch-1查询，QPS介于50和500 之间。
 #### 结论：
-![](2021-08-12-10-24-24.png)
+![](https://cdn.jsdelivr.net/gh/CAD2115/image-hosting@main/used_by_paper_review/2021-08-12-10-24-24.3g0kjwn3gto0.png)
 INFaaS可以通过增加更多的GPU worker(在本实验中限制为两个)来缓解延迟的增加。此外，INFaaS通过(a)在低负载下时在一个GPU同时运行两个模型，以及(b)仅在检测到争用时添加GPU这两种方法节省了10%的成本。
 
 ## 总结
