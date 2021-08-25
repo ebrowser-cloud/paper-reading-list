@@ -1,3 +1,10 @@
+Pollux: Co-adaptive Cluster Scheduling for Goodput-Optimized Deep Learning (OSDI 2021)
+From Cloud to Edge: A First Look at Public Edge Platforms (IMC2021)
+An Empirical Study on Challenges of Application Development in Serverless Computing (APSys 2021)
+Lessons Learned from Migrating Complex Stateful Applications onto Serverless Platforms (APSys 2021)
+What serverless computing is and should become: the next phase of cloud computing (serverless @all)
+Horus: Interference-Aware and Prediction-Based Scheduling in Deep Learning Systems
+
 # ATC 2021 / OSDI 2021
 Prediction-Based Power Oversubscription in Cloud Platforms
 Proactive Energy-Aware Adaptive Video Streaming on Mobile Devices
@@ -7,9 +14,6 @@ FaaSNet: Scalable and Fast Provisioning of Custom Serverless Container Runtimes 
 Zico: Efficient GPU Memory Sharing for Concurrent DNN Training
 ZeRO-Offload: Democratizing Billion-Scale Model Training
 SONIC: Application-aware Data Passing for Chained Serverless Applications
-
-What serverless computing is and should become: the next phase of cloud computing (serverless @all)
-Horus: Interference-Aware and Prediction-Based Scheduling in Deep Learning Systems
 
 # MLSys 2021 & Eurosys 2021
 Fluid: Resource-Aware Hyperparameter Tuning Engine
