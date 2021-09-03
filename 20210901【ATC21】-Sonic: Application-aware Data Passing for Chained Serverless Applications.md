@@ -1,6 +1,7 @@
 By Jiabin Chen
 
 # Sonic: 链式 serverless 应用的应用感知数据传输
+
 [Sonic: Application-aware Data Passing for Chained Serverless Applications](https://www.usenix.org/conference/atc21/presentation/mahgoub)
 ---
 
@@ -9,6 +10,7 @@ By Jiabin Chen
 * 文章对比了以往的三种方法：VM-Storage 、Direct-Passing 和 Remote-Storage，没有一种方法可以在所有场景下都取得最优的效果，所以文章使用了一种混合的方法 SONIC，通过为工作流中的任意两个 serverless 函数之间选择最优的数据传输方法（上述三种方法择其一）和优化函数的放置策略，来优化应用的成本和性能。
 
 ## 论文作者
+
 * [Ashraf Mahgoub](https://www.linkedin.com/in/ashraf-mahgoub-30972211a)：普渡大学研究助理；博士期间主要研究设计和实现自动调整系统，博士前半段时期专注于为 NoSQL 数据存储提供自动调整功能，博士后半段时期专注于最小化通信延迟和选择最佳容器大小来优化无服务器工作流的性能和成本。
 * [Karthick Shankar](https://www.karthickshankar.com)：本科毕业于普渡大学，现为卡内基梅隆大学研究生；主要兴趣是分布式系统和 web 开发。
 * [Subrata Mitra](https://research.adobe.com/person/subrata-mitra/)：Adobe 的研究员，博士毕业于普渡大学；研究方向主要是分布式系统、机器学习、高性能计算和移动系统。
@@ -17,6 +19,7 @@ By Jiabin Chen
 * [Saurabh Bagchi](https://engineering.purdue.edu/~sbagchi/)：普渡大学电气和计算机工程以及计算机科学系教授；主要研究方向是可靠和安全的计算。
 
 ## 论文动机
+
 ### 问题引入：
 
 * Serverless 工作流由一系列执行的 stage 组成，可以通过 DAG（有向无环图）来表示，DAG 的节点表示 serverless 函数（或者称 lambda），DAG 的边表示有依赖关系的两个函数，下图就是一个视频分析的 DAG 。
@@ -53,7 +56,7 @@ By Jiabin Chen
 
 ### 三种解决方案：
 
-<img src="https://cdn.jsdelivr.net/gh/JBinin/Image-hosting@master/20210805/image.5fjwagfx7shs.png" style="zoom:80%;" />
+<img src="https://cdn.jsdelivr.net/gh/JBinin/Image-hosting@master/20210805/image.5fjwagfx7shs.png" style="zoom:70%;" />
 
 1. VM-Storage：
    * 将发送和接收的函数放在同一个 VM，通过 VM 的本地存储来进行函数之间的数据交换。
@@ -83,6 +86,7 @@ By Jiabin Chen
 <img src="https://cdn.jsdelivr.net/gh/JBinin/Image-hosting@master/20210805/4BB032B7-273E-4C3F-8793-8E8B3C8E1734.46gf7i310o00.png" alt="4BB032B7-273E-4C3F-8793-8E8B3C8E1734" style="zoom:50%;" />
 
 ## 论文贡献
+
 1. 分析了 serverless 工作流中三种不同的中间数据传输方法，并表明没有一种方法在延迟和成本方面的所有条件下都占优势。
 2. 提出了 SONIC，可以自动为工作流中的任意两个 serverless 函数之间选择数据传输方法，使得端到端时延和成本方面最优，并可以自动根据参数调整。
 3. 实验测试了在不同输入数据大小和不同其他参数的情况下 SONIC 的性能，并与其他基准方法作对比，在所测试的三类常见的 serverless 应用下，SONIC 总是能得到比其他方法更好的效果。
@@ -125,6 +129,7 @@ By Jiabin Chen
 * Latency(sec)
 
 baseline 设置：
+
 1. OpenLambda + S3：Remote-Storage 的实现，采用 OpenLambda 实现。
 2. OpenLambda + Pocket（DRAM） ：Remote-Storage 的实现，但用了更贵的 DRAM 作为存储，采用 OpenLambda 实现。
 3. Sand：VM-Storage 的实现。
@@ -171,6 +176,7 @@ Scalability：
 * 比较了 SONIC 与 SAND 和 OpenLambda + S3 在上述三种应用负载的混合负载下的表现，其中混合负载中三种应用的请求数量是均分的。
 
 * SNAD 由于要求把所有函数都放在同一个 VM 上，所以并不能利用所有计算核心，导致了极大的时延。
+
 * OpenLambda 使用了 Remote-Storage 方案来进行函数间数据传输，并不要求函数放在同一个 VM，所以可以利用所有的计算资源。
 
 * SONIC 在三种不同并行请求数量的情况下，比起另外两种方法，具有一致的增益，SONIC 可以随着并行请求数的增加而相应地扩展。
@@ -191,13 +197,14 @@ Scalability：
 
 * SONIC Unseen Category：用60个非运动类视频作训练，其中视频平均比特率比运动类视频低大约25%。与 SONIC All 相比，性能降低了19%，这是由于 SONIC 错误预测了 fanout degree（40%）和 Split_Video 和 Extract_Frame 传输的中间数据的大小（21%）。
 
-  <img src="https://cdn.jsdelivr.net/gh/JBinin/Image-hosting@master/20210805/3C43061E-E5FC-485C-A263-2AFB09DB2A0C.li1hw7m29c0.png" alt="3C43061E-E5FC-485C-A263-2AFB09DB2A0C" style="zoom:70%;" />
+  <img src="https://cdn.jsdelivr.net/gh/JBinin/Image-hosting@master/20210805/image.15oibonjnj7k.png" alt="image" style="zoom:80%;" />
 
 * 训练数据与测试数据特征差异越大，性能下降就越大，但是仍然比 OpenLambda + S3 和 SAND 要好。
 
 * 文章提到的一种解决方案：将不同特征的 job 分到不同的集群中，为每个集群分别训练不同的预测模型。
 
 ## 其他
+
 文章相关工作：
 
 * Pocket and Locus：多层远程存储，综合各类存储获得良好的综合性能/时延效果。
