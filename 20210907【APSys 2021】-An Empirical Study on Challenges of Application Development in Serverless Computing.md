@@ -48,7 +48,7 @@ Yi Liu：北京大学研究人员。
 2）将所有包含 T<sub>ini</sub> 中标签的问题记为 S<sub>cand</sub>,然后将 S<sub>cand</sub> 中的标签吸收到标签集中，记此时的标签集为 T<sub>cand</sub> 。  
 
 3）提炼出 T<sub>cand</sub> 中与serverless强相关的标签，提炼方法如下：  
-![uv](https://cdn.jsdelivr.net/gh/CAD2115/image-hosting@main/used_by_paper_review/uv.73nn5xbbnzc0.jpg)
+![uv](https://cdn.jsdelivr.net/gh/CAD2115/image-hosting@main/used_by_paper_review/uv.73nn5xbbnzc0.jpg)  
 当μ大于0.005且ν大于0.05时标签t才能被保存在Tcand中，否则去除。  
 (μ为具有t标签的问题数除以 S<sub>cand</sub> 总数，该值越大说明标签t是 S<sub>cand</sub> 中的共同特性，则t对于serverless很重要；ν为 S<sub>cand</sub> 中具有t标签的问题数除以所有问题中具有标签t的问题数，这个参数可以表明标签t与serverless的相关程度，若该值为1，代表t只出现在当前提取的与serverless相关的问题中，而不会出现在与serverless无关的问题中，则此时t与serverless最相关。至于为什么阈值设为0.005和0.05，是由于之前的论文做了实验证明出来的。)  
 
@@ -56,12 +56,12 @@ Yi Liu：北京大学研究人员。
 	最终 T<sub>final</sub> = {“serverless”, “faas”, “serverless-framework”, “aws-serverless”,“openwhisk”, “aws-lambda”, “aws-sam”, “aws-sam-cli”, “serverless-architecture”, “serverless-oine”, “vercel”, “serverless-plugins”,“localstack”}，共抽取了22731个至少包含其中一个标签的问题，记为S<sub>rel</sub>。
 
 #### 步骤三 确定无服务器计算的流行趋势
-![result_of_step1](https://cdn.jsdelivr.net/gh/CAD2115/image-hosting@main/used_by_paper_review/result_of_step1.6iynxl5eyfs0.jpg)   
+![result_of_step1](https://cdn.jsdelivr.net/gh/CAD2115/image-hosting@main/used_by_paper_review/result_of_step1.6iynxl5eyfs0.jpg)  
 作者统计每一年的问题数量和用户数量，得到这个柱形图，横轴是年份，纵轴为数量。显然，问题数量与用户数量都在逐年上升。此外，作者将SO上的全部问题作为基准。然后发现从2015年到2020年，SO上问题和用户的增长率在6%和22%之间，而与无服务器计算相关的问题和用户的增长率则在47%和380%之间。  
 **结论：无服务器计算越来越受到开发者的关注，这也表明了作者研究的及时性和紧迫性。**  
 
 #### 步骤四：确定无服务器计算相关问题的难度等级
-![result_of_step2](https://cdn.jsdelivr.net/gh/CAD2115/image-hosting@main/used_by_paper_review/result_of_step2.1c4hnbfoiark.jpg)   
+![result_of_step2](https://cdn.jsdelivr.net/gh/CAD2115/image-hosting@main/used_by_paper_review/result_of_step2.1c4hnbfoiark.jpg)  
 第一行%no acc指的是该种问题中没有得到有效回答的问题比例，第二行指的是从问题发布到得到有效解答经历的时间。显然这两个值都是serverless的值最高。  
 **结论：与无服务器计算相关的问题比SO上所有问题和其他软件开发方向问题（如Web开发、并发性和移动开发）的平均难度更高。**
 
@@ -72,7 +72,7 @@ Yi Liu：北京大学研究人员。
   首先采用619个问题的70%来构建初试问题种类。然后人工审查问题进行分类。有些问题可以直接根据问题描述分析出所属类别。其他问题作者则将造成该问题的原因作为问题所属类别；此外，作者将多种问题用一个短语再次进行归类，构建了问题种类的层次树。最后将剩余的30%的问题依次归到这颗分类树中，无法进行归类的则添加种类。  
   最后，对于619个抽样问题，其中的4个问题被标记为与无服务器计算无关，17个问题同时属于两类问题。因此，最终分类树中包含 632 个样本。
 - *分类树如下：*
- ![result_of_step3](https://cdn.jsdelivr.net/gh/CAD2115/image-hosting@main/used_by_paper_review/result_of_step3.46xy5zclqhg0.jpg)  
+ ![result_of_step3](https://cdn.jsdelivr.net/gh/CAD2115/image-hosting@main/used_by_paper_review/result_of_step3.46xy5zclqhg0.jpg)    
   该图就是作者最终构建的问题种类树，共有7大类，11个内部类别，36个叶子类别。内部类别指的是颜色为灰色还可以在继续分类的类别，叶子类别不可再分。  
 - *结论：*  
   论文对每一种类的问题分析其出现的场景与原因，并为开发者、云服务商、科研人员提供一些建设性意见。这里我们截取论文对性能相关问题的分析与结论：  
