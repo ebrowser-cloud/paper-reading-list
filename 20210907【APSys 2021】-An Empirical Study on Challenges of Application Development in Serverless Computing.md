@@ -31,7 +31,7 @@ Yi Liu：北京大学研究人员。
 
 ## 实验
 ### 研究方法概述
-![overview_of_methodology](https://cdn.jsdelivr.net/gh/CAD2115/image-hosting@main/used_by_paper_review/overview_of_methodology.3k332ncn5sy0.jpg)
+![overview_of_methodology](https://cdn.jsdelivr.net/gh/CAD2115/image-hosting@main/used_by_paper_review/overview_of_methodology.3k332ncn5sy0.jpg)  
 
 首先，下载数据集，然后从中抽取与serverless相关的问题，最后依次解答之前提出的三个研究问题。
 
@@ -56,12 +56,12 @@ Yi Liu：北京大学研究人员。
 	最终 T<sub>final</sub> = {“serverless”, “faas”, “serverless-framework”, “aws-serverless”,“openwhisk”, “aws-lambda”, “aws-sam”, “aws-sam-cli”, “serverless-architecture”, “serverless-oine”, “vercel”, “serverless-plugins”,“localstack”}，共抽取了22731个至少包含其中一个标签的问题，记为S<sub>rel</sub>。
 
 #### 步骤三 确定无服务器计算的流行趋势
-![result_of_step1](https://cdn.jsdelivr.net/gh/CAD2115/image-hosting@main/used_by_paper_review/result_of_step1.6iynxl5eyfs0.jpg) 
+![result_of_step1](https://cdn.jsdelivr.net/gh/CAD2115/image-hosting@main/used_by_paper_review/result_of_step1.6iynxl5eyfs0.jpg)   
 作者统计每一年的问题数量和用户数量，得到这个柱形图，横轴是年份，纵轴为数量。显然，问题数量与用户数量都在逐年上升。此外，作者将SO上的全部问题作为基准。然后发现从2015年到2020年，SO上问题和用户的增长率在6%和22%之间，而与无服务器计算相关的问题和用户的增长率则在47%和380%之间。  
 **结论：无服务器计算越来越受到开发者的关注，这也表明了作者研究的及时性和紧迫性。**  
 
 #### 步骤四：确定无服务器计算相关问题的难度等级
-![result_of_step2](https://cdn.jsdelivr.net/gh/CAD2115/image-hosting@main/used_by_paper_review/result_of_step2.1c4hnbfoiark.jpg) 
+![result_of_step2](https://cdn.jsdelivr.net/gh/CAD2115/image-hosting@main/used_by_paper_review/result_of_step2.1c4hnbfoiark.jpg)   
 第一行%no acc指的是该种问题中没有得到有效回答的问题比例，第二行指的是从问题发布到得到有效解答经历的时间。显然这两个值都是serverless的值最高。  
 **结论：与无服务器计算相关的问题比SO上所有问题和其他软件开发方向问题（如Web开发、并发性和移动开发）的平均难度更高。**
 
