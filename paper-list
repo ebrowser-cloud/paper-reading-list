@@ -1,4 +1,15 @@
-Pollux: Co-adaptive Cluster Scheduling for Goodput-Optimized Deep Learning (OSDI 2021)
+# SOSP 2021/OSDI 2021
+Boki: Stateful Serverless Computing with Shared Logs
+Faster and Cheaper Serverless Computing on Harvested Resources
+Pollux: Co-adaptive Cluster Scheduling for Goodput-Optimized Deep Learning
+Gradient Compression Supercharged High-Performance Data Parallel DNN Training
+
+RAS: Continuously Optimized Region-Wide Datacenter Resource Allocation
+Solving Large-Scale Granular Resource Allocation Problems Efficiently with POP
+Bladerunner: Stream Processing at Scale for a Live View of Backend Data Mutations at the Edge
+Using Lightweight Formal Methods to Validate a Key-Value Storage Node in Amazon S3
+Shard Manager: A Generic Shard Management Framework for Geo-distributed Applications
+
 From Cloud to Edge: A First Look at Public Edge Platforms (IMC2021)
 An Empirical Study on Challenges of Application Development in Serverless Computing (APSys 2021)
 Lessons Learned from Migrating Complex Stateful Applications onto Serverless Platforms (APSys 2021)
