@@ -1,4 +1,27 @@
-# SOSP 2021/OSDI 2021
+# SOCC 2021
+Lorien: Efficient Deep Learning Workloads Delivery
+Elastic Hyperparameter Tuning on the Cloud
+Llama: A Heterogeneous & Serverless Framework for Auto-Tuning Video Analytics Pipelines
+CHRONUS: A Novel Deadline-aware Scheduler for Deep Learning Training Jobs
+Scrooge: A Cost-Effective Deep Learning Inference System
+Morphling: Fast, Near-Optimal Auto-Configuration for Cloud-Native Model Serving
+Faa$T: A Transparent Auto-Scaling Cache for Serverless Applications
+Atoll: A Scalable Low-Latency Serverless Platform
+Kraken : Adaptive Container Provisioning for Deploying Dynamic DAG applications in Serverless platforms
+ServerMore: Opportunistic Execution of Serverless Functions in the Cloud
+Mu: An Efficient, Fair and Responsive Serverless Framework for Resource-Constrained Edge Clouds
+Good Things Come to Those Who Wait: Optimizing Job Waiting in the Cloud
+Mind the Gap: Broken Promises of CPU Reservations in Containerized Multi-tenant Clouds
+George: Learning to Place Long-Lived Containers in Large Clusters with Operation Constraints
+Provisioning Differentiated Last-Level Cache Allocations to VMs in Public Clouds
+Characterizing Microservice Dependency and Performance: Alibaba Trace Analysis
+SHOWAR: Right-Sizing And Efficient Scheduling of Microservices
+
+Tell me when you are sleepy and what may wake you up! (Vision)
+Enabling Sustainable Clouds: The Case for Virtualizing the Energy System (Vision)
+On Merits and Viability of Multi-Cloud Serverless (Vision)
+
+# SOSP 2021 / OSDI 2021
 Boki: Stateful Serverless Computing with Shared Logs
 Faster and Cheaper Serverless Computing on Harvested Resources
 Pollux: Co-adaptive Cluster Scheduling for Goodput-Optimized Deep Learning
@@ -16,7 +39,7 @@ Lessons Learned from Migrating Complex Stateful Applications onto Serverless Pla
 What serverless computing is and should become: the next phase of cloud computing (serverless @all)
 Horus: Interference-Aware and Prediction-Based Scheduling in Deep Learning Systems
 
-# ATC 2021 / OSDI 2021
+# ATC 2021
 Prediction-Based Power Oversubscription in Cloud Platforms
 Proactive Energy-Aware Adaptive Video Streaming on Mobile Devices
 Fine-tuning giant neural networks on commodity hardware with automatic pipeline model parallelism
