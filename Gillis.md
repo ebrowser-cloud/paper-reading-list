@@ -96,10 +96,13 @@ Gillis执行粗粒度并行化:它将多个连续的层合并为一个组，并�
 如图，在多个函数之间并行化CNN模型明显比在两个平台上使用单个函数(默认)提供服务具有更快的推理速度。与谷歌云功能相比，Lambda可以为Gillis提供更多延迟改进，因为它的每个实例的资源更少。  
 
 ![fig10](https://cdn.jsdelivr.net/gh/CAD2115/image-hosting@main/20211017/fig10.4nv592if8uu0.jpg)
-由于KNIX的低延迟通信，与Lambda相比，Gillis可以从并行化中获得更多好处。  
+
+由于KNIX的低延迟通信，与Lambda相比，Gillis可以从并行化中获得更多好处。    
 
 ![fig11](https://cdn.jsdelivr.net/gh/CAD2115/image-hosting@main/20211017/fig11.553ym0nchjk0.jpg)
+
 由于网络带宽有限，pipeline的通信开销成为严重的瓶颈。相比之下，Gillis无需从远程仓库传输权张量。而且，并行执行使其比流水线的顺序执行快两倍（计算时间）。  
+
 ![fig12](https://cdn.jsdelivr.net/gh/CAD2115/image-hosting@main/20211017/fig12.5uk630iwokc0.jpg)
 
 由于RNN层不能并行化，Gillis在单个函数能够处理的小模型中没有显示出比Default更大的优势。然而，单个函数只能支持多达9层的RNN模型。Gillis对模型大小没有这样的限制，可以线性地扩展到大的rnn。
