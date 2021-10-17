@@ -2,7 +2,7 @@ By AoDong Chen
 
 # Gillis:通过自动化模型切分在无服务器函数中运行大型神经网络
 
-[Gillis: Serving Large Neural Networks in Serverless Functions with Automatic Model Partitioning]([gillis-icdcs21.pdf (ust.hk)](https://www.cse.ust.hk/~weiwa/papers/gillis-icdcs21.pdf))
+Gillis: Serving Large Neural Networks in Serverless Functions with Automatic Model Partitioning([gillis-icdcs21.pdf (ust.hk)](https://www.cse.ust.hk/~weiwa/papers/gillis-icdcs21.pdf))
 
 本文介绍了Gillis，一个基于无服务器架构的模型服务系统，它可以在多个函数之间自动并行化大型DNN模型，以更快地进行推理并减少每个函数的内存占用。论文提出了两种切分模型的算法，一种可以满足最低延时服务，另一种可以在满足SLO的情况下最小化成本。实验评估表明，Gillis加速了模型推理，支持非常大的深度学习模型，并且能在满足指定延迟SLO的情况下显著节省成本。
 
