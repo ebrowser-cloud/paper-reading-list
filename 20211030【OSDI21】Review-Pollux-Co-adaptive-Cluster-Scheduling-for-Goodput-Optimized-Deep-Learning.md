@@ -1,13 +1,13 @@
 # Pollux: Co-adaptive Cluster Scheduling for Goodput-Optimized Deep Learning
 ## 论文作者
 
-**Aurick Qiao**： CEO [@PetuumInc](https://twitter.com/PetuumInc) , 毕业于卡内基·梅隆大学计算机科学系博士，研究方向：可扩展的机器学习。
+**Aurick Qiao**：CEO[@PetuumInc](https://twitter.com/PetuumInc) ,毕业于卡内基·梅隆大学计算机科学系博士，研究方向：可扩展的机器学习。
 
-**Qirong Ho**: Co-founder, CTO  [@PetuumInc](https://twitter.com/PetuumInc) , 2014年毕业于卡内基·梅隆大学计算机科学系博士, 现在研究方向：在大数据和大尺度模型上的分布式机器学习软件系统
+**Qirong Ho**: Co-founder,CTO[@PetuumInc](https://twitter.com/PetuumInc) ,2014年毕业于卡内基·梅隆大学计算机科学系博士,现在研究方向：在大数据和大尺度模型上的分布式机器学习软件系统
 
-**Willie Neiswanger** ：毕业于卡内基·梅隆大学计算机科学系博士， 现在工作内容：开发分布式推理和概率编程的方法，以帮助扩展和自动化机器学习
+**Willie Neiswanger** ：毕业于卡内基·梅隆大学计算机科学系博士，现在工作内容：开发分布式推理和概率编程的方法，以帮助扩展和自动化机器学习
 
-**Sang Choe**： 卡内基·梅隆大学语言技术研究所二年级博士生，研究方向：高效的大规模机器学习算法和系统。
+**Sang Choe**：卡内基·梅隆大学语言技术研究所二年级博士生，研究方向：高效的大规模机器学习算法和系统。
 
 ## 问题定义
 
