@@ -5,13 +5,13 @@ Lorien: Efficient Deep Learning Workloads Delivery
 Faa$T: A Transparent Auto-Scaling Cache for Serverless Applications
 Cloud-Scale Runtime Verification of Serverless Applications
 CHRONUS: A Novel Deadline-aware Scheduler for Deep Learning Training Jobs
-ServerMore: Opportunistic Execution of Serverless Functions in the Cloud
-Atoll: A Scalable Low-Latency Serverless Platform
-Speedo: Fast dispatch and orchestration of serverless workflows
+On Merits and Viability of Multi-Cloud Serverless (multicloud serverless, cost efficiency)
+ServerMore: Opportunistic Execution of Serverless Functions in the Cloud (resource contention)
+Atoll: A Scalable Low-Latency Serverless Platform (SLO guarantee)
 Parslo: A Gradient Descent-based Approach for Near-optimal Partial SLO Allotment in Microservices
 Morphling: Fast, Near-Optimal Auto-Configuration for Cloud-Native Model Serving
 Elastic Hyperparameter Tuning on the Cloud
-Kraken : Adaptive Container Provisioning for Deploying Dynamic DAG applications in Serverless platforms
+Kraken : Adaptive Container Provisioning for Deploying Dynamic DAG applications in Serverless platforms (SLO complaince)
 Scrooge: A Cost-Effective Deep Learning Inference System
 Mind the Gap: Broken Promises of CPU Reservations in Containerized Multi-tenant Clouds
 SHOWAR: Right-Sizing And Efficient Scheduling of Microservices
@@ -20,7 +20,7 @@ Provisioning Differentiated Last-Level Cache Allocations to VMs in Public Clouds
 Good Things Come to Those Who Wait: Optimizing Job Waiting in the Cloud
 Enabling Sustainable Clouds: The Case for Virtualizing the Energy System
 Tell me when you are sleepy and what may wake you up!
-Mu: An Efficient, Fair and Responsive Serverless Framework for Resource-Constrained Edge Clouds
+Mu: An Efficient, Fair and Responsive Serverless Framework for Resource-Constrained Edge Clouds (autoscaling, load balance, placement function)
 Latency-Aware Dynamic Server and Cooling Capacity Provisioner for Data Centers
 
 # SOSP 2021/OSDI 2021
