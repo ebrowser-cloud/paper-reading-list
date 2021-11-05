@@ -29,11 +29,7 @@ Pollux: Co-adaptive Cluster Scheduling for Goodput-Optimized Deep Learning
 Gradient Compression Supercharged High-Performance Data Parallel DNN Training
 Gillis：Serving Large Neural Networks in Serverless Functions with Automatic Model Partitioning (ICDCS 2021)
 Understanding, predicting and scheduling serverless workloads under partial interference (SC 2021)
-
 RAS: Continuously Optimized Region-Wide Datacenter Resource Allocation
-Solving Large-Scale Granular Resource Allocation Problems Efficiently with POP
-Bladerunner: Stream Processing at Scale for a Live View of Backend Data Mutations at the Edge
-Using Lightweight Formal Methods to Validate a Key-Value Storage Node in Amazon S3
 Shard Manager: A Generic Shard Management Framework for Geo-distributed Applications
 
 From Cloud to Edge: A First Look at Public Edge Platforms (IMC2021)
