@@ -1,9 +1,8 @@
 # SOCC 2021
-George: Learning to Place Long-Lived Containers in Large Clusters with Operation Constraints
+George: Learning to Place Long-Lived Containers in Large Clusters with Operation Constraints (Xiyue)
 Llama: A Heterogeneous & Serverless Framework for Auto-Tuning Video Analytics Pipelines
-Lorien: Efficient Deep Learning Workloads Delivery
+Lorien: Efficient Deep Learning Workloads Delivery (AWS)
 Faa$T: A Transparent Auto-Scaling Cache for Serverless Applications
-Cloud-Scale Runtime Verification of Serverless Applications
 CHRONUS: A Novel Deadline-aware Scheduler for Deep Learning Training Jobs
 On Merits and Viability of Multi-Cloud Serverless (multicloud serverless, cost efficiency)
 ServerMore: Opportunistic Execution of Serverless Functions in the Cloud (resource contention)
@@ -17,10 +16,10 @@ Mind the Gap: Broken Promises of CPU Reservations in Containerized Multi-tenant 
 SHOWAR: Right-Sizing And Efficient Scheduling of Microservices
 Characterizing Microservice Dependency and Performance: Alibaba Trace Analysis (Xiyue)
 Provisioning Differentiated Last-Level Cache Allocations to VMs in Public Clouds
+Mu: An Efficient, Fair and Responsive Serverless Framework for Resource-Constrained Edge Clouds (autoscaling, load balance, placement function)
 Good Things Come to Those Who Wait: Optimizing Job Waiting in the Cloud
 Enabling Sustainable Clouds: The Case for Virtualizing the Energy System
 Tell me when you are sleepy and what may wake you up!
-Mu: An Efficient, Fair and Responsive Serverless Framework for Resource-Constrained Edge Clouds (autoscaling, load balance, placement function)
 Latency-Aware Dynamic Server and Cooling Capacity Provisioner for Data Centers
 
 # SOSP 2021/OSDI 2021
