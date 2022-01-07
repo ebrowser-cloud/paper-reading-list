@@ -1,36 +1,38 @@
 # SOCC 2021
-Lorien: Efficient Deep Learning Workloads Delivery
-Elastic Hyperparameter Tuning on the Cloud
+George: Learning to Place Long-Lived Containers in Large Clusters with Operation Constraints (Xiyue)
 Llama: A Heterogeneous & Serverless Framework for Auto-Tuning Video Analytics Pipelines
-CHRONUS: A Novel Deadline-aware Scheduler for Deep Learning Training Jobs
-Scrooge: A Cost-Effective Deep Learning Inference System
-Morphling: Fast, Near-Optimal Auto-Configuration for Cloud-Native Model Serving
+Lorien: Efficient Deep Learning Workloads Delivery (AWS)
 Faa$T: A Transparent Auto-Scaling Cache for Serverless Applications
-Atoll: A Scalable Low-Latency Serverless Platform
-Kraken : Adaptive Container Provisioning for Deploying Dynamic DAG applications in Serverless platforms
-ServerMore: Opportunistic Execution of Serverless Functions in the Cloud
-Mu: An Efficient, Fair and Responsive Serverless Framework for Resource-Constrained Edge Clouds
-Good Things Come to Those Who Wait: Optimizing Job Waiting in the Cloud
+CHRONUS: A Novel Deadline-aware Scheduler for Deep Learning Training Jobs
+On Merits and Viability of Multi-Cloud Serverless (multicloud serverless, cost efficiency)
+ServerMore: Opportunistic Execution of Serverless Functions in the Cloud (resource contention)
+Atoll: A Scalable Low-Latency Serverless Platform (SLO guarantee)
+Parslo: A Gradient Descent-based Approach for Near-optimal Partial SLO Allotment in Microservices
+Morphling: Fast, Near-Optimal Auto-Configuration for Cloud-Native Model Serving
+Elastic Hyperparameter Tuning on the Cloud
+Kraken : Adaptive Container Provisioning for Deploying Dynamic DAG applications in Serverless platforms (SLO complaince)
+Scrooge: A Cost-Effective Deep Learning Inference System
 Mind the Gap: Broken Promises of CPU Reservations in Containerized Multi-tenant Clouds
-George: Learning to Place Long-Lived Containers in Large Clusters with Operation Constraints
-Provisioning Differentiated Last-Level Cache Allocations to VMs in Public Clouds
-Characterizing Microservice Dependency and Performance: Alibaba Trace Analysis
 SHOWAR: Right-Sizing And Efficient Scheduling of Microservices
+Characterizing Microservice Dependency and Performance: Alibaba Trace Analysis (Xiyue)
+Provisioning Differentiated Last-Level Cache Allocations to VMs in Public Clouds
+Mu: An Efficient, Fair and Responsive Serverless Framework for Resource-Constrained Edge Clouds (autoscaling, load balance, placement function)
+Good Things Come to Those Who Wait: Optimizing Job Waiting in the Cloud
+Enabling Sustainable Clouds: The Case for Virtualizing the Energy System
+Tell me when you are sleepy and what may wake you up!
+Latency-Aware Dynamic Server and Cooling Capacity Provisioner for Data Centers
 
-Tell me when you are sleepy and what may wake you up! (Vision)
-Enabling Sustainable Clouds: The Case for Virtualizing the Energy System (Vision)
-On Merits and Viability of Multi-Cloud Serverless (Vision)
+Practical Scheduling for Real-World Serverless Computing (serverless backend scheduling)
 
-# SOSP 2021 / OSDI 2021
+
+# SOSP 2021/OSDI 2021
 Boki: Stateful Serverless Computing with Shared Logs
 Faster and Cheaper Serverless Computing on Harvested Resources
 Pollux: Co-adaptive Cluster Scheduling for Goodput-Optimized Deep Learning
 Gradient Compression Supercharged High-Performance Data Parallel DNN Training
-
+Gillis：Serving Large Neural Networks in Serverless Functions with Automatic Model Partitioning (ICDCS 2021)
+Understanding, predicting and scheduling serverless workloads under partial interference (SC 2021)
 RAS: Continuously Optimized Region-Wide Datacenter Resource Allocation
-Solving Large-Scale Granular Resource Allocation Problems Efficiently with POP
-Bladerunner: Stream Processing at Scale for a Live View of Backend Data Mutations at the Edge
-Using Lightweight Formal Methods to Validate a Key-Value Storage Node in Amazon S3
 Shard Manager: A Generic Shard Management Framework for Geo-distributed Applications
 
 From Cloud to Edge: A First Look at Public Edge Platforms (IMC2021)
@@ -39,7 +41,7 @@ Lessons Learned from Migrating Complex Stateful Applications onto Serverless Pla
 What serverless computing is and should become: the next phase of cloud computing (serverless @all)
 Horus: Interference-Aware and Prediction-Based Scheduling in Deep Learning Systems
 
-# ATC 2021
+# ATC 2021 / OSDI 2021
 Prediction-Based Power Oversubscription in Cloud Platforms
 Proactive Energy-Aware Adaptive Video Streaming on Mobile Devices
 Fine-tuning giant neural networks on commodity hardware with automatic pipeline model parallelism
