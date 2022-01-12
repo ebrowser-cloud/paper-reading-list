@@ -1,8 +1,8 @@
-# 代码开源checklist（todo）
+# 代码开源checklist
 
 by Jiabin Chen
 
-在保持功能的基础上提高代码的可读性。
+代码在实现功能的同时也要有一点点的美观和可读性，如有需求也可参见 google 的编码 [checklist](https://google.github.io/styleguide/)。
 
 ## 代码
 
@@ -26,4 +26,4 @@ by Jiabin Chen
 
 ## 例子
 
-例子请参照：[igniter](https://github.com/icloud-ecnu/igniter)
+例子参照：[igniter](https://github.com/icloud-ecnu/igniter)
