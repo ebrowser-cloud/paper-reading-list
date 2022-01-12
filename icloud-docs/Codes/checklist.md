@@ -2,7 +2,7 @@
 
 by Jiabin Chen
 
-代码在实现功能的同时也要有一点点的美观和可读性，如有需求也可参见 google 的编码 [checklist](https://google.github.io/styleguide/)。
+代码在实现功能的同时也要有一点点的美观和可读性，如有需求也可参见 google 的编码 [Style Guide](https://google.github.io/styleguide/)。
 
 ## 代码
 
@@ -12,7 +12,7 @@ by Jiabin Chen
   * 大文件无法上传至 github 网站的，存到 s3 对象存储
 * 建议：
   * 编写单元测试
-  * 超过40行的时候考虑是否要在不影响程序结构的前提下分解函数
+  * 函数超过40行的时候考虑是否要在不影响程序结构的前提下分解函数
   * 保持编码风格一致，特别是变量和函数名命名风格一致
 
 ## 文档
