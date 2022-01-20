@@ -36,19 +36,19 @@ Christos Kozyrakis：石溪大学应用数学与统计学系的助理教授。�
 
 
 ### 数学建模
-![model](https://cdn.jsdelivr.net/gh/CAD2115/image-hosting@main/20220119/model.26ix1dswu4ps.webp)
+![model](https://cdn.jsdelivr.net/gh/CAD2115/image-hosting@main/20220119/model.26ix1dswu4ps.webp)  
 Cmax整个DAG图的运行时间；Si为算子i的开始时间；Ci为算子i的完成时间；pi为算子i通信时间或者计算时间；Zk为是否需要通信；Xi=0或1代表算子i放在GPU0还是GPU1上；内存限制没说清楚，应该是通过每个算子的输入输出张量大小之和估计算子占用的内存，保证他不超过显存大小。CPU的约束没有Ml那一项，因为这里的实验只有一个CPU。CPU-GPU间的通信限制同理可得。
 
-![non-overlapping](https://cdn.jsdelivr.net/gh/CAD2115/image-hosting@main/20220119/non-overlapping.43aw631k2us0.webp)
+![non-overlapping](https://cdn.jsdelivr.net/gh/CAD2115/image-hosting@main/20220119/non-overlapping.43aw631k2us0.webp)  
 保证GPU每次只调度一个算子。假设Xi = Xj = 1,代表i和
 j都放置gpu-1上。
 
-![congestion-constraint](https://cdn.jsdelivr.net/gh/CAD2115/image-hosting@main/20220119/congestion-constraint.37gkq1dnf7g0.webp)
+![congestion-constraint](https://cdn.jsdelivr.net/gh/CAD2115/image-hosting@main/20220119/congestion-constraint.37gkq1dnf7g0.webp)  
 保证每次总线上只传递一对算子的数据。假设a=1,b=0,
 c=1,b=0。
 
 ### 图增强技术
-![graph-enhancement](https://cdn.jsdelivr.net/gh/CAD2115/image-hosting@main/20220119/graph-enhancement.7gbflr0vppg0.webp)
+![graph-enhancement](https://cdn.jsdelivr.net/gh/CAD2115/image-hosting@main/20220119/graph-enhancement.7gbflr0vppg0.webp)  
 然后通过判断i、j是否在同一个设备上来设置k的计算时间，即等价于考虑了通信时间，并且放在同一设备上通过条件约束使其只能按顺序执行
    
 ### 图粗化技术
@@ -74,17 +74,17 @@ RNNLM、NMT、Transformer、NASNet。
 - Placeto：也是一种基于学习的算法，它使用图嵌入和强化学习来迭代改进所学到的放置策略。
 - Baechi：采用传统的工作调度算法，为DNN模型图寻找在多个GPU上的内存感知的放置方案。
 ### 实验一  每一步的训练时间对比
-![figure7](https://cdn.jsdelivr.net/gh/CAD2115/image-hosting@main/20220119/figure7.16d81s7shvcw.webp)
+![figure7](https://cdn.jsdelivr.net/gh/CAD2115/image-hosting@main/20220119/figure7.16d81s7shvcw.webp)  
 #### 结论：
 pesto表现最好，然后由于NMT和RNN中具备LSTM单元的网格结构，Pesto能够比别的找到更好的放置方案；而对于NASNet，Expert出现显存爆炸的现象，由于Pesto考虑了显存在各个GPU上的负载均衡约束，没有这种问题；
 
 ### 实验二 得到放置方案的时间对比
-![table2](https://cdn.jsdelivr.net/gh/CAD2115/image-hosting@main/20220119/table2.1914lag17h8g.webp)
+![table2](https://cdn.jsdelivr.net/gh/CAD2115/image-hosting@main/20220119/table2.1914lag17h8g.webp)  
 #### 结论：
 baechi虽然找的快，但是前面的实验表明它的训练时间长，即方案不好。
 
 ### 实验三 整体训练时间对比（以人工为基础）
-![table3](https://cdn.jsdelivr.net/gh/CAD2115/image-hosting@main/20220119/table3.4cq04omiijg0.webp)
+![table3](https://cdn.jsdelivr.net/gh/CAD2115/image-hosting@main/20220119/table3.4cq04omiijg0.webp)  
 #### 结论：
 由于进行了图粗化，能够很快找到放置方案，然后又考虑了通信拥塞，又提前知道计算时间和通信时间可以获得一个很好的调度方案且考虑显存约束，所以更好。
 
