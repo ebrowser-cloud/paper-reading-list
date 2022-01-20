@@ -1,6 +1,6 @@
 By AoDong Chen
 # 用Pesto实现DNN中operator的最佳放置和调度
-[Towards Optimal Placement and Scheduling of DNN Operations with Pesto]([extension://oikmahiipjniocckomdccmplodldodja/pdf-viewer/web/viewer.html?file=https%3A%2F%2Fwww3.cs.stonybrook.edu%2F~anshul%2Fmiddleware21_pesto.pdf#=&zoom=180](https://dl.acm.org/doi/pdf/10.1145/3464298.3476132))
+[Towards Optimal Placement and Scheduling of DNN Operations with Pesto](https://dl.acm.org/doi/pdf/10.1145/3464298.3476132)
 
 在本文中，作者设计并实现了Pesto，这是一种快速且接近最优的模型放置技术，用于在多个GPU上自动分割任意的DNN。Pesto的关键思想是在细粒度的operator层面上同时优化模型放置和调度，最大限度地减少GPU间的通信，同时最大限度地增加模型在GPU间的并行度。通过将该问题表述为一个整数线性方程，Pesto可以提供最佳的放置和调度。作者在TensorFlow中实现了Pesto，并表明Pesto与最先进的方法相比，在几个大型的DNN模型中，可以将模型的训练时间降低31%。  
 
