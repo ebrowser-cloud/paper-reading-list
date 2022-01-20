@@ -74,7 +74,7 @@ RNNLM、NMT、Transformer、NASNet。
 ### 实验一  每一步的训练时间对比
 ![figure7](https://cdn.jsdelivr.net/gh/CAD2115/image-hosting@main/20220119/figure7.16d81s7shvcw.webp)  
 #### 结论：
-pesto表现最好，然后由于NMT和RNN中具备LSTM单元的网格结构，Pesto能够比别的找到更好的放置方案；而对于NASNet，Expert出现显存爆炸的现象，由于Pesto考虑了显存在各个GPU上的负载均衡约束，没有这种问题；
+pesto表现最好，然后由于NMT和RNN中具备LSTM单元的网格结构，Pesto能够比别的找到更好的放置方案；而对于NASNet，Expert出现显存爆炸的现象，由于Pesto考虑了显存在各个GPU上的负载均衡约束，没有这种问题。
 
 ### 实验二 得到放置方案的时间对比
 ![table2](https://cdn.jsdelivr.net/gh/CAD2115/image-hosting@main/20220119/table2.1914lag17h8g.webp)  
