@@ -2,6 +2,18 @@
 Honeycomb: Fine-grained Sharing of Ephemeral Storage for Serverless Analytics
 Varuna: Scalable, Low-cost Training of Massive Deep Learning Models
 
+# ASPLOS 2022
+IceBreaker: Warming Serverless Functions Better with Heterogeneity
+INFless: A Native Serverless System for Low-latency, High-throughput Inference
+FaaSFlow: Enable Efficient Workflow Execution for Function-as-a-Service
+Serverless Computing on Heterogeneous Computers
+CoolEdge: Hotspot-relievable Warm Water Cooling for Energy-efficient Edge Datacenters
+
+Astraea: Towards QoS-Aware and Resource-Efficient Multi-stage GPU Services
+Memory-Harvesting VMs in Cloud Platforms
+Breaking the Computation and Communication Abstraction Barrier in Distributed Machine Learning Workloads
+VELTAIR: Towards High-Performance Multi-Tenant Deep Learning Services via Adaptive Compilation and Scheduling
+AStitch: Enabling A New Multi-Dimensional Optimization Space for Memory-Intensive ML Training and Inference on Modern SIMT Architectures
 
 # NSDI 2022
 A Case for Task Sampling based Learning for Cluster Job Scheduling
