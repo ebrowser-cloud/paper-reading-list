@@ -1,6 +1,10 @@
 # Eurosys 2022
-Honeycomb: Fine-grained Sharing of Ephemeral Storage for Serverless Analytics
+Jiffy: Elastic Far-Memory for Stateful Serverless Analytics
 Varuna: Scalable, Low-cost Training of Massive Deep Learning Models
+DeepRest: Deep Resource Estimation for Interactive Microservices
+Unicorn: Reasoning about Configurable System Performance through the lens of Causality
+GNNLab: A Factored System for Sample-based GNN Training over GPUs
+Out-Of-Order BackProp: An Effective Scheduling Technique for Deep Learning
 
 # ASPLOS 2022
 IceBreaker: Warming Serverless Functions Better with Heterogeneity
