@@ -1,5 +1,7 @@
 By Xinyi Zhang
+
 # Singularity: 针对AI 工作负载的行星级、抢占式和弹性调度
+
 [Singularity: Planet-Scale, Preemptive and Elastic Scheduling of AI Workloads](https://arxiv.org/pdf/2202.07848.pdf)
 
 
@@ -10,35 +12,42 @@ By Xinyi Zhang
 
 
 ## 论文作者
+
 * Dharma Shukla：微软员工，研究方向：分布式系统、人工智能系统。  
 * Muthian Sivathanu：微软研究院，研究方向：大规模分布式系统。  
+
 ## 论文动机
+
 对于深度学习工作负载的要求主要在降低成本和高利用率上；针对调度服务的要求主要集中在高效、可靠、可同时用于深度学习训练和推理工作负载。
 
 ## 设计目标
+
 * 基于给定的加速器（例如GPU）容量，通过最大化作业吞吐量来降低运行成本
 * 基于不同定价下的资源，为作业提供严格的 SLA
 
 ### 设计原则
+
 * 无空闲资源：将所有资源视为一个共享集群
 * 提供作业级的SLAs：使具有较低 SLA 的作业能够机会性地使用备用容量，并迅速被抢占
 * 针对失败作业：作业从被抢占的地方恢复，从而最大限度地减少浪费。
 
 ## 关键机制概述
+
 * 对用户透明
-    * 目前针对checkpoint和弹性的方法主要为用户直接编写代码或使用特定的库
-    * Singularity代码不需要用户的参与，隐藏了复杂的细节
+  * 目前针对checkpoint和弹性的方法主要为用户直接编写代码或使用特定的库
+  * Singularity代码不需要用户的参与，隐藏了复杂的细节
 
 * 工作节约
-    * Checkpoint由workers的连续快照所组成，这些快照涵盖了完整的程序状态，例如指令指针、堆栈等
-    * 作业可随时恢复，不会丢失数据
+  * Checkpoint由workers的连续快照所组成，这些快照涵盖了完整的程序状态，例如指令指针、堆栈等
+  * 作业可随时恢复，不会丢失数据
 
 * 解耦执行
-    * 解耦作业和底层资源之间的映射，方便后续作业的抢占和恢复
-    * 提高作业的可靠性、提高资源的利用率
+  * 解耦作业和底层资源之间的映射，方便后续作业的抢占和恢复
+  * 提高作业的可靠性、提高资源的利用率
 
 
 # Device Proxy
+
 ### 概述
 
 * Device Proxy是GPU的硬件抽象服务
@@ -46,14 +55,16 @@ By Xinyi Zhang
 * 与设备交互的每个进程中都会嵌入一个客户端组件。  
 * 主机调用的所有GPU API都会被拦截并发送到proxy
 * Proxy运行在独立的地址空间中：
-    * 使主机地址空间免受设备映射和其他例如CRIU的影响
-    * 允许proxy在弹性时间切片期间在多个工作进程之间有效共享  
+  * 使主机地址空间免受设备映射和其他例如CRIU的影响
+  * 允许proxy在弹性时间切片期间在多个工作进程之间有效共享  
 
-![image-20220406212534622](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20220406212534622.png)
+![](https://github.com/XinyiZhang-ecnu/photo/blob/main/device%20proxy.png?raw=true) 
+
+
 
 ### 组成
 
-#### Dispatch Interceptors (D~INT~ ) 
+#### Dispatch Interceptors (D<sub>INT</sub> ) 
 
 * 拦截作业调用的所有设备调用并将其发送到到 device-proxy 服务器
 * 将 API 跨地址空间传送到 device-proxy 服务器
@@ -61,7 +72,7 @@ By Xinyi Zhang
 
 
 
-#### Semantics-Aware Interceptors (SA~INT~)
+#### Semantics-Aware Interceptors (SA<sub>INT</sub>)
 
 - 在客户端或服务器端实现自定义逻辑，大部分逻辑使用一个硬件抽象层映射到设备特定的API，硬件抽象层中封装了通用功能
 
@@ -122,7 +133,9 @@ Singularity:
 * 作业以相同的workers运行
 * 调度程序可以将每个worker一对一映射到物理 GPU（放大），或使用多对一映射，其中物理 GPU 被虚拟化并跨多个workers进行时间切片（缩小）
 
-![image-20220406213216333](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20220406213216333.png)
+
+![](https://github.com/XinyiZhang-ecnu/photo/blob/main/elasticity.png?raw=true)
+
 
 * Transparent Elasticity建立迁移的支持之上
   * 将作业从 4 个 GPU 缩减到 1 个 GPU，只需采用 3 个 CRIU 检查点，然后通过时间片将这些进程迁移到单个 GPU
@@ -134,14 +147,14 @@ Singularity:
 
 
 
-### **Replica** **splicin**g
+### **Replica splicing**
 
 * 原因：上下文切换速度较慢且开销较大
 * 训练作业消耗的 GPU 内存分为四类： 
   1. 参数 (P)。模型每一层的权重/参数；在这些张量上运行正向和反向传递。 
-  2.  优化器状态 (O)。优化器跟踪状态以计算每次迭代用于参数的增量。跟踪历史状态（例如，梯度的第一和第二时刻） 
-  3.  梯度 (G)。每个replica都有自己的梯度拷贝，对应于它的小批量。在反向传递之后，所有replica的梯度被平均，然后用于一致地更新权重。
-  4.  激活 (A)。每层前向传递的中间输出；在反向传播期间用于计算相对于反向传播输入的梯度。
+  2. 优化器状态 (O)。优化器跟踪状态以计算每次迭代用于参数的增量。跟踪历史状态（例如，梯度的第一和第二时刻） 
+  3. 梯度 (G)。每个replica都有自己的梯度拷贝，对应于它的小批量。在反向传递之后，所有replica的梯度被平均，然后用于一致地更新权重。
+  4. 激活 (A)。每层前向传递的中间输出；在反向传播期间用于计算相对于反向传播输入的梯度。
 
 实现技术的重难点：
 
@@ -168,8 +181,8 @@ Singularity:
 
 ## 实现难点
 
-* 序列化不透明参数：D~INT~签名不透明
-  * SA~INT~使用cuObjDump，是CUDA 工具包中的一个二进制实用程序，用于解析生成的内核库并提取参数信息
+* 序列化不透明参数：D<sub>INT</sub>签名不透明
+  * SA<sub>INT</sub>使用cuObjDump，是CUDA 工具包中的一个二进制实用程序，用于解析生成的内核库并提取参数信息
   * 通过解析生成的 PTX 来提取参数签名
 
 
@@ -188,8 +201,11 @@ Singularity:
 
 
 ## 实验
+
 ### 实验设置
-![image-20220406213955086](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20220406213955086.png)
+
+
+![](https://github.com/XinyiZhang-ecnu/photo/blob/main/model.png?raw=true)
 
 - 实验放置在  NVIDIA DGX-2 servers (8 V100 GPUs per node with NVLink connectivity);
 
@@ -198,27 +214,30 @@ Singularity:
   
 
 ### 实验一 device-proxy的开销
-![image-20220406214111227](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20220406214111227.png)
+
+![](https://github.com/XinyiZhang-ecnu/photo/blob/main/device%20proxy%20overhead.png?raw=true)
 
 #### 结论： 
+
 Device-proxy 对端到端性能的影响可以忽略不计，在大多数模型中开销低于 3%，包括使用数据并行、张量并行和管道组合的 GPT-2 和 InternalT -并行性。
 
 
 
 ### 实验二 checkpoint 大小
-![image-20220406214157825](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20220406214157825.png)
 
 
+![](https://github.com/XinyiZhang-ecnu/photo/blob/main/checkpoint%20size.png?raw=true)
 
-![image-20220406215302173](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20220406215302173.png)
 
-S~G~是单个数据并行副本的 GPU 状态（参数和优化器状态）大小，S~pwCr~是每个worker的 CRIU 转储大小
+![](https://github.com/XinyiZhang-ecnu/photo/blob/main/checkpoint%20calculate.png?raw=true)
+
+S<sub>G</sub>是单个数据并行副本的 GPU 状态（参数和优化器状态）大小，S<sub>pwCr</sub>是每个worker的 CRIU 转储大小
 
 
 
 #### 结论： 
 
-* S~G~与用户级checkpoints相当
+* S<sub>G</sub>与用户级checkpoints相当
 * 于 CPU 状态的 CRIU 检查点，有两个数字：第一个checkpoint的大小和后续checkpoints的大小（代表连续检查点场景）。
 * 由于时间重复数据会被删除，对于许多模型，后续检查点比第一个检查点小一个数量级。
 * 对于第一个检查点，即使对于大型作业，这非常易于管理的。
@@ -227,16 +246,20 @@ S~G~是单个数据并行副本的 GPU 状态（参数和优化器状态）大�
 
 
 ### 实验三 **Replica splicing**的性能
-![image-20220406215549382](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20220406215549382.png)
+
+![](https://github.com/XinyiZhang-ecnu/photo/blob/main/replica%20splicing.png?raw=true)
+
 #### 结论：
+
 图中显示了在两种配置下各种模型的replica splicing导致的开销：2 路时间切片和 4 路时间切片。在每一个中，我们将我们的时间切片运行与完全放大模式下未修改的 PyTorch（没有 Singularity）的基线运行进行比较。使用 N 路时间切片，小批量时间预计会增加 N 倍（即相同的工作但更少的 GPU）；超出此范围的任何增加都是开销。可以看出，对于大多数模型，按比例缩小模式（右 Y 轴）中时间切片引入的开销小于 3%，证明了replica splicing的有效性。
 
 
 
 ### 实验四 迁移以及资源动态缩放的延迟
-![image-20220406215915532](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20220406215915532.png)
 
- 
+![](https://github.com/XinyiZhang-ecnu/photo/blob/main/migration%20and%20resizing%20latency.png?raw=true)
+
+
 
  延迟原因：
 
@@ -253,6 +276,7 @@ S~G~是单个数据并行副本的 GPU 状态（参数和优化器状态）大�
 
 
 #### 结论：
+
 对于大多数模型，迁移或调整大小的这种端到端延迟为数十秒，其中一半以上的时间用于从远程 Azure blob 存储上传和下载（显示为传输时间）。 
 
 
@@ -284,6 +308,7 @@ S~G~是单个数据并行副本的 GPU 状态（参数和优化器状态）大�
 
 
 ## 总结
+
 * Singularity 将弹性等小众特性转化为主流特性
 * 调度程序可以依赖这些特性来实施严格的 SLA
 * Singularity 使作业可抢占并可调整大小且性能开销忽略不计，使作业能够利用备用容量并保证 SLA
