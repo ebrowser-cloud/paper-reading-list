@@ -1,3 +1,5 @@
+#ATC 2022
+
 # Eurosys 2022
 Jiffy: Elastic Far-Memory for Stateful Serverless Analytics
 Varuna: Scalable, Low-cost Training of Massive Deep Learning Models
@@ -18,14 +20,10 @@ AStitch: Enabling A New Multi-Dimensional Optimization Space for Memory-Intensiv
 
 # NSDI 2022
 A Case for Task Sampling based Learning for Cluster Job Scheduling
-Starlight: Fast Container Provisioning on the Edge and over the WAN
 MLaaS in the Wild: Workload Analysis and Scheduling in Large-Scale Heterogeneous GPU Clusters
 Check-N-Run: a Checkpointing System for Training Deep Learning Recommendation Models
-Accelerating Collective Communication in Data Parallel Training across Deep Learning Frameworks
 Cocktail: A Multidimensional Optimization for Model Serving in Cloud
-NetHint: White-Box Networking for Multi-Tenant Data Centers
 CloudCluster: Unearthing the Functional Structure of a Cloud Service
-Optimizing Network Provisioning through Cooperation
 
 # SOCC 2021
 George: Learning to Place Long-Lived Containers in Large Clusters with Operation Constraints (Xiyue)
