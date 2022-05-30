@@ -1,14 +1,17 @@
+#ATC 2022
+
 # Eurosys 2022
-Honeycomb: Fine-grained Sharing of Ephemeral Storage for Serverless Analytics
+Jiffy: Elastic Far-Memory for Stateful Serverless Analytics
 Varuna: Scalable, Low-cost Training of Massive Deep Learning Models
+DeepRest: Deep Resource Estimation for Interactive Microservices
+GNNLab: A Factored System for Sample-based GNN Training over GPUs
+Out-Of-Order BackProp: An Effective Scheduling Technique for Deep Learning
 
 # ASPLOS 2022
 IceBreaker: Warming Serverless Functions Better with Heterogeneity
 INFless: A Native Serverless System for Low-latency, High-throughput Inference
 FaaSFlow: Enable Efficient Workflow Execution for Function-as-a-Service
 Serverless Computing on Heterogeneous Computers
-CoolEdge: Hotspot-relievable Warm Water Cooling for Energy-efficient Edge Datacenters
-
 Astraea: Towards QoS-Aware and Resource-Efficient Multi-stage GPU Services
 Memory-Harvesting VMs in Cloud Platforms
 Breaking the Computation and Communication Abstraction Barrier in Distributed Machine Learning Workloads
@@ -17,14 +20,11 @@ AStitch: Enabling A New Multi-Dimensional Optimization Space for Memory-Intensiv
 
 # NSDI 2022
 A Case for Task Sampling based Learning for Cluster Job Scheduling
-Starlight: Fast Container Provisioning on the Edge and over the WAN
 MLaaS in the Wild: Workload Analysis and Scheduling in Large-Scale Heterogeneous GPU Clusters
 Check-N-Run: a Checkpointing System for Training Deep Learning Recommendation Models
-Accelerating Collective Communication in Data Parallel Training across Deep Learning Frameworks
 Cocktail: A Multidimensional Optimization for Model Serving in Cloud
-NetHint: White-Box Networking for Multi-Tenant Data Centers
-CloudCluster: Unearthing the Functional Structure of a Cloud Service
-Optimizing Network Provisioning through Cooperation
+Accelerating Collective Communication in Data Parallel Training across Deep Learning Frameworks
+Starlight: Fast Container Provisioning on the Edge and over the WAN
 
 # SOCC 2021
 George: Learning to Place Long-Lived Containers in Large Clusters with Operation Constraints (Xiyue)
