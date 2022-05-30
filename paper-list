@@ -23,6 +23,8 @@ A Case for Task Sampling based Learning for Cluster Job Scheduling
 MLaaS in the Wild: Workload Analysis and Scheduling in Large-Scale Heterogeneous GPU Clusters
 Check-N-Run: a Checkpointing System for Training Deep Learning Recommendation Models
 Cocktail: A Multidimensional Optimization for Model Serving in Cloud
+Accelerating Collective Communication in Data Parallel Training across Deep Learning Frameworks
+Starlight: Fast Container Provisioning on the Edge and over the WAN
 
 # SOCC 2021
 George: Learning to Place Long-Lived Containers in Large Clusters with Operation Constraints (Xiyue)
