@@ -1,13 +1,22 @@
-#ATC 2022
+# ATC 2022
+RunD: A Lightweight Secure Container Runtime for High-density Deployment and High-concurrency Startup in Serverless Computing
 Help Rather Than Recycle: Alleviating Cold Startup in Serverless Computing Through Inter-Function Container Sharing
 DVABatch: Diversity-aware Multi-Entry Multi-Exit Batching for Efficient Processing of DNN Services on GPUs
 Serving Heterogeneous Machine Learning Models on Multi-GPU Servers with Spatio-Temporal Sharing
 PilotFish: Harvesting Free Cycles of Cloud Gaming with Deep Learning Training
 Tetris: Memory-efficient Serverless Inference through Tensor Sharing
 Whale: Efficient Giant Model Training over Heterogeneous GPUs
-DynamoDB: A Scalable, Predictable, and Managed NoSQL DataStore
-
+Amazon DynamoDB: A Scalable, Predictably Performant, and Fully Managed NoSQL Database Service
 Band: coordinated multi-DNN inference on heterogeneous mobile processors (mobisys 22)
+
+# OSDI
+Alpa: Automating Inter- and Intra-Operator Parallelism for Distributed Deep Learning
+CAP-VMs: Capability-Based Isolation and Sharing in the Cloud
+Looking Beyond GPUs for DNN Scheduling on Multi-Tenant Clusters
+Microsecond-scale Preemption for Concurrent GPU-accelerated DNN Inferences
+ORION and the Three Rights: Sizing, Bundling, and Prewarming for Serverless DAGs
+ROLLER: Fast and Efficient Tensor Compilation for Deep Learning
+Walle: An End-to-End, General-Purpose, and Large-Scale Production System for Device-Cloud Collaborative Machine Learning
 
 # Eurosys 2022
 Jiffy: Elastic Far-Memory for Stateful Serverless Analytics
