@@ -1,3 +1,14 @@
+# SOCC 2022
+Building Heterogeneous Cloud System for Machine Learning Inference (Qiannan)
+Owl: Performance-Aware Scheduling for Resource-Efficient Function-as-a-Service Cloud (Jiabin)
+Workload Consolidation in Alibaba Clusters：The Good, the Bad, and the Ugly (Xinyi, Shuohao)
+
+# SIGCOMM 2022
+Multi-resource interleaving for deep learning training (Xinyi)
+Mobile access bandwidth in practice: measurement, analysis, and implications
+From luna to solar: the evolutions of the compute-to-storage networks in Alibaba cloud (Shuohao)
+Congestion-aware Critical Gradient Scheduling for Distributed Machine Learning in Data Center Networks (IEEE TCC)
+
 # ATC 2022
 RunD: A Lightweight Secure Container Runtime for High-density Deployment and High-concurrency Startup in Serverless Computing
 Help Rather Than Recycle: Alleviating Cold Startup in Serverless Computing Through Inter-Function Container Sharing
@@ -9,7 +20,7 @@ Whale: Efficient Giant Model Training over Heterogeneous GPUs
 Amazon DynamoDB: A Scalable, Predictably Performant, and Fully Managed NoSQL Database Service
 Band: coordinated multi-DNN inference on heterogeneous mobile processors (mobisys 22)
 
-# OSDI
+# OSDI 2022
 Alpa: Automating Inter- and Intra-Operator Parallelism for Distributed Deep Learning
 CAP-VMs: Capability-Based Isolation and Sharing in the Cloud
 Looking Beyond GPUs for DNN Scheduling on Multi-Tenant Clusters
