@@ -1,9 +1,12 @@
 # SOCC 2022
+Building Heterogeneous Cloud System for Machine Learning Inference (Qiannan)
+Owl: Performance-Aware Scheduling for Resource-Efficient Function-as-a-Service Cloud (Jiabin)
+Workload Consolidation in Alibaba Clusters：The Good, the Bad, and the Ugly (Xinyi, Shuohao)
 
 # SIGCOMM 2022
-Multi-resource interleaving for deep learning training
+Multi-resource interleaving for deep learning training (Xinyi)
 Mobile access bandwidth in practice: measurement, analysis, and implications
-From luna to solar: the evolutions of the compute-to-storage networks in Alibaba cloud
+From luna to solar: the evolutions of the compute-to-storage networks in Alibaba cloud (Shuohao)
 Congestion-aware Critical Gradient Scheduling for Distributed Machine Learning in Data Center Networks (IEEE TCC)
 
 # ATC 2022
