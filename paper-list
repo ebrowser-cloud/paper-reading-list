@@ -5,9 +5,9 @@ Workload Consolidation in Alibaba Clusters：The Good, the Bad, and the Ugly (Xi
 
 Scalable Input Data Processing for Resource-Efficient Machine Learning (keynote)
 Arax: A Runtime Framework for Decoupling Applications from Heterogeneous Accelerators
-DeepScaling: Microservices AutoScaling for Stable CPU Utilization in Large Scale Cloud Systems
+DeepScaling: Microservices AutoScaling for Stable CPU Utilization in Large Scale Cloud Systems (Jiabin & Shuohao)
 Demeter: QoS-Aware CPU Scheduling to Reduce Power Consumption of Multiple Black-Box Workloads
-ESCHER: Expressive Scheduling with Ephemeral Resources
+ESCHER: Expressive Scheduling with Ephemeral Resources (Ruitao)
 How to Fight Production Incidents? An Empirical Study on a Large-scale Cloud Service
 MISO: Exploiting Multi-Instance GPU Capability on Multi-Tenant GPU Clusters (Xinyi)
 
@@ -19,7 +19,7 @@ Characterizing and Orchestrating VM Reservation in Geo-distributed Clouds to Imp
 Accelerating Large-Scale Distributed Neural Network Training with SPMD Parallelism
 
 GreenDRL: Managing Green Datacenters Using Deep Reinforcement Learning (Shuohao)
-Achieving Low Latency in Public Edges by Hiding Workloads Mutual Interference
+Achieving Low Latency in Public Edges by Hiding Workloads Mutual Interference (Shuohao)
 CoSpot: A Cooperative VM Allocation Framework for Increased Revenue from Spot Instances (Ruitao)
 
 
