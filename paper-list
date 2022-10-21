@@ -3,6 +3,26 @@ Building Heterogeneous Cloud System for Machine Learning Inference (Qiannan)
 Owl: Performance-Aware Scheduling for Resource-Efficient Function-as-a-Service Cloud (Jiabin)
 Workload Consolidation in Alibaba Clusters：The Good, the Bad, and the Ugly (Xinyi, Shuohao)
 
+Scalable Input Data Processing for Resource-Efficient Machine Learning (keynote)
+Arax: A Runtime Framework for Decoupling Applications from Heterogeneous Accelerators
+DeepScaling: Microservices AutoScaling for Stable CPU Utilization in Large Scale Cloud Systems (Jiabin & Shuohao)
+Demeter: QoS-Aware CPU Scheduling to Reduce Power Consumption of Multiple Black-Box Workloads
+ESCHER: Expressive Scheduling with Ephemeral Resources (Ruitao)
+How to Fight Production Incidents? An Empirical Study on a Large-scale Cloud Service
+MISO: Exploiting Multi-Instance GPU Capability on Multi-Tenant GPU Clusters (Xinyi)
+
+Cypress: Input size–Sensitive Container Provisioning and Request Scheduling for Serverless Platforms (Jiabin)
+Hermod: Principled and Practical Scheduling for Serverless Functions (Jiabin)
+SIMPPO: A Scalable and Incremental Online Learning Framework for Serverless Resource Management (Jiabin)
+The Power of Prediction: Microservice Auto Scaling via Workload Learning (Jiabin)
+Characterizing and Orchestrating VM Reservation in Geo-distributed Clouds to Improve the Resource Efficiency
+Accelerating Large-Scale Distributed Neural Network Training with SPMD Parallelism
+
+GreenDRL: Managing Green Datacenters Using Deep Reinforcement Learning (Shuohao)
+Achieving Low Latency in Public Edges by Hiding Workloads Mutual Interference (Shuohao)
+CoSpot: A Cooperative VM Allocation Framework for Increased Revenue from Spot Instances (Ruitao)
+
+
 # SIGCOMM 2022
 Multi-resource interleaving for deep learning training (Xinyi)
 Mobile access bandwidth in practice: measurement, analysis, and implications
