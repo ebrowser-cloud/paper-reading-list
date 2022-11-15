@@ -30,7 +30,7 @@ http://2019.rtss.org/wp-content/uploads/2020/05/240_Presentation.pdf
 
 * 引入一个节点的概念，每一个节点 $p_k$ 都是 $R$ 的一个子集， $R = \bigcup p_k$ ，并且保证 $i!=j,p_i \bigcap p_j = \varnothing$ 。
 
-  * $p_k$ 是一个CPU节点，则只有==一种==CPU类型的核。【==同质CPU集群==】
+  * $p_k$ 是一个CPU节点，则只有一种CPU类型的核。【同质CPU集群】
 
   * $p_k$ 是一个GPU节点，它有一个 GPU 以及一个 CPU 来支持 GPU 相关的操作。
 
@@ -54,7 +54,7 @@ $$
 
 每一个请求的执行会被分割成多个层的执行，每一层的执行时间取决于该层在哪个节点上执行。
 
-$\tau_{i,j}$ 表示任务 $\tau_i$  的第 $j$ 层。$C_{i,j}(p_k)$ 表示 $\tau_{i,j}$ 在 $p_k$ 这个节点上执行所花费的时间。
+$\tau_{i,j}$ 表示任务 $\tau_i$  的第 $j$ 层。$C_{i,j} (p_k)$ 表示 $\tau_{i,j}$ 在 $p_k$ 这个节点上执行所花费的时间。
 
 * 如果在CPU节点上执行，则 $C_{i,j}(p_k)$ 表示在该节点速度最慢的CPU核上执行所需要的时间。
 
@@ -81,7 +81,7 @@ $\tau_{i,j}$ 表示任务 $\tau_i$  的第 $j$ 层。$C_{i,j}(p_k)$ 表示 $\tau
 * execution pipeline：请求的stage的执行顺序。是串行执行的，后面的stage的输入依赖于前面的stage的结果。
 * worker：一个调度器单元，它执行到达相应节点的每个任务阶段。
 
-三个抽象设置的原因是：==DNN 任务的每一层可能对异构计算资源提供的并行化级别具有不同的敏感性==。
+三个抽象设置的原因是：DNN 任务的每一层可能对异构计算资源提供的并行化级别具有不同的敏感性。
 
 
 
@@ -112,7 +112,7 @@ $\tau_{i,j}$ 表示任务 $\tau_i$  的第 $j$ 层。$C_{i,j}(p_k)$ 表示 $\tau
 * 使用现有的多线程库的单进程来处理。
 * 使用OpenBLAS-rt的DART
 
-<img src="/Users/echozhou/Library/Application Support/typora-user-images/image-20221110100519636.png" alt="image-20221110100519636" style="zoom:50%;" />
+<img src="https://s3.bmp.ovh/imgs/2022/11/10/6c018a4cdf654487.png" alt="image-20221110100519636" style="zoom:50%;" />
 
 实验配置：
 
