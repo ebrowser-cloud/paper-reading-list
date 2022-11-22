@@ -1,5 +1,15 @@
 # Serving DNNs like Clockwork: Performance Predictability from the Bottom Up
 
+**[Serving DNNs like Clockwork: Performance Predictability from the Bottom Up](https://www.usenix.org/conference/osdi20/presentation/gujarati)** 
+
+## 论文作者：
+
+* Arpan Gujarati：马克斯普朗克软件系统研究所
+* Reza Karimi：埃默里大学
+* Safya Alzayat、Wei Hao、Antoine Kaufmann：马克斯普朗克软件系统研究所；
+* Ymir Vigfusson：埃默里大学
+* Jonathan Mace：马克斯普朗克软件系统研究所
+
 ## 研究背景：
 
 * 在云上进行推理很困难，主要表现在：1）模型种类特别多，不同的模型类型有着不同的资源需求；2）请求以不同的速率和规律到达；3）每一个请求都有延迟约束；4）GPU可以加速推理，可以很大程度的提高吞吐量，降低推理时延；5）GPU硬件资源更加昂贵，需要进行资源共享。
