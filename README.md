@@ -3,7 +3,7 @@ Reading paper list for iCloud-ECNU Group
 
 # research directions:
 ## Resource Provisioning for Predictable Cloud Computing
-spotDNN: Spot instance provisioning for predictable distributed DNN training (Ruitao-2023)  
+Spot instance provisioning for predictable distributed DNN training (Ruitao-2023)  
 iGniter: Interference-aware GPU resource provisioning for predictable DNN inference (Jianian-2022)  
 LambdaDNN: Serverless function provisioning for predictable distributed DNN training (Yiling-2021)  
 Cynthia: VM instance provisioning for predictable distributed DNN training (Haoyue-2020)  
