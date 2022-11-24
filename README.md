@@ -2,18 +2,22 @@
 Reading paper list for iCloud-ECNU Group
 
 # research directions:
-## Predictable cloud computing
-Container scheduling and fair pricing for cloud NoSQL databases (Xiyue)  
+## Resource Provisioning for Predictable Cloud Computing
+Spot instance provisioning for predictable distributed DNN training (Ruitao-2023)  
 iGniter: Interference-aware GPU resource provisioning for predictable DNN inference (Jianian-2022)  
 LambdaDNN: Serverless function provisioning for predictable distributed DNN training (Yiling-2021)  
-Cynthia: VM instance provisioning for predictable distributed DNN training (Haoyue-2019)  
-iSpot: Spot instance provisioning for predictable big data analytics (Huan & Haoyue & Wujie-2018)  
+Cynthia: VM instance provisioning for predictable distributed DNN training (Haoyue-2020)  
+iSpot: Spot instance provisioning for predictable big data analytics (Huan & Haoyue & Wujie-2019)  
 
-## Distributed machine learning systems
+## Performance Optimization of Distributed Machine Learning Systems
 Resource scheduling for distributed machine learning clusters (Xinyi)  
-Performance optimization for heterogeneous distributed DNN training (Ruitao)  
-Nebula & Prophet: Communication scheduling optmization for distributed machine learning (Qiang-2020)  
-DelayStage: Tasks scheduling for performance optimization of DAG-style data analytics (Wujie-2019)  
+Performance optimization of DNN inference serving (Qiannan)  
+Cold start optimization of serverless functions (Jiabin)  
+Speeding up DNN inference with concurrent execution of DNN operators (Aodong)  
+Interference-aware live migration of containers (Shuohao)  
+Tetris: Scheduling long-running containerized workloads for load balancing in shared clusters (Xiyue-2023)  
+Nebula & Prophet: Communication scheduling optmization for distributed machine learning (Qiang-2021)  
+DelayStage: Tasks scheduling for performance optimization of DAG-style data analytics (Wujie-2020)
 
-## Collaborative cloud-edge computing
-eBrowser: Energy-efficient mobile Web browser (Shuai-2018)  
+## Collaborative Cloud-Edge Computing
+eBrowser: Energy-efficient mobile Web browser (Shuai-2018)
