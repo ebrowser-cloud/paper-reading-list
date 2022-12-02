@@ -248,7 +248,7 @@ baseline：基于等待的抢占，在其上面实现了并发和lazy eviction�
 
 **Preemption latency**
 
-<img src="/Users/echozhou/Library/Application Support/typora-user-images/image-20221126192500761.png" alt="image-20221126192500761" style="zoom:50%;" />
+<img src="https://s3.uuu.ovh/imgs/2022/12/02/f70d4c1ad1b14d87.png" alt="image-20221126192500761" style="zoom:50%;" />
 
 实验结果：对于所有 DISB 工作负载，基于重置的抢占优于基于等待的方法超过一个数量级，从 15.3× (DISB E) 到 18.5× (DISB C)。
 
