@@ -1,3 +1,11 @@
+# Eurosys 2023
+OLPart: Online Learning based Resource Partitioning for Colocating Multiple Latency-Critical Jobs on Commodity Computers (Shuohao)
+SiloD: A Co-design of Caching and Scheduling for Deep Learning Clusters (Xinyi)
+Groundhog: Efficient Request Isolation in FaaS (Jiabin)
+Hi-Speed DNN Training with Espresso: Unleashing the Full Potential of Gradient Compression with Near-Optimal Usage Strategies (Jiabin)
+With Great Freedom Comes Great Opportunity: Rethinking Resource Allocation for Serverless Functions (Jiabin)
+Fast and Efficient Model Serving Using Multi-GPUs with Direct-Host-Access (Aodong)
+
 # ASPLOS 2023
 AQUATOPE: QoS-and-Uncertainty-Aware Resource Management for Multi-stage ServerlessWorkflows (Jiabin)
 ElasticFlow: An Elastic Serverless Training Platform for Distributed Deep Learning (Jiabin)
