@@ -7,10 +7,11 @@ With Great Freedom Comes Great Opportunity: Rethinking Resource Allocation for S
 Fast and Efficient Model Serving Using Multi-GPUs with Direct-Host-Access (Aodong)
 
 # ASPLOS 2023
-AQUATOPE: QoS-and-Uncertainty-Aware Resource Management for Multi-stage ServerlessWorkflows (Jiabin)
+AQUATOPE: QoS-and-Uncertainty-Aware Resource Management for Multi-stage Serverless Workflows (Jiabin)
 ElasticFlow: An Elastic Serverless Training Platform for Distributed Deep Learning (Jiabin)
 Erms: Efficient Resource Management for Shared Microservices with SLA Guarantees (Shuohao)
 Overlap Communication with Dependent Computation via Decomposition in Large Deep Learning Models
+Lucid: A Non-intrusive, Scalable and Interpretable Scheduler for Deep Learning Training Jobs (Xinyi)
 
 # Middleware 2022
 Optimizing Communication in Deep Reinforcement Learning with XingTian
