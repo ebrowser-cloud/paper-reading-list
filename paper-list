@@ -1,5 +1,5 @@
 # NSDI 2023
-Transparent GPU Sharing in Container Clouds for Deep Learning Workloads (Shuohao)
+*Transparent GPU Sharing in Container Clouds for Deep Learning Workloads (Shuohao)
 Zeus: Understanding and Optimizing GPU Energy Consumption of DNN Training (Qiannan)
 Unlocking unallocated cloud capacity for long, uninterruptible workloads (Shuohao)
 Shockwave: Fair and Efficient Cluster Scheduling for Dynamic Adaptation in Machine Learning (Xinyi)
@@ -8,18 +8,18 @@ Better Together: Jointly Optimizing ML Collective Scheduling and Execution Plann
 SHEPHERD: Serving DNNs in the Wild (Aodong)
 ModelKeeper: Accelerating DNN Training via Automated Training Warmup (Qiannan)
 TopoOpt: Co-optimizing Network Topology and Parallelization Strategy for Distributed Training Jobs (Qiannan)
-SelfTune: Tuning Cluster Managers (*)
+*SelfTune: Tuning Cluster Managers (*)
 Skyplane: Optimizing Transfer Cost and Throughput Using Cloud-Aware Overlays (*)
-Following the Data, Not the Function: Rethinking Function Orchestration in Serverless Computing (Jiabin)
+*Following the Data, Not the Function: Rethinking Function Orchestration in Serverless Computing (Jiabin)
 Doing More with Less: Orchestrating Serverless Applications without an Orchestrator (Jiabin)
 
 # Eurosys 2023
-OLPart: Online Learning based Resource Partitioning for Colocating Multiple Latency-Critical Jobs on Commodity Computers (Shuohao)
-SiloD: A Co-design of Caching and Scheduling for Deep Learning Clusters (Xinyi)
+*OLPart: Online Learning based Resource Partitioning for Colocating Multiple Latency-Critical Jobs on Commodity Computers (Shuohao)
+*SiloD: A Co-design of Caching and Scheduling for Deep Learning Clusters (Xinyi)
 Groundhog: Efficient Request Isolation in FaaS (Jiabin)
 Hi-Speed DNN Training with Espresso: Unleashing the Full Potential of Gradient Compression with Near-Optimal Usage Strategies (Jiabin)
 With Great Freedom Comes Great Opportunity: Rethinking Resource Allocation for Serverless Functions (Jiabin)
-Fast and Efficient Model Serving Using Multi-GPUs with Direct-Host-Access (Aodong)
+*Fast and Efficient Model Serving Using Multi-GPUs with Direct-Host-Access (Aodong)
 
 # ASPLOS 2023
 AQUATOPE: QoS-and-Uncertainty-Aware Resource Management for Multi-stage Serverless Workflows (Jiabin)
