@@ -1,3 +1,18 @@
+# ISCA 2023 (Learning and Microarchitecture Sessions)
+täkō: A Polymorphic Cache Hierarchy for General-Purpose Optimization of Data Movement
+The Mozart Reuse Exposed Dataflow Processor for AI and Beyond
+Software-Hardware Co-design for Fast and Scalable Training of Deep Learning Recommendation Models
+Fidas: Fortifying the Cloud via Comprehensive FPGA-based Offloading for Intrusion Detection
+Understanding Data Storage and Ingestion for Large-Scale Deep Recommendation Model Training
+GCoM: A Detailed GPU Core Model for Accurate Analytical Modeling of Modern GPUs
+A Scalable Architecture for Reprioritizing Ordered Parallelism
+A Software-defined Tensor Streaming Multiprocessor for Large-Scale Machine Learning
+Themis: A Network Bandwidth-Aware Collective Scheduling Policy for Distributed Training of DL Models
+Lukewarm Serverless Functions: Characterization and Optimization
+Training Personalized Recommendation Systems from (GPU) Scratch: Look Forward not Backwards
+Accelerating Attention through Gradient-Based Learned Runtime Pruning
+Hyperscale FPGA-As-A-Service Architecture for Large-Scale Distributed Graph Neural Network
+
 # NSDI 2023
 *Transparent GPU Sharing in Container Clouds for Deep Learning Workloads (Shuohao)
 Zeus: Understanding and Optimizing GPU Energy Consumption of DNN Training (Qiannan)
