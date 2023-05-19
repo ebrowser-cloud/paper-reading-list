@@ -1,3 +1,14 @@
+OSDI 2023
+Cilantro: A Framework for Performance-Aware Resource Allocation for General Objectives via Online Feedback
+Karma: Resource Allocation for Dynamic Demands
+Hyrax: Fail-in-Place Operation in Cloud Platforms
+ExoFlow: A Universal Workflow System for Exactly-Once DAGs
+Beta: Statistical Multiplexing with Model Parallelism for Deep Learning Serving
+Grinder: Analysis and Optimization for Dynamic Control Flow in Deep Learning
+Welder: Scheduling Deep Learning Memory Access via Tile-graph
+Hydro: Surrogate-Based Hyperparameter Tuning Service in the Datacenter
+Optimizing Dynamic Neural Networks with Brainstorm
+
 # ISCA 2022 (Learning and Microarchitecture Sessions)
 täkō: A Polymorphic Cache Hierarchy for General-Purpose Optimization of Data Movement
 The Mozart Reuse Exposed Dataflow Processor for AI and Beyond
