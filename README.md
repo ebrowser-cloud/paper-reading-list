@@ -13,7 +13,7 @@ iSpot: Spot instance provisioning for predictable big data analytics (Huan & Hao
 Resource scheduling for distributed machine learning clusters (Xinyi)  
 Performance optimization of DNN inference serving (Qiannan)  
 Cold start optimization of serverless functions (Jiabin)  
-Interference-aware live migration of containers (Shuohao) 
+Interference-aware live migration of containers (Shuohao)  
 Opara: Speeding up DNN inference by inter-operator parallelism (Aodong)  
 Tetris: Scheduling long-running containerized workloads for load balancing in shared clusters (Xiyue-2023)  
 Nebula & Prophet: Communication scheduling optmization for distributed machine learning (Qiang-2021)  
