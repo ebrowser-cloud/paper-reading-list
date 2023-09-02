@@ -1,3 +1,14 @@
+ATC 2023
+On-demand Container Loading in AWS Lambda
+AWARE: Automate Workload Autoscaling with Reinforcement Learning in Production Cloud Systems
+Bridging the Gap between QoE and QoS in Congestion Control: A Large-scale Mobile Web Service Perspective
+EnvPipe: Performance-preserving DNN Training Framework for Saving Energy
+Decentralized Application-Level Adaptive Scheduling for Multi-Instance DNNs on Open Mobile Devices
+UnFaaSener: Latency and Cost Aware Offloading of Functions from Serverless Platforms
+Accelerating Distributed MoE Training and Inference with Lina
+SmartMoE: Efficiently Training Sparsely-Activated Models through Combining Offline and Online Parallelization
+Beware of Fragmentation: Scheduling GPU-Sharing Workloads with Fragmentation Gradient Descent
+
 OSDI 2023
 Cilantro: A Framework for Performance-Aware Resource Allocation for General Objectives via Online Feedback
 Karma: Resource Allocation for Dynamic Demands
