@@ -10,11 +10,11 @@ Cynthia: VM instance provisioning for predictable distributed DNN training (Haoy
 iSpot: Spot instance provisioning for predictable big data analytics (Huan & Haoyue & Wujie-2019)  
 
 ## Performance Optimization of Distributed Machine Learning Systems
-Resource scheduling for distributed machine learning clusters (Xinyi)  
+Reconfigurable job scheduling in multi-tenant deep learning clusters (Xinyi-2023)  
 Performance optimization of DNN inference serving (Qiannan)  
 Cold start optimization of serverless functions (Jiabin)  
 Interference-aware live migration of containers (Shuohao)  
-Opara: Speeding up DNN inference by inter-operator parallelism (Aodong)  
+Opara: Speeding up DNN inference by inter-operator parallelism (Aodong-2023)  
 Tetris: Scheduling long-running containerized workloads for load balancing in shared clusters (Xiyue-2023)  
 Nebula & Prophet: Communication scheduling optmization for distributed machine learning (Qiang-2021)  
 DelayStage: Tasks scheduling for performance optimization of DAG-style data analytics (Wujie-2020)
