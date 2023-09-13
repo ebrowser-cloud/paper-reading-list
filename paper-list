@@ -1,24 +1,24 @@
 ATC 2023
-On-demand Container Loading in AWS Lambda
-AWARE: Automate Workload Autoscaling with Reinforcement Learning in Production Cloud Systems
-Bridging the Gap between QoE and QoS in Congestion Control: A Large-scale Mobile Web Service Perspective
-EnvPipe: Performance-preserving DNN Training Framework for Saving Energy
-Decentralized Application-Level Adaptive Scheduling for Multi-Instance DNNs on Open Mobile Devices
-UnFaaSener: Latency and Cost Aware Offloading of Functions from Serverless Platforms
-Accelerating Distributed MoE Training and Inference with Lina
-SmartMoE: Efficiently Training Sparsely-Activated Models through Combining Offline and Online Parallelization
-Beware of Fragmentation: Scheduling GPU-Sharing Workloads with Fragmentation Gradient Descent
+On-demand Container Loading in AWS Lambda (Shuohao)
+AWARE: Automate Workload Autoscaling with Reinforcement Learning in Production Cloud Systems (Jiabin)
+Bridging the Gap between QoE and QoS in Congestion Control: A Large-scale Mobile Web Service Perspective (All)
+EnvPipe: Performance-preserving DNN Training Framework for Saving Energy (Qiannan)
+Decentralized Application-Level Adaptive Scheduling for Multi-Instance DNNs on Open Mobile Devices (Qiannan)
+UnFaaSener: Latency and Cost Aware Offloading of Functions from Serverless Platforms (Jiabin)
+Accelerating Distributed MoE Training and Inference with Lina (Zhuoyan)
+SmartMoE: Efficiently Training Sparsely-Activated Models through Combining Offline and Online Parallelization (Zhuoyan)
+Beware of Fragmentation: Scheduling GPU-Sharing Workloads with Fragmentation Gradient Descent (Zhuoyan)
 
 OSDI 2023
-Cilantro: A Framework for Performance-Aware Resource Allocation for General Objectives via Online Feedback
-Karma: Resource Allocation for Dynamic Demands
-Hyrax: Fail-in-Place Operation in Cloud Platforms
-ExoFlow: A Universal Workflow System for Exactly-Once DAGs
-Beta: Statistical Multiplexing with Model Parallelism for Deep Learning Serving
-Grinder: Analysis and Optimization for Dynamic Control Flow in Deep Learning
-Welder: Scheduling Deep Learning Memory Access via Tile-graph
-Hydro: Surrogate-Based Hyperparameter Tuning Service in the Datacenter
-Optimizing Dynamic Neural Networks with Brainstorm
+Cilantro: A Framework for Performance-Aware Resource Allocation for General Objectives via Online Feedback (Zhuoyan)
+Karma: Resource Allocation for Dynamic Demands (Shuohao)
+Hyrax: Fail-in-Place Operation in Cloud Platforms (All)
+ExoFlow: A Universal Workflow System for Exactly-Once DAGs (All)
+AlpaServe: Statistical Multiplexing with Model Parallelism for Deep Learning Serving (Jiabin)
+Grinder: Analysis and Optimization for Dynamic Control Flow in Deep Learning (All)
+Welder: Scheduling Deep Learning Memory Access via Tile-graph (Aodong)
+Hydro: Surrogate-Based Hyperparameter Tuning Service in the Datacenter (All)
+Optimizing Dynamic Neural Networks with Brainstorm (Aodong)
 
 # ISCA 2022 (Learning and Microarchitecture Sessions)
 täkō: A Polymorphic Cache Hierarchy for General-Purpose Optimization of Data Movement
