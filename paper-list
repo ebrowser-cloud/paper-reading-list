@@ -9,6 +9,16 @@ Accelerating Distributed MoE Training and Inference with Lina (Zhuoyan)
 SmartMoE: Efficiently Training Sparsely-Activated Models through Combining Offline and Online Parallelization (Zhuoyan)
 Beware of Fragmentation: Scheduling GPU-Sharing Workloads with Fragmentation Gradient Descent (Zhuoyan)
 
+SOSP 2023
+Bagpipe: Accelerating Deep Recommendation Model Training
+Oobleck: Resilient Distributed Training of Large Models Using Pipeline Templates
+Efficient Memory Management for Large Language Model Serving with PagedAttention
+GEMINI: Fast Failure Recovery in Distributed Training with In-Memory Checkpoints 
+Halfmoon: Log-Optimal Fault-Tolerant Stateful Serverless Computing
+Paella: Low-latency Model Serving with Software-defined GPU Scheduling
+Sia: Heterogeneity-aware, goodput-optimized ML-cluster scheduling
+XFaaS: Hyperscale and Low Cost Serverless Functions at Meta
+
 OSDI 2023
 Cilantro: A Framework for Performance-Aware Resource Allocation for General Objectives via Online Feedback (Zhuoyan)
 Karma: Resource Allocation for Dynamic Demands (Shuohao)
