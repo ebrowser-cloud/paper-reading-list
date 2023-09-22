@@ -1,4 +1,30 @@
-ATC 2023
+# SOCC 2023
+Plexus: Optimizing Join Approximation for Geo-Distributed Data Analytics (All)
+Carbon Containers: A System-level Facility for Managing Application-level Carbon Emissions (Shuohao)
+Lifting the Fog of Uncertainties: Dynamic Resource Orchestration for the Containerized Cloud (Shuohao)
+Golgi: Performance-Aware, Resource-Efficient Function Scheduling for Serverless Computing (Jiabin)
+Maximizing VMs' IO Performance on Overcommitted CPUs with Fairness (All)
+Not All Resources are Visible: Exploiting Fragmented Shadow Resources in Shared-State Scheduler Architecture (Zhuoyan)
+OneAdapt: Fast Adaptation for Deep Learning Applications via Backpropagation (All)
+Parrotfish: Parametric Regression for Optimizing Serverless Functions (Jiabin)
+A Comparison of End-to-End Decision Forest Inference Pipelines (Aodong)
+Enabling Multi-tenancy on SSDs with Accurate IO Interference Modeling (All)
+Maximizing the Utilization of GPUs Used by Cloud Gaming through Adaptive Co-location with Combo (All)
+AsyFunc: A High-Performance and Resource-Efficient Serverless Inference System via Asymmetric Functions (Jiabin)
+Anticipatory Resource Allocation for ML Training Clusters (Xinyi)
+Yama: Providing Performance Isolation for Black-Box Offloads (All)
+Chitu: Accelerating Serverless Workflows with Asynchronous State Replication Pipeline (Jiabin)
+Towards GPU Memory Efficiency for Distributed Training at Scale (All)
+Gödel: Unified Large-Scale Resource Management and Scheduling at ByteDance (All)
+Disaggregating ML Input Data Processing at Scale (All)
+How Does It Function? Characterizing Long-term Trends in Production Serverless Workloads (Jiabin)
+
+The Gap Between Serverless Research and Real-world Systems (Jiabin)
+Function as a Function (Jiabin)
+Is Machine Learning Necessary for Cloud Resource Usage Forecasting? (All)
+Sustainable supercomputing for AI: Experiences from GPU Power Capping at HPC Scale (All)
+
+# ATC 2023
 On-demand Container Loading in AWS Lambda (Shuohao)
 AWARE: Automate Workload Autoscaling with Reinforcement Learning in Production Cloud Systems (Jiabin)
 Bridging the Gap between QoE and QoS in Congestion Control: A Large-scale Mobile Web Service Perspective (All)
@@ -9,17 +35,17 @@ Accelerating Distributed MoE Training and Inference with Lina (Zhuoyan)
 SmartMoE: Efficiently Training Sparsely-Activated Models through Combining Offline and Online Parallelization (Zhuoyan)
 Beware of Fragmentation: Scheduling GPU-Sharing Workloads with Fragmentation Gradient Descent (Zhuoyan)
 
-SOSP 2023
-Bagpipe: Accelerating Deep Recommendation Model Training
-Oobleck: Resilient Distributed Training of Large Models Using Pipeline Templates
-Efficient Memory Management for Large Language Model Serving with PagedAttention
-GEMINI: Fast Failure Recovery in Distributed Training with In-Memory Checkpoints 
-Halfmoon: Log-Optimal Fault-Tolerant Stateful Serverless Computing
-Paella: Low-latency Model Serving with Software-defined GPU Scheduling
-Sia: Heterogeneity-aware, goodput-optimized ML-cluster scheduling
-XFaaS: Hyperscale and Low Cost Serverless Functions at Meta
+# SOSP 2023
+Bagpipe: Accelerating Deep Recommendation Model Training (All)
+Oobleck: Resilient Distributed Training of Large Models Using Pipeline Templates (Zhuoyan)
+Efficient Memory Management for Large Language Model Serving with PagedAttention (Aodong)
+GEMINI: Fast Failure Recovery in Distributed Training with In-Memory Checkpoints (All)
+Halfmoon: Log-Optimal Fault-Tolerant Stateful Serverless Computing (Jiabin)
+Paella: Low-latency Model Serving with Software-defined GPU Scheduling (Aodong)
+Sia: Heterogeneity-aware, goodput-optimized ML-cluster scheduling (Qiannan)
+XFaaS: Hyperscale and Low Cost Serverless Functions at Meta (Jiabin)
 
-OSDI 2023
+# OSDI 2023
 Cilantro: A Framework for Performance-Aware Resource Allocation for General Objectives via Online Feedback (Zhuoyan)
 Karma: Resource Allocation for Dynamic Demands (Shuohao)
 Hyrax: Fail-in-Place Operation in Cloud Platforms (All)
