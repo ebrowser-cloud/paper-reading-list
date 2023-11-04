@@ -1,66 +1,605 @@
-Cloud bursting for the world's largest consumer market (@all)
-A Berkeley View on Serverless Computing (Qiang)
-Sustainable Offloading in Mobile Cloud Computing：Algorithmic Design and Implementation（Yiling）
-Speeding up Deep Learning with Transient Servers (Haoyue)
+# SOCC 2023
+Plexus: Optimizing Join Approximation for Geo-Distributed Data Analytics (All)
+Carbon Containers: A System-level Facility for Managing Application-level Carbon Emissions (Shuohao)
+Lifting the Fog of Uncertainties: Dynamic Resource Orchestration for the Containerized Cloud (Shuohao)
+Golgi: Performance-Aware, Resource-Efficient Function Scheduling for Serverless Computing (Jiabin)
+Maximizing VMs' IO Performance on Overcommitted CPUs with Fairness (All)
+Not All Resources are Visible: Exploiting Fragmented Shadow Resources in Shared-State Scheduler Architecture (Zhuoyan)
+OneAdapt: Fast Adaptation for Deep Learning Applications via Backpropagation (All)
+Parrotfish: Parametric Regression for Optimizing Serverless Functions (Jiabin)
+A Comparison of End-to-End Decision Forest Inference Pipelines (Aodong)
+Enabling Multi-tenancy on SSDs with Accurate IO Interference Modeling (All)
+Maximizing the Utilization of GPUs Used by Cloud Gaming through Adaptive Co-location with Combo (All)
+AsyFunc: A High-Performance and Resource-Efficient Serverless Inference System via Asymmetric Functions (Jiabin)
+Anticipatory Resource Allocation for ML Training Clusters (Xinyi)
+Yama: Providing Performance Isolation for Black-Box Offloads (All)
+Chitu: Accelerating Serverless Workflows with Asynchronous State Replication Pipeline (Jiabin)
+Towards GPU Memory Efficiency for Distributed Training at Scale (All)
+Gödel: Unified Large-Scale Resource Management and Scheduling at ByteDance (All)
+Disaggregating ML Input Data Processing at Scale (All)
+How Does It Function? Characterizing Long-term Trends in Production Serverless Workloads (Jiabin)
+
+The Gap Between Serverless Research and Real-world Systems (Jiabin)
+Function as a Function (Jiabin)
+Is Machine Learning Necessary for Cloud Resource Usage Forecasting? (All)
+Sustainable supercomputing for AI: Experiences from GPU Power Capping at HPC Scale (All)
+
+Interference-aware Multiplexing for Deep Learning in GPU Clusters: A Middleware Approach (SC 2023)
+
+# ATC 2023
+On-demand Container Loading in AWS Lambda (Shuohao)
+AWARE: Automate Workload Autoscaling with Reinforcement Learning in Production Cloud Systems (Jiabin)
+Bridging the Gap between QoE and QoS in Congestion Control: A Large-scale Mobile Web Service Perspective (All)
+EnvPipe: Performance-preserving DNN Training Framework for Saving Energy (Qiannan)
+Decentralized Application-Level Adaptive Scheduling for Multi-Instance DNNs on Open Mobile Devices (Qiannan)
+UnFaaSener: Latency and Cost Aware Offloading of Functions from Serverless Platforms (Jiabin)
+Accelerating Distributed MoE Training and Inference with Lina (Zhuoyan)
+SmartMoE: Efficiently Training Sparsely-Activated Models through Combining Offline and Online Parallelization (Zhuoyan)
+Beware of Fragmentation: Scheduling GPU-Sharing Workloads with Fragmentation Gradient Descent (Zhuoyan)
+
+# SOSP 2023
+Bagpipe: Accelerating Deep Recommendation Model Training (All)
+Oobleck: Resilient Distributed Training of Large Models Using Pipeline Templates (Zhuoyan)
+Efficient Memory Management for Large Language Model Serving with PagedAttention (Aodong)
+GEMINI: Fast Failure Recovery in Distributed Training with In-Memory Checkpoints (All)
+Halfmoon: Log-Optimal Fault-Tolerant Stateful Serverless Computing (Jiabin)
+Paella: Low-latency Model Serving with Software-defined GPU Scheduling (Aodong)
+Sia: Heterogeneity-aware, goodput-optimized ML-cluster scheduling (Qiannan)
+XFaaS: Hyperscale and Low Cost Serverless Functions at Meta (Jiabin)
+
+# OSDI 2023
+Cilantro: A Framework for Performance-Aware Resource Allocation for General Objectives via Online Feedback (Zhuoyan)
+Karma: Resource Allocation for Dynamic Demands (Shuohao)
+Hyrax: Fail-in-Place Operation in Cloud Platforms (All)
+ExoFlow: A Universal Workflow System for Exactly-Once DAGs (All)
+AlpaServe: Statistical Multiplexing with Model Parallelism for Deep Learning Serving (Jiabin)
+Grinder: Analysis and Optimization for Dynamic Control Flow in Deep Learning (All)
+Welder: Scheduling Deep Learning Memory Access via Tile-graph (Aodong)
+Hydro: Surrogate-Based Hyperparameter Tuning Service in the Datacenter (All)
+Optimizing Dynamic Neural Networks with Brainstorm (Aodong)
+
+# ISCA 2022 (Learning and Microarchitecture Sessions)
+täkō: A Polymorphic Cache Hierarchy for General-Purpose Optimization of Data Movement
+The Mozart Reuse Exposed Dataflow Processor for AI and Beyond
+Software-Hardware Co-design for Fast and Scalable Training of Deep Learning Recommendation Models
+Fidas: Fortifying the Cloud via Comprehensive FPGA-based Offloading for Intrusion Detection
+Understanding Data Storage and Ingestion for Large-Scale Deep Recommendation Model Training
+GCoM: A Detailed GPU Core Model for Accurate Analytical Modeling of Modern GPUs
+A Scalable Architecture for Reprioritizing Ordered Parallelism
+A Software-defined Tensor Streaming Multiprocessor for Large-Scale Machine Learning
+Themis: A Network Bandwidth-Aware Collective Scheduling Policy for Distributed Training of DL Models
+Lukewarm Serverless Functions: Characterization and Optimization
+Training Personalized Recommendation Systems from (GPU) Scratch: Look Forward not Backwards
+Accelerating Attention through Gradient-Based Learned Runtime Pruning
+Hyperscale FPGA-As-A-Service Architecture for Large-Scale Distributed Graph Neural Network
+
+# NSDI 2023
+*Transparent GPU Sharing in Container Clouds for Deep Learning Workloads (Shuohao)
+Zeus: Understanding and Optimizing GPU Energy Consumption of DNN Training (Qiannan)
+Unlocking unallocated cloud capacity for long, uninterruptible workloads (Shuohao)
+Shockwave: Fair and Efficient Cluster Scheduling for Dynamic Adaptation in Machine Learning (Xinyi)
+Bamboo: Making Preemptible Instances Resilient for Affordable Training of Large DNNs (Ruitao)
+Better Together: Jointly Optimizing ML Collective Scheduling and Execution Planning using SYNDICATE (Xinyi)
+SHEPHERD: Serving DNNs in the Wild (Aodong)
+ModelKeeper: Accelerating DNN Training via Automated Training Warmup (Qiannan)
+TopoOpt: Co-optimizing Network Topology and Parallelization Strategy for Distributed Training Jobs (Qiannan)
+*SelfTune: Tuning Cluster Managers (*)
+Skyplane: Optimizing Transfer Cost and Throughput Using Cloud-Aware Overlays (*)
+*Following the Data, Not the Function: Rethinking Function Orchestration in Serverless Computing (Jiabin)
+Doing More with Less: Orchestrating Serverless Applications without an Orchestrator (Jiabin)
+
+# Eurosys 2023
+*OLPart: Online Learning based Resource Partitioning for Colocating Multiple Latency-Critical Jobs on Commodity Computers (Shuohao)
+*SiloD: A Co-design of Caching and Scheduling for Deep Learning Clusters (Xinyi)
+Groundhog: Efficient Request Isolation in FaaS (Jiabin)
+Hi-Speed DNN Training with Espresso: Unleashing the Full Potential of Gradient Compression with Near-Optimal Usage Strategies (Jiabin)
+With Great Freedom Comes Great Opportunity: Rethinking Resource Allocation for Serverless Functions (Jiabin)
+*Fast and Efficient Model Serving Using Multi-GPUs with Direct-Host-Access (Aodong)
+
+# ASPLOS 2023
+AQUATOPE: QoS-and-Uncertainty-Aware Resource Management for Multi-stage Serverless Workflows (Jiabin)
+ElasticFlow: An Elastic Serverless Training Platform for Distributed Deep Learning (Jiabin)
+Erms: Efficient Resource Management for Shared Microservices with SLA Guarantees (Shuohao)
+Overlap Communication with Dependent Computation via Decomposition in Large Deep Learning Models
+Lucid: A Non-intrusive, Scalable and Interpretable Scheduler for Deep Learning Training Jobs (Xinyi)
+
+# Middleware 2022
+Optimizing Communication in Deep Reinforcement Learning with XingTian
+CGX: Adaptive System Support for Communication-Efficient Deep Learning
+Aergia: Leveraging Heterogeneity in Federated Learning Systems
+Slice-Tune: A System for High Performance DNN Autotuning
+EdgeTune: Inference-Aware Multi-Parameter Tuning
+A Seer Knows Best: Optimized Object Storage Shuffling for Serverless Analytics
+
+# SOCC 2022
+Building Heterogeneous Cloud System for Machine Learning Inference (Qiannan)
+Owl: Performance-Aware Scheduling for Resource-Efficient Function-as-a-Service Cloud (Jiabin)
+Workload Consolidation in Alibaba Clusters：The Good, the Bad, and the Ugly (Xinyi, Shuohao)
+
+Scalable Input Data Processing for Resource-Efficient Machine Learning (keynote)
+Arax: A Runtime Framework for Decoupling Applications from Heterogeneous Accelerators
+DeepScaling: Microservices AutoScaling for Stable CPU Utilization in Large Scale Cloud Systems (Jiabin & Shuohao)
+Demeter: QoS-Aware CPU Scheduling to Reduce Power Consumption of Multiple Black-Box Workloads
+ESCHER: Expressive Scheduling with Ephemeral Resources (Ruitao)
+How to Fight Production Incidents? An Empirical Study on a Large-scale Cloud Service
+MISO: Exploiting Multi-Instance GPU Capability on Multi-Tenant GPU Clusters (Xinyi)
+
+Cypress: Input size–Sensitive Container Provisioning and Request Scheduling for Serverless Platforms (Jiabin)
+Hermod: Principled and Practical Scheduling for Serverless Functions (Jiabin)
+SIMPPO: A Scalable and Incremental Online Learning Framework for Serverless Resource Management (Jiabin)
+The Power of Prediction: Microservice Auto Scaling via Workload Learning (Jiabin)
+Characterizing and Orchestrating VM Reservation in Geo-distributed Clouds to Improve the Resource Efficiency
+Accelerating Large-Scale Distributed Neural Network Training with SPMD Parallelism
+
+GreenDRL: Managing Green Datacenters Using Deep Reinforcement Learning (Shuohao)
+Achieving Low Latency in Public Edges by Hiding Workloads Mutual Interference (Shuohao)
+CoSpot: A Cooperative VM Allocation Framework for Increased Revenue from Spot Instances (Ruitao)
+
+
+# SIGCOMM 2022
+Multi-resource interleaving for deep learning training (Xinyi)
+Mobile access bandwidth in practice: measurement, analysis, and implications
+From luna to solar: the evolutions of the compute-to-storage networks in Alibaba cloud (Shuohao)
+Congestion-aware Critical Gradient Scheduling for Distributed Machine Learning in Data Center Networks (IEEE TCC)
+
+# ATC 2022
+RunD: A Lightweight Secure Container Runtime for High-density Deployment and High-concurrency Startup in Serverless Computing
+Help Rather Than Recycle: Alleviating Cold Startup in Serverless Computing Through Inter-Function Container Sharing
+DVABatch: Diversity-aware Multi-Entry Multi-Exit Batching for Efficient Processing of DNN Services on GPUs
+Serving Heterogeneous Machine Learning Models on Multi-GPU Servers with Spatio-Temporal Sharing
+PilotFish: Harvesting Free Cycles of Cloud Gaming with Deep Learning Training
+Tetris: Memory-efficient Serverless Inference through Tensor Sharing
+Whale: Efficient Giant Model Training over Heterogeneous GPUs
+Amazon DynamoDB: A Scalable, Predictably Performant, and Fully Managed NoSQL Database Service
+Band: coordinated multi-DNN inference on heterogeneous mobile processors (mobisys 22)
+
+# OSDI 2022
+Alpa: Automating Inter- and Intra-Operator Parallelism for Distributed Deep Learning
+CAP-VMs: Capability-Based Isolation and Sharing in the Cloud
+Looking Beyond GPUs for DNN Scheduling on Multi-Tenant Clusters
+Microsecond-scale Preemption for Concurrent GPU-accelerated DNN Inferences
+ORION and the Three Rights: Sizing, Bundling, and Prewarming for Serverless DAGs
+ROLLER: Fast and Efficient Tensor Compilation for Deep Learning
+Walle: An End-to-End, General-Purpose, and Large-Scale Production System for Device-Cloud Collaborative Machine Learning
+
+# Eurosys 2022
+Jiffy: Elastic Far-Memory for Stateful Serverless Analytics
+Varuna: Scalable, Low-cost Training of Massive Deep Learning Models
+DeepRest: Deep Resource Estimation for Interactive Microservices
+GNNLab: A Factored System for Sample-based GNN Training over GPUs
+Out-Of-Order BackProp: An Effective Scheduling Technique for Deep Learning
+
+# ASPLOS 2022
+IceBreaker: Warming Serverless Functions Better with Heterogeneity
+INFless: A Native Serverless System for Low-latency, High-throughput Inference
+FaaSFlow: Enable Efficient Workflow Execution for Function-as-a-Service
+Serverless Computing on Heterogeneous Computers
+Astraea: Towards QoS-Aware and Resource-Efficient Multi-stage GPU Services
+Memory-Harvesting VMs in Cloud Platforms
+Breaking the Computation and Communication Abstraction Barrier in Distributed Machine Learning Workloads
+VELTAIR: Towards High-Performance Multi-Tenant Deep Learning Services via Adaptive Compilation and Scheduling
+AStitch: Enabling A New Multi-Dimensional Optimization Space for Memory-Intensive ML Training and Inference on Modern SIMT Architectures
+
+# NSDI 2022
+A Case for Task Sampling based Learning for Cluster Job Scheduling
+MLaaS in the Wild: Workload Analysis and Scheduling in Large-Scale Heterogeneous GPU Clusters
+Check-N-Run: a Checkpointing System for Training Deep Learning Recommendation Models
+Cocktail: A Multidimensional Optimization for Model Serving in Cloud
+Accelerating Collective Communication in Data Parallel Training across Deep Learning Frameworks
+Starlight: Fast Container Provisioning on the Edge and over the WAN
+
+# SOCC 2021
+George: Learning to Place Long-Lived Containers in Large Clusters with Operation Constraints (Xiyue)
+Llama: A Heterogeneous & Serverless Framework for Auto-Tuning Video Analytics Pipelines
+Lorien: Efficient Deep Learning Workloads Delivery (AWS)
+Faa$T: A Transparent Auto-Scaling Cache for Serverless Applications
+CHRONUS: A Novel Deadline-aware Scheduler for Deep Learning Training Jobs
+On Merits and Viability of Multi-Cloud Serverless (multicloud serverless, cost efficiency)
+ServerMore: Opportunistic Execution of Serverless Functions in the Cloud (resource contention)
+Atoll: A Scalable Low-Latency Serverless Platform (SLO guarantee)
+Parslo: A Gradient Descent-based Approach for Near-optimal Partial SLO Allotment in Microservices
+Morphling: Fast, Near-Optimal Auto-Configuration for Cloud-Native Model Serving
+Elastic Hyperparameter Tuning on the Cloud
+Kraken : Adaptive Container Provisioning for Deploying Dynamic DAG applications in Serverless platforms (SLO complaince)
+Scrooge: A Cost-Effective Deep Learning Inference System
+Mind the Gap: Broken Promises of CPU Reservations in Containerized Multi-tenant Clouds
+SHOWAR: Right-Sizing And Efficient Scheduling of Microservices
+Characterizing Microservice Dependency and Performance: Alibaba Trace Analysis (Xiyue)
+Provisioning Differentiated Last-Level Cache Allocations to VMs in Public Clouds
+Mu: An Efficient, Fair and Responsive Serverless Framework for Resource-Constrained Edge Clouds (autoscaling, load balance, placement function)
+Good Things Come to Those Who Wait: Optimizing Job Waiting in the Cloud
+Enabling Sustainable Clouds: The Case for Virtualizing the Energy System
+Tell me when you are sleepy and what may wake you up!
+Latency-Aware Dynamic Server and Cooling Capacity Provisioner for Data Centers
+
+Practical Scheduling for Real-World Serverless Computing (serverless backend scheduling)
+
+
+# SOSP 2021/OSDI 2021
+Boki: Stateful Serverless Computing with Shared Logs
+Faster and Cheaper Serverless Computing on Harvested Resources
+Pollux: Co-adaptive Cluster Scheduling for Goodput-Optimized Deep Learning
+Gradient Compression Supercharged High-Performance Data Parallel DNN Training
+Gillis：Serving Large Neural Networks in Serverless Functions with Automatic Model Partitioning (ICDCS 2021)
+Understanding, predicting and scheduling serverless workloads under partial interference (SC 2021)
+RAS: Continuously Optimized Region-Wide Datacenter Resource Allocation
+Shard Manager: A Generic Shard Management Framework for Geo-distributed Applications
+
+From Cloud to Edge: A First Look at Public Edge Platforms (IMC2021)
+An Empirical Study on Challenges of Application Development in Serverless Computing (APSys 2021)
+Lessons Learned from Migrating Complex Stateful Applications onto Serverless Platforms (APSys 2021)
+What serverless computing is and should become: the next phase of cloud computing (serverless @all)
+Horus: Interference-Aware and Prediction-Based Scheduling in Deep Learning Systems
+
+# ATC 2021 / OSDI 2021
+Prediction-Based Power Oversubscription in Cloud Platforms
+Proactive Energy-Aware Adaptive Video Streaming on Mobile Devices
+Fine-tuning giant neural networks on commodity hardware with automatic pipeline model parallelism
+INFaaS: Automated Model-less Inference Serving
+FaaSNet: Scalable and Fast Provisioning of Custom Serverless Container Runtimes at Alibaba Cloud Function Compute
+Zico: Efficient GPU Memory Sharing for Concurrent DNN Training
+ZeRO-Offload: Democratizing Billion-Scale Model Training
+SONIC: Application-aware Data Passing for Chained Serverless Applications
+
+# MLSys 2021 & Eurosys 2021
+Fluid: Resource-Aware Hyperparameter Tuning Engine
+Efficient Large-Scale Language Model Training on GPU Clusters (Matei)
+
+Virtual Machine Preserving Host Updates for Zero Day Patching in Public Cloud
+Rubberband: Cloud-based Hyperparameter Tuning
+Take it to the Limit: Peak Prediction-driven Resource Overcommitment in Datacenters
+SmartHarvest: Harvesting Idle CPUs Safely and Efficiently in the Cloud
+FaaSCache: an opportunistic free caching system for FaaS platforms
+
+Adaptive Performance Modeling of Data-intensive Workloads for Resource Provisioning in Virtualized Environment (Xiyue)
+Allocation of Fungible Resources via a Fast, Scalable Price Discovery Method (Rita)
+Scheduling of Time-Varying Workloads Using Reinforcement Learning (Xiyue)
+
+Delay-aware and Energy-Efficient Computation Offloading in Mobile Edge Computing Using Deep Reinforcement Learning (Jianian)
+Partial Computation Offloading in NOMA-Assisted Mobile Edge Computing Systems Using Deep Reinforcement Learning (Jianian)
+Joint Service Caching, Computation Offloading and Resource Allocation in Mobile Edge Computing Systems (Jianian)
+
+Serverless Predictions: 2021-2030 (@all)
+LIBRA: An Economical Hybrid Approach for Cloud Applications with Strict SLAs (Combine FaaS and IaaS)
+
+# Infocom 2021
+DC2: Delay-aware Compression Control for Distributed Machine Learning
+
+# ASPLOS 2021
+Sinan: ML-Based & QoS-Aware Resource Management for Cloud Microservices
+Nightcore: Efficient and Scalable Serverless Computing for Latency-Sensitive, Interactive Microservices
+Benchmarking, Analysis, and Optimization of Serverless Function Snapshots
+Analytical characterization and design space exploration for optimization of CNNs
+
+
+# NSDI 2021
+Move Fast and Meet Deadlines: Fine-grained Real-time Stream Processing with Cameo
+MilliSort and MilliQuery: Large-Scale Data-Intensive Computing in Milliseconds
+Ship Compute or Ship Data? Why Not Both?
+Caerus: TIMELY Task Scheduling for Serverless Analytics (Serverless data analytics)
+Mistify: Automating DNN Model Porting for On-Device Inference at the Edge
+Scaling Distributed Machine Learning with In-Network Aggregation
+Elastic Resource Sharing for Distributed Deep Learning
+On the Use of ML for Blackbox System Performance Prediction
+ATP: In-network Aggregation for Multi-tenant Learning
+
+
+# OSDI 2020
+Serving DNNs like Clockwork: Performance Predictability from the Bottom Up (predictable DNN inference)
+FIRM: An Intelligent Fine-grained Resource Management Framework for SLO-Oriented Microservices (ML-based resource management)
+Providing SLOs for Resource-Harvesting VMs in Cloud Platforms (another type of VMs like spot instances)
+KungFu: Making Training in Distributed Machine Learning Adaptive (hyper-parameters and system parameters)
+PipeSwitch: Fast Pipelined Context Switching for Deep Learning Applications (DNN layer grouping)
+AntMan: Dynamic Scaling on GPU Clusters for Deep Learning (GPU sharing)
+HiveD: Sharing a GPU Cluster for Deep Learning with Guarantees (GPU-affinity scheduling)
+
+A Unified Architecture for Accelerating Distributed DNN Training in Heterogeneous GPU/CPU Clusters (BytePS)
+Heterogeneity-Aware Cluster Scheduling Policies for Deep Learning Workloads (generalize multiple scheduling policies)
+Optimizing Distributed Training Deployment in Heterogeneous GPU Clusters (CoNext 20, heterogeneous resources)
+Job Scheduling for Large-Scale Machine Learning Clusters (CoNext 20, ML job scheduluing)
+
+RackSched: A Microsecond-Scale Scheduler for Rack-Scale Computers (rack-layer & server-layer)
+Twine: A Unified Cluster Management System for Shared Infrastructure (cluster scheduling)
+Caladan: Mitigating Interference at Microsecond Timescales (CPU scheduling)
+Fault-tolerant and transactional stateful serverless workflows (Yiling)
+
+
+# SOCC 2020
+Particle: Ephemeral Endpoints for Serverless Networking (Yiling)
+MetalMind: A Programming Framework for Serverless Computing (Yiling)
+Characterizing Serverless Platforms with ServerlessBench (Yiling)
+LADS: A High-Performance Framework for Serverless Parallel Computing (Yiling)
+Serverless Linear Algebra (Yiling)
+SNF: Serverless Network Functions (Yiling)
+Sequoia: Enabling Quality-of-Service in Serverless Computing
+Photons: Lambdas on a diet
+Semi-Dynamic Load Balancing: Efficient Distributed Learning in Non-Dedicated Environments
+Elastic Parameter Server Load Distribution in Deep Learning Clusters
+Network-accelerated Distributed Machine Learning for Multi-Tenant Settings
+Finding the Right Cloud Configuration for Analytics Clusters
+
+
+DBOS: A Proposal for a Data-Centric Operating System (@all)
+Do the Best Cloud Configurations Grow on Trees? An Experimental Evaluation of Black Box Algorithms for Optimizing Cloud Workloads (VLDB 2020)
+Analysis and Exploitation of Dynamic Pricing in the Public Cloud for ML Training (Matei DISPA 2020)
+Masha: Sampling-Based Performance Prediction of Big Data Applications in Resource-Constrained Clusters
+Towards Low-Latency Automated Machine Learning
+
+
+# ATC 2020
+OPTIMUSCLOUD: Heterogeneous Configuration Optimization for Distributed Databases in the Cloud (Tencent project related)
+Serverless in the Wild: Characterizing and Optimizing the Serverless Workload at a Large Cloud Provider (Yiling)
+Lessons Learned from the Chameleon Testbed
+HetPipe: Enabling Large DNN Training on (Whimpy) Heterogeneous GPU Clusters through Integration of Pipelined Model Parallelism and Data Parallelism (Qiang)
+Daydream: Accurately Estimating the Efficacy of Performance Optimizations for DNN Training
+ALERT: Accurate Learning for Energy and Timeliness
+Faasm: Lightweight Isolation for Efficient Stateful Serverless Computing (Yiling)
+Peregreen — modular database for efficient storage of historical time series in cloud environments (Tencent project related)
+Fine-Grained Isolation for Scalable, Dynamic, Multi-tenant Edge Clouds (Jianian)
+
+# Hotcloud 2020
+Towards Supporting Millions of Users in Modifiable Virtual Environments by Redesigning Minecraft-Like Games as Serverless Systems (Yiling)
+AI4DL: Mining Behaviors of Deep Learning Workloads for Resource Management (Qiang)
+Spotnik: Designing Distributed Machine Learning for Transient Cloud Resources (Rita)
+Towards GPU Utilization Prediction for Cloud Deep Learning (Qiang)
+Serverless Boom or Bust? An Analysis of Economic Incentives (Yiling)
+No Reservations: A First Look at Amazon's Reserved Instance Marketplace
+Towards Plan-aware Resource Allocation in Serverless Query Processing
+Rethinking Isolation Mechanisms for Datacenter Multitenancy (Tencent project related)
+Auto-sizing for Stream Processing Applications at LinkedIn (Tencent project related)
+More IOPS for Less: Exploiting Burstable Storage in Public Clouds (Tencent project related)
+
+# Infocom 2020
+Camel: Smart, Adaptive Energy Optimization for Mobile Web Interactions
+COSE: Configuring Serverless Functions using Statistical Learning
+Machine Learning on Volatile Instances
+Communication-Efficient Distributed Deep Learning with Merged Gradient Sparsification on GPUs
+Preemptive All-reduce Scheduling for Expediting Distributed DNN Training
+Distributed Inference Acceleration with Adaptive DNN Partitioning and Offloading
+ReLoca: Optimize Resource Allocation for Data-parallel Jobs using Deep Learning
+Automating Cloud Deployment for Deep Learning Inference of Real-time Online Services
+Geryon: Accelerating Distributed CNN Training by Network-Level Flow Scheduling
+SDN-based Order-aware Live Migration of Virtual Machines
+TINA: A Fair Inter-datacenter Transmission Mechanism with Deadline Guarantee
+Network-Aware Optimization of Distributed Learning for Fog Computing
+Enabling Live Migration of Containerized Applications Across Clouds
+PAM & PAL: Policy-Aware Virtual Machine Migration and Placement in Dynamic Cloud Data Centers
+Online Placement of Virtual Machines with Prior Data
+
+# HPDC 2020
+Modeling The Temporally Constrained Preemptions of Transient Cloud VMs
+DCDB Wintermute: Enabling Online and Holistic Operational Data Analytics on HPC Systems (Best paper)
+Towards HPC I/O Performance Prediction through Large-scale Log Analysis
+FFT-based Gradient Sparsification for the Distributed Training of Deep Neural Networks
+Orchestrating Fault Prediction with Live Migration and Checkpointing
+KubeShare: A Framework to Manage GPUs as First-Class and Shared Resources in Container Cloud
+An Efficient Technique for Large Mini-batch Challenge of DNNs Training on Large Scale Cluster
+
+Cloud-scale VM Deflation for Running Interactive Applications On Transient Servers
+The Fast and The Frugal: Tail Latency Aware Provisioning for Coping with Load Variations （WWW'20）
+Chip Placement with Deep Reinforcement Learning (Jeff Dean)
+How to Train your DNN: The Network Operator Edition (Scott Shenker)
+Hedge Your Bets: Optimizing Long-term Cloud Costs by Mixing VM Purchasing Options
+
+# MLSys 2020 & Eurosys 2020
+Fine-Grained GPU Sharing Primitives for Deep Learning Applications
+A Systematic Methodology for Analysis of Deep Learning Hardware and Software Platforms
+Blink: Fast and Generic Collectives for Distributed ML
+Distributed Hierarchical GPU Parameter Server for Massive Scale Deep Learning Ads Systems
+FLEET: Flexible Efficient Ensemble Training for Heterogeneous Deep Neural Networks
+Resource Elasticity in Distributed Deep Learning
+PLink: Discovering and Exploiting Locality for Accelerated Distributed Training on the public Cloud
+---------------------------------------
+Balancing Efficiency and Fairness in Heterogeneous GPU Clusters for Deep Learning
+Experiences of Landing Machine Learning onto Market-Scale Mobile Malware Detection
+A Fault-Tolerance Shim for Serverless Computing
+SEUSS: Skip Redundant Paths to Make Serverless Fast
+Autopilot: workload autoscaling at Google
+Improving Resource Utilization by Timely Fine-Grained Scheduling
+Rhythm: Component-distinguishable Workload Deployment in Datacenters
+Borg: the Next Generation
+AlloX: Compute Allocation in Hybrid Clusters
+
+#ASPLOS 2020
+Prague: High-Performance Heterogeneity-Aware Asynchronous Decentralized Training
+Accelerometer: Understanding Acceleration Opportunities for Data Center Overheads at Hyperscale
+Catalyzer: Sub-millisecond Startup for Serverless Computing with Initialization-less Booting (Yiling)
+DeepSniffer: A DNN Model Extraction Framework Based on Learning Architectural Hints
+FlexTensor: An Automatic Schedule Exploration and Optimization Framework for Tensor Computation on Heterogeneous System
+High-density Multi-tenant Bare-metal Cloud
+PatDNN: Achieving Real-Time DNN Execution on Mobile Devices with Pattern-basedWeight Pruning
+SwapAdvisor: Pushing Deep Learning Beyond the GPU Memory Limit via Smart Swapping
+
+FairWrite Attribution and Allocation for Consolidated Flash Cache (Ruitao)
+
+Deep Learning With Edge Computing: A Review (survey)
+
+#nsdi 2020
+Is Big Data Performance Reproducible in Modern Cloud Networks?
+Themis: Fair and Efficient GPU Cluster Scheduling
+Firecracker: Lightweight Virtualization for Serverless Applications (Yiling)
+Pipelined Data-Parallel CPU/GPU Scheduling for Multi-DNN Real-Time Inference (RTSS 2019)
+INFINICACHE：Exploiting Ephemeral Serverless Functions to Build a Cost-Effective Memory Cache (FAST 2020, Yiling)
+Machine Learning on Volatile Instances (Haoyue)
+
+#middleware 2019
+On the FaaS Track: Building Stateful Distributed Applications with Serverless Architectures (Yiling)
+Pando: Personal Volunteer Computing in Browsers 
+FfDL: A Flexible Multi-tenant Deep Learning Platform (Qiang)
+Self-adaptive Executors for Big Data Processing
+It's not a Sprint, it's a Marathon: Stretching Multi-resource Burstable Performance in Public Clouds 
+
+Characterizing Deep Learning Training Workloads on Alibaba-PAI (Qiang)
+InferLine：Prediction Pipeline Provisioning and Management for Tight Latency Objectives
+Understanding Quality of Experiences on Different Mobile Browsers: Measurements, Analysis, and Implications
+
+#socc 2019
+（serverless computing & sysml）
+Narrowing the Gap Between Serverless and its State with Storage Functions (Yiling)
+Cirrus: a Serverless Framework for End-to-end ML Workflows (Yiling)
+Cartel: A System for Collaborative Transfer Learning at the Edge (*)
+Seamless Offloading of Web App Computations From Mobile Device to Edge Clouds via HTML5 Web Worker Migration (Jianian)
+BigDL: A Distributed Deep Learning Framework for Big Data (*based on Spark)
+HyperSched: Dynamic Resource Reallocation for Model Development on a Deadline
+
+（scheduling & performance）
+Libra and the Art of Task Sizing in Big-Data Analytic Systems (*)
+Scavenger: A Black-Box Batch Workload Resource Manager for Improving Utilization in Cloud Environments (Wujie)
+Pufferfish: Container-driven Elastic Memory Management for Data-intensive Applications
+Pigeon: an Effective Distributed, Hierarchical Datacenter Job Scheduler
+NEPTUNE: Scheduling Suspendable Tasks for Unified Stream/Batch Applications
+BurScale: Using Burstable Instances for Cost-Effective Autoscaling in the Public Cloud
+Characterizing and Synthesizing Task Dependencies of Data-Parallel Jobs in Alibaba Cloud (*)
+
+（vision）
+Centralized Core-granular Scheduling for Serverless Functions
+Practical Cloud Workloads for Serverless FaaS
+SplitServe: Efficiently Splitting Complex Workloads Across FaaS and IaaS (*split Spark across EC2 & Lambda)
+Big Data Processing at Microsoft: Hyper Scale, Massive Complexity, and Minimal Cost
+Accordia: Adaptive Cloud Configuration Optimization for Recurring Data-Intensive Applications
+
+###
+Characterizing the Deep Neural Networks Inference Performance of Mobile Applications
+Resource Management in Fog/Edge Computing：A Survey on Architectures, Infrastructure, and Algorithms
+Solving System Problems with Machine Learning (Ion Stoica)
+Cracking open the DNN black-box: Video Analytics with DNNs across the Camera-Cloud Boundary
+
+#sosp 2019
+PipeDream: Generalized Pipeline Parallelism for DNN Training
+A Generic Communication Scheduler for Distributed DNN Training Acceleration (Qiang)
+TASO: Optimizing Deep Learning Computation with Automated Generation of Graph Substitutions
+Niijima: Sound and Automated Computation Consolidation for Efficient Multilingual Data-Parallel Pipelines (*)
+Optimizing Data-Intensive Computations in Existing Libraries with Split Annotations (Qiang)
+Taiji: Managing Global User Traffic for Large-Scale Internet Services at the Edge
+An Analysis of Performance Evolution of Linux's Core Operations
+Letting the Cloud Serve DNN Inferences with Ruthless Efficiency (poster, Yiling)
+
+#icdcs 2019
+## dnn
+Falcon: Towards Computation-Parallel Deep Learning in Heterogeneous Parameter Server (Qiang)
+Heterogeneity-aware Gradient Coding for Straggler Tolerance (Qiang)
+CMFL: Mitigating Communication Overhead for Federated Learning (Qiang)
+Dynamic Stale Synchronous Parallel Distributed Training for Deep Learning (Qiang)
+A Distributed Synchronous SGD Algorithm with Global Top-k Sparsification for Low Bandwidth Networks
+Automating System Configuration of Distributed Machine Learning
+Eugene: Towards Deep Intelligence as a Service
+HPDL: Towards a General Framework for High-performance Distributed Deep Learning
+Towards Seamless Configuration Tuning of Big Data Analytics
+
+## drl
+DeepEE: Joint Optimization of Job Scheduling and Cooling Control for Data Center Energy Efficiency Using Deep Reinforcement Learning (Yiling)
+Toward Efficient Compute-Intensive Job Allocation for Green Data Centers: A Deep Reinforcement Learning Approach (Yiling)
+Deep Reinforcement Learning based VNF Management in Geo-distributed Edge Computing (Yiling)
+Spear: Optimized Dependency-Aware Task Scheduling with Deep Reinforcement Learning
+MIRAS: Model-based Reinforcement Learning for Microservice Resource Allocation over Scientific Workflows
+
+## resource allocation
+Goldilocks: Adaptive Resource Provisioning in Containerized Data Centers
+Workflow Scheduling for Malleable Jobs with Precedence Constraints and Lifetime Resource Demands
+An Online Mechanism for Purchasing IaaS Instances and Scheduling Pleasingly Parallel Jobs in Cloud Computing Environments
+Efficient Data Placement and Retrieval Services in Edge Computing
+Online Collection and Forecasting of Resource Utilization in Large-Scale Distributed Systems
+
+## edge + machine learning
+A Cyclic Game for Joint Cooperation and Competition of Edge Resource Allocation
+Incentivizing Microservices for Online Resource Sharing in Edge Clouds
+Computation Offloading for Mobile-Edge Computing with Multi-user (Yiling)
+OpenEI: An Open Framework for Edge Intelligence
+Machine Learning + Distributed IoT = Edge Intelligence
+TeamNet: A Collaborative Inference Framework on the Edge
+
+
+#atc 2019
+Tangram: Bridging Immutable and Mutable Abstractions for Distributed Data Analytics
+EUNOMIA: Online Reconfiguration of Clustered NoSQL Databases for Time-Varying Workload
+MArk: Exploiting Cloud Services for Cost-Effective, SLO-Aware Machine Learning Inference Serving
+Analysis of Large-Scale Multi-Tenant GPU Clusters for DNN Training Workloads (*)
+Optimizing CNN Model Inference on CPUs (*)
+
+#hotcloud 2019
+DLion: Decentralized Distributed Deep Learning in Micro-Clouds
+The Case for Unifying Data Loading in Machine Learning Clusters
+Accelerating Deep Learning Inference via Freezing
+Characterization and Prediction of Performance Interference on Mediated Passthrough GPUs for Interference-aware Scheduler
+Happiness index: Right-sizing the cloud’s tenant-provider interface
+Agile Cold Starts for Scalable Serverless
+
+#recent miscellaneous
+Cloud bursting for the world's largest consumer market (@all*)
+A Berkeley View on Serverless Computing (Qiang*)
+Sustainable Offloading in Mobile Cloud Computing: Algorithmic Design and Implementation（Yiling）
+Scalable Deep Learning on Distributed Infrastructures: Challenges, Techniques and Tools (Survey)
+Scaling for edge inference of deep neural networks (Yiling)
+FC2: cloud-based cluster provisioning for distributed machine learning (Haoyue*)
+Machine Learning on the Cheap：An Optimized Strategy to Exploit Spot Instances (Haoyue*)
+Speeding up Deep Learning with Transient Servers (Haoyue*)
+
+#spot instance related (recent work)
+SpotWeb: Running Latency-sensitive Distributed Web Services on Transient Cloud Servers (HPDC 2019)
+DeepSZ: A Novel Framework to Compress Deep Neural Networks by Using Error-Bounded Lossy Compression (HPDC 2019)
+Understanding the Synchronization Costs of Distributed ML on Transient Cloud Resources
+Optimizing the Cost of Executing Mixed Interactive and Batch Workloads on Transient VMs
+The Price is (Not) Right: Market-based versus Fixed Pricing for Transient Cloud Servers
+
+#sysml 2019
+Towards Federated Learning at Scale: System Design
+TicTac: Accelerating Distributed Deep Learning with Communication Scheduling
+Priority-based Parameter Propagation for Distributed DNN Training
+3LC: Lightweight and Effective Traffic Compression for Distributed Machine Learning
+Beyond Data and Model Parallelism for Deep Neural Networks (Qiang*)
 
 #nsdi 2019
-Hydra: a federated resource manager for data-center scale analytics
-Shuffling, Fast and Slow: Scalable Analytics on Serverless Infrastructure (Qiang)
-JANUS: Fast and Flexible Deep Learning via Symbolic Graph Execution of Imperative Programs
+Hydra: a federated resource manager for data-center scale analytics (-)
+Shuffling, Fast and Slow: Scalable Analytics on Serverless Infrastructure (Qiang*)
+JANUS: Fast and Flexible Deep Learning via Symbolic Graph Execution of Imperative Programs (-)
 BLAS-on-flash: An Efficient Alternative for Large Scale ML Training and Inference?
-Tiresias: A GPU Cluster Manager for Distributed Deep Learning
+Tiresias: A GPU Cluster Manager for Distributed Deep Learning (*)
 
 #asplos 2019
-HOP: Heterogeneity-Aware Decentralized Training (Haoyue)
+HOP: Heterogeneity-Aware Decentralized Training (Haoyue*)
 Astra: Exploiting Predictability to Optimize Deep Learning (Haoyue)
-Intelligence Beyond the Edge: Inference on Intermittent Embedded Systems (Yiling)
-X-Containers: Breaking Down Barriers to Improve Performance and Isolation of Cloud-Native Containers (Qiang)
+Intelligence Beyond the Edge: Inference on Intermittent Embedded Systems (Yiling*)
 PARTIES: QoS-Aware Resource Partitioning for Multiple Interactive Services (Qiang)
 An Open-Source Benchmark Suite for Microservices and Their Hardware-Software Implications for Cloud and Edge Systems (Qiang)
-Seer: Leveraging Big Data to Navigate the Complexity of Performance Debugging in Cloud Microservices (Qiang)
-Fast and Scalable VMM Live Upgrade in Large Cloud Infrastructure
-HiWayLib: A Software Framework for Enabling High Performance Communications for Heterogeneous Pipeline Computations
+Seer: Leveraging Big Data to Navigate the Complexity of Performance Debugging in Cloud Microservices (Qiang*)
+Fast and Scalable VMM Live Upgrade in Large Cloud Infrastructure (Fei*)
 
 #eurosys 2019
 Automating Dependence-Aware Parallelization of Machine Learning Training on Distributed Shared Memory (Haoyue)
 Halo: Sparsity-aware Data Parallel Training of Deep Neural Networks (Haoyue)
 GrandSLAm: Guaranteeing SLAs for Jobs at Microservices Execution Framework (Qiang)
-
 Resource Deflation: A New Approach For Transient Resource Reclamation (Qiang)
-Hourglass: Leveraging Transient Resources for Time-Constrained Graph Processing in the Cloud
+Hourglass: Leveraging Transient Resources for Time-Constrained Graph Processing in the Cloud (Fei*)
 CoPart: Coordinated Partitioning of Last-Level Cache and Memory Bandwidth for Fairness-Aware Workload Consolidation on Commodity Servers
 
 ##infocom 2019
-Deep Learning-based Job Placement in Distributed Machine Learning Clusters (Haoyue)
-Round-Robin Synchronization: Mitigating Communication Bottlenecks in Parameter Servers (Haoyue)
+Deep Learning-based Job Placement in Distributed Machine Learning Clusters (Haoyue*)
+Round-Robin Synchronization: Mitigating Communication Bottlenecks in Parameter Servers (Haoyue*)
 Addressing Skewness in Iterative ML Jobs with Parameter Partition (Haoyue)
-Burstable Instances for Clouds: Performance Modeling, Equilibrium Analysis, and Revenue Maximization (Fei)
-Efficient Online Resource Allocation in Heterogeneous Clusters with Machine Variability
+Burstable Instances for Clouds: Performance Modeling, Equilibrium Analysis, and Revenue Maximization (Fei*)
 Live Migration Ate My VM: Recovering a Virtual Machine After Failure of Post-Copy Live Migration (Fei)
 Online Job Scheduling with Resource Packing on a Cluster of Heterogeneous Servers
 A Distributed Orchestration Algorithm for Edge Computing Resources with Guarantees (Qiang)
 Adaptive User-managed Service Placement for Mobile Edge Computing: An Online Learning Approach (Qiang)
 Service Placement and Request Scheduling for Data-intensive Applications in Edge Clouds (Qiang)
-Distributed Machine Learning with a Serverless Architecture (Yiling)
+Distributed Machine Learning with a Serverless Architecture (Yiling*)
 Dynamic Adaptive DNN Surgery for Inference Acceleration on the Edge (Yiling)
 Federated Learning over Wireless Networks: Optimization Model Design and Analysis (Yiling)
-The Role of Network Topology for Distributed Machine Learning (Yiling)
+The Role of Network Topology for Distributed Machine Learning (Yiling*)
 
 #middleware 2018
-Parallelized training of deep NN – comparison of current concepts and frameworks (Haoyue)
-All-Spark: Using Simulation Tests Directly in Production Environments to Detect System Bottlenecks in Large-Scale Systems
+Parallelized training of deep NN – comparison of current concepts and frameworks (Haoyue*)
+All-Spark: Using Simulation Tests Directly in Production Environments to Detect System Bottlenecks in Large-Scale Systems (Fei)
 Size Matters: Improving the Performance of Small Files in Hadoop (Fei)
-Adaptive Execution of Continuous and Data-intensive Workflows with Machine Learning
 Olympian: Scheduling GPU Usage in a Deep Neural Network Model Serving System (Qiang)
 Pythia: Improving Datacenter Utilization via Precise Contention Prediction for Multiple Co-located Workloads (Wujie)
-A High Performance, Scalable DNS Service for Very Large Scale Container Cloud Platforms (Qiang)
-Aggressive Synchronization with Partial Processing for Iterative ML Jobs on Clusters (Haoyue)
+Aggressive Synchronization with Partial Processing for Iterative ML Jobs on Clusters (Haoyue*)
 
 #osdi 2018
 Flare: Optimizing Apache Spark with Native Compilation for Scale-Up Architectures and Medium-Size Data (Wujie)
-Gandiva: Introspective Cluster Scheduling for Deep Learning (Haoyue)
+Gandiva: Introspective Cluster Scheduling for Deep Learning (Haoyue*)
 PRETZEL: Opening the Black Box of Machine Learning Prediction Serving Systems
-Ray: A Distributed Framework for Emerging AI Applications (Haoyue)
+Ray: A Distributed Framework for Emerging AI Applications (Haoyue*)
 TVM: An Automated End-to-End Optimizing Compiler for Deep Learning
 Taming Performance Variability (Fei)
 
@@ -68,7 +607,7 @@ Taming Performance Variability (Fei)
 Orpheus: Efficient Distributed Machine Learning via System and Algorithm Co-design (Haoyue)
 Dynamic and Decentralized Global Analytics via Machine Learning (Fei)
 Continuum: A Platform for Cost-Aware, Low-Latency Continual Learning (Haoyue)
-Parameter Hub: a Rack-Scale Parameter Server for Distributed Deep Neural Network Training (Haoyue)
+Parameter Hub: a Rack-Scale Parameter Server for Distributed Deep Neural Network Training (Haoyue*)
 
 Elasecutor: Elastic Executor Scheduling in Data Analytics Systems (Wujie)
 Stratus: cost-aware container scheduling in the public cloud (Qiang)
@@ -242,23 +781,4 @@ On Human Mobility Predictability Via WLAN Logs (Just read: interesting work)
 Spatiotemporal Modeling and Prediction in Cellular Networks: A Big Data Enabled Deep Learning Approach (Just read: LSTM benefits, learn)
 
 #icdcs 2017:
-Optimizing Shuffle in Wide-Area Data Analytics (Wujie*)
-Job Scheduling without Prior Information in Big Data Processing Systems (Wujie*)
-Speculative Slot Reservation: Enforcing Service Isolation for Dependent Data-Parallel Computations (Wujie)
-Distributed Deep Neural Networks over the Cloud, the Edge and End Devices (Haoyue & Yiling*)
-A Hierarchical Framework of Cloud Resource Allocation and Power Management Using Deep Reinforcement Learning (use RL as a tool)
-
-#socc 2017:
-BestConfig: Tapping the Performance Potential of Systems via Configuration Adjustment (Cassandra, configurations)
-Towards Automatic Parameter Tuning of Stream Processing Systems (Storm, configurations)
-SLO-aware Colocation of Data Center Tasks Based on Instantaneous Resource Requirements (Google Trace)
-A Machine Learning Approach to Live Migration Modeling (Typical ML-based writing)
-SLAQ: Quality-Driven Scheduling for Distributed Machine Learning (Yiling*)
-Selecting the Best VM across Multiple Public Clouds: A Data-Driven Performance Modeling Approach (Huan*)
-Automated Debugging in Data-Intensive Scalable Computing (Ms. Lihua Xu)
-HotSpot: Automated Server Hopping in Cloud Spot Markets (Huan*)
-Occupy the Cloud: Distributed Computing for the 99% (stateless function, AWS lamda)
-
-#asplos 2017:
-Neurosurgeon: Collaborative Intelligence Between the Cloud and Mobile Edge (Haoyue & Yiling*)
-
+Optimizing Shuffle in Wide-Area 
